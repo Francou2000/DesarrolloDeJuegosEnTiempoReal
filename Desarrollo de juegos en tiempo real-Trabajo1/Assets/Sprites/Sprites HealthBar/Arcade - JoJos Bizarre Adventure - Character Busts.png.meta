@@ -1,0 +1,1575 @@
+fileFormatVersion: 2
+guid: 4d713eca5a4eefa428ca71c279ad077f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1924
+        width: 224
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395a67ab36aaa23479ef984a9d2e3541
+      internalID: -1137722194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1926
+        width: 256
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaf64c88047df945b2e277e254fee6f
+      internalID: 795040704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1829
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a6098db2cb68d48b8eda82cec172b5
+      internalID: 705581431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1827
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6776c24f9f1a86849899b54317a155a8
+      internalID: -1328858021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1836
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4328d7d3f33694db93bdd9d976a2c0
+      internalID: 1700988306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1827
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a61a2900381d41a0a43f7f4d98744
+      internalID: -1763719242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_6
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1828
+        width: 72
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcafabbf3080804cacce805349fa5f0
+      internalID: 1958638009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1832
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e0515a6c55f0d4aac0b32d368f197a
+      internalID: -1017041293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1831
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f344eda0af559944a24043c7bbd4519
+      internalID: 1841242452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_9
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1829
+        width: 75
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3df25eb04d9e864c90de169dd76f219
+      internalID: 572739902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_10
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1828
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169639cdad1bffd4b91a13d94d6a5aa8
+      internalID: 201277124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1732
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61018037cd0c2904781a4c39be503ecc
+      internalID: 2048081618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1733
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f4e626f956bd74f82662f8c63715a4
+      internalID: -1676306925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1737
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4bd59c91d2cfa47800cec62b3f8eed
+      internalID: -1722188477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1732
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74550fa4603925e4d8017be777ea3358
+      internalID: 989324691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1738
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8057c0bf0eb0bc245906f1c156718d9d
+      internalID: 1769449148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_16
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1730
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6300c6b8a9a40ff429b929678f935f5a
+      internalID: 247799414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1736
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b38a28dd194471439edcb72e0409ca5
+      internalID: -1141230756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1737
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c75731ad5b74f5468acb5fd062da9ec
+      internalID: -613391399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_19
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1738
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa63735372a074408da45861174dc02
+      internalID: -1188185769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_20
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1738
+        width: 71
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8b349a55422d343a3e454d16e7f2c9
+      internalID: -1792371617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1570
+        width: 175
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e514539f244b6b49a86d0a60eb8fc87
+      internalID: -392872054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1570
+        width: 189
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35540c4d4701e429063bca171ed0c9
+      internalID: 454530644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1570
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310140abfb0e3aa45876a3b4d7bd0841
+      internalID: -2140061900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_24
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1571
+        width: 177
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ba3c6501a38dd49be4b7f46bee0c35
+      internalID: 1757394283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_25
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1570
+        width: 194
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cefdd5538c4b454383e6aef64380201
+      internalID: -787826429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1444
+        width: 149
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f7c656d52c9b54ab306be205080788
+      internalID: 748933707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1443
+        width: 145
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca21956b1fd83874eb1237e5258709a2
+      internalID: 70295097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_28
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1428
+        width: 145
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534c245df1950db4194e44bac7591d42
+      internalID: -1591455769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_29
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1427
+        width: 209
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b4806fb2697e04393d0aee8da2f7b3
+      internalID: 1791097135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1299
+        width: 187
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e850566ff0cdc9a49a8bdb07ccf8b409
+      internalID: -1108854128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1299
+        width: 154
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75fbbc5f9dc6d346a0e4b5e83c9c7f5
+      internalID: 656619818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_32
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1284
+        width: 150
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9269d72d5bb23543a0034d21b9a71ef
+      internalID: -799565996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_33
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1284
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e6248568359e49b8446f3c1d956a4
+      internalID: 1778203716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1155
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c772341581b61f46a426b554fc8b7de
+      internalID: -1233453014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1155
+        width: 194
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366c738661bac3940a507de066e661f3
+      internalID: -885520193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1155
+        width: 102
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e934a930e5d7ba24b8bff6bca6f4b097
+      internalID: -845962819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_37
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1139
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79bc239a8ede534abbf51f09771fab3
+      internalID: 1956765443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_38
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1143
+        width: 201
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c4d275d72d6274bb702a3872c1f6cb
+      internalID: 1252370783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1028
+        width: 178
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647af174ac51f545b6a16b15757d681
+      internalID: 1601199476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1043
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35173358eb8e3134ba656167ef4a14be
+      internalID: -739451592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_41
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1126
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd920fa27df3eb41a36accf33bac6aa
+      internalID: -494420564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_42
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 997
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e06fc9c83aa14aa502d991b02e37e
+      internalID: 636021477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_43
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1036
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d0ed0a9837bdb4796d4d91f31447ed
+      internalID: -276150963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_44
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1019
+        width: 223
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0672acc0a968304caaa7203f6a82a71
+      internalID: -414509455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 851
+        width: 155
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b5b78158221194d9c0fdba52183a0c
+      internalID: 1655611289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 851
+        width: 178
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3d2a2271d2a744a3d763880d045a9
+      internalID: 48094979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_47
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 851
+        width: 214
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478eafce8a2de3439890ef3b3ffb4aa
+      internalID: 1227718072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_48
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 851
+        width: 154
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c6210417630aa41ad76e0ddb43baef
+      internalID: 99861671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_49
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 707
+        width: 170
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c51fe1e88c5241918ec438998352e
+      internalID: 1049851541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_50
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 707
+        width: 178
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b912f725828443c40bbcfee3e7608ae6
+      internalID: 1606595329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_51
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 707
+        width: 207
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad1f29fcd9f4d243b50a0207276cfdc
+      internalID: 1529303352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 532
+        width: 149
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79808cc2b0fb694985d0b41b9f94b45
+      internalID: -1981392145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_53
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 531
+        width: 145
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c83fd45a508d414e8e57bbdb45cc501
+      internalID: 139406589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_54
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 580
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a58a07038f3247b5c8ea3dbdd7d0e
+      internalID: 1702812647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_55
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 624
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6063062a8c54c854ca6b7fb8bb08c48f
+      internalID: 1167125057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_56
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 532
+        width: 210
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac45590256b07349a3d3eb444762402
+      internalID: -2068842410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_57
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 532
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b5bfb6a2baef84d8da82ed06e1ba5d
+      internalID: -48067195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_58
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 374
+        width: 165
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e44ba7f4505243b527006a37afb74
+      internalID: -1304246477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_59
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 371
+        width: 118
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87e74fcfe6a2224ba093fb03149222c
+      internalID: -127974743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 372
+        width: 197
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930c7c41c2162b4fb731e078c4d517d
+      internalID: -1064596263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 372
+        width: 184
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ab89359e6d0f4daa0169e26f81ac1
+      internalID: 1071542883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 229
+        width: 207
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c388e1cbe62258b4a85193f2fab8d0b1
+      internalID: 89277215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_63
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 276
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62713d15ac63cc4c8bb13122a39769a
+      internalID: 955221769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 228
+        width: 210
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cdc8f6534d87d4895964b8010e05cb
+      internalID: 12908418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - JoJos Bizarre Adventure - Character Busts_65
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 589
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304e585642430c54e9f04713926e36ee
+      internalID: 24305868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - JoJos Bizarre Adventure - Character Busts_0: -1137722194
+      Arcade - JoJos Bizarre Adventure - Character Busts_1: 795040704
+      Arcade - JoJos Bizarre Adventure - Character Busts_10: 201277124
+      Arcade - JoJos Bizarre Adventure - Character Busts_11: 2048081618
+      Arcade - JoJos Bizarre Adventure - Character Busts_12: -1676306925
+      Arcade - JoJos Bizarre Adventure - Character Busts_13: -1722188477
+      Arcade - JoJos Bizarre Adventure - Character Busts_14: 989324691
+      Arcade - JoJos Bizarre Adventure - Character Busts_15: 1769449148
+      Arcade - JoJos Bizarre Adventure - Character Busts_16: 247799414
+      Arcade - JoJos Bizarre Adventure - Character Busts_17: -1141230756
+      Arcade - JoJos Bizarre Adventure - Character Busts_18: -613391399
+      Arcade - JoJos Bizarre Adventure - Character Busts_19: -1188185769
+      Arcade - JoJos Bizarre Adventure - Character Busts_2: 705581431
+      Arcade - JoJos Bizarre Adventure - Character Busts_20: -1792371617
+      Arcade - JoJos Bizarre Adventure - Character Busts_21: -392872054
+      Arcade - JoJos Bizarre Adventure - Character Busts_22: 454530644
+      Arcade - JoJos Bizarre Adventure - Character Busts_23: -2140061900
+      Arcade - JoJos Bizarre Adventure - Character Busts_24: 1757394283
+      Arcade - JoJos Bizarre Adventure - Character Busts_25: -787826429
+      Arcade - JoJos Bizarre Adventure - Character Busts_26: 748933707
+      Arcade - JoJos Bizarre Adventure - Character Busts_27: 70295097
+      Arcade - JoJos Bizarre Adventure - Character Busts_28: -1591455769
+      Arcade - JoJos Bizarre Adventure - Character Busts_29: 1791097135
+      Arcade - JoJos Bizarre Adventure - Character Busts_3: -1328858021
+      Arcade - JoJos Bizarre Adventure - Character Busts_30: -1108854128
+      Arcade - JoJos Bizarre Adventure - Character Busts_31: 656619818
+      Arcade - JoJos Bizarre Adventure - Character Busts_32: -799565996
+      Arcade - JoJos Bizarre Adventure - Character Busts_33: 1778203716
+      Arcade - JoJos Bizarre Adventure - Character Busts_34: -1233453014
+      Arcade - JoJos Bizarre Adventure - Character Busts_35: -885520193
+      Arcade - JoJos Bizarre Adventure - Character Busts_36: -845962819
+      Arcade - JoJos Bizarre Adventure - Character Busts_37: 1956765443
+      Arcade - JoJos Bizarre Adventure - Character Busts_38: 1252370783
+      Arcade - JoJos Bizarre Adventure - Character Busts_39: 1601199476
+      Arcade - JoJos Bizarre Adventure - Character Busts_4: 1700988306
+      Arcade - JoJos Bizarre Adventure - Character Busts_40: -739451592
+      Arcade - JoJos Bizarre Adventure - Character Busts_41: -494420564
+      Arcade - JoJos Bizarre Adventure - Character Busts_42: 636021477
+      Arcade - JoJos Bizarre Adventure - Character Busts_43: -276150963
+      Arcade - JoJos Bizarre Adventure - Character Busts_44: -414509455
+      Arcade - JoJos Bizarre Adventure - Character Busts_45: 1655611289
+      Arcade - JoJos Bizarre Adventure - Character Busts_46: 48094979
+      Arcade - JoJos Bizarre Adventure - Character Busts_47: 1227718072
+      Arcade - JoJos Bizarre Adventure - Character Busts_48: 99861671
+      Arcade - JoJos Bizarre Adventure - Character Busts_49: 1049851541
+      Arcade - JoJos Bizarre Adventure - Character Busts_5: -1763719242
+      Arcade - JoJos Bizarre Adventure - Character Busts_50: 1606595329
+      Arcade - JoJos Bizarre Adventure - Character Busts_51: 1529303352
+      Arcade - JoJos Bizarre Adventure - Character Busts_52: -1981392145
+      Arcade - JoJos Bizarre Adventure - Character Busts_53: 139406589
+      Arcade - JoJos Bizarre Adventure - Character Busts_54: 1702812647
+      Arcade - JoJos Bizarre Adventure - Character Busts_55: 1167125057
+      Arcade - JoJos Bizarre Adventure - Character Busts_56: -2068842410
+      Arcade - JoJos Bizarre Adventure - Character Busts_57: -48067195
+      Arcade - JoJos Bizarre Adventure - Character Busts_58: -1304246477
+      Arcade - JoJos Bizarre Adventure - Character Busts_59: -127974743
+      Arcade - JoJos Bizarre Adventure - Character Busts_6: 1958638009
+      Arcade - JoJos Bizarre Adventure - Character Busts_60: -1064596263
+      Arcade - JoJos Bizarre Adventure - Character Busts_61: 1071542883
+      Arcade - JoJos Bizarre Adventure - Character Busts_62: 89277215
+      Arcade - JoJos Bizarre Adventure - Character Busts_63: 955221769
+      Arcade - JoJos Bizarre Adventure - Character Busts_64: 12908418
+      Arcade - JoJos Bizarre Adventure - Character Busts_65: 24305868
+      Arcade - JoJos Bizarre Adventure - Character Busts_7: -1017041293
+      Arcade - JoJos Bizarre Adventure - Character Busts_8: 1841242452
+      Arcade - JoJos Bizarre Adventure - Character Busts_9: 572739902
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
