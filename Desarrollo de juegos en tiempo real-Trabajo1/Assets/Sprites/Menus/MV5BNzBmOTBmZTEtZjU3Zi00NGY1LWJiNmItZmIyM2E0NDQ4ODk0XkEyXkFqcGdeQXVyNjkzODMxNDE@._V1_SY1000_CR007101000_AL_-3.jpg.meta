@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Desarrollo de juegos en tiempo real-Trabajo1/Assets/Sprites/UI/JOJO Title.png.meta
-guid: 878cc887836917b40a8c809fc5099299
-========
-guid: 906d34a0cc1cb974e937b0c1b19f2841
->>>>>>>> Stashed changes:Desarrollo de juegos en tiempo real-Trabajo1/Assets/Sprites/Menus/JOJO Title v2.jpg.meta
+guid: fd077e820026e4c4fa20df9448342ed0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -74,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
