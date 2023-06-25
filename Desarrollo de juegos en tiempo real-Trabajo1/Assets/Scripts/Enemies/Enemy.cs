@@ -5,20 +5,23 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float health;
-    public float dmg;
+    public int health;
+    public int dmg;
     float timer;
     bool SetTimer;
+    
 
     void Start()
     {
         SetTimer = false;
         timer = 0;
         
+
     }
 
     void Update()
     {
+        
         if (SetTimer)
         {
             timer += Time.deltaTime;
@@ -48,7 +51,8 @@ public class Enemy : MonoBehaviour
         if (collision.GetComponent<AtkDeff>() && SetTimer == false)
         {
             SetTimer = true;
-            health = health - dmg;
+            health -=  dmg;
+            
         }
     }
 }

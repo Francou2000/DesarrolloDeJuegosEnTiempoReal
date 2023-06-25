@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,15 +8,34 @@ public class HealthBar : MonoBehaviour
 {
     public Slider sliderHealth;
 
-    public void SetMaxHealth (int health)
+    
+
+    private void Start()
+    {
+
+    }
+
+    public void SetMaxHealth(int health)
     {
         sliderHealth.maxValue = health;
         sliderHealth.value = health;
     }
 
-    public void SetHealth (int health)
+    public void SetHealth(int health)
     {
-        sliderHealth.value = health; 
+        sliderHealth.value = health;
     }
 
+    public void Update()
+    {
+        if (sliderHealth.value == 0)
+        {
+            Destroy(gameObject);
+        }
+
+        
+    }
 }
+
+
+
