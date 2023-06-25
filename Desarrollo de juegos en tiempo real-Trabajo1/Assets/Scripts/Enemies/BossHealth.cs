@@ -1,33 +1,39 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     public int health;
+    public int maxHealth;
+    public int minHealth;
+
+
+    [SerializeField] public GameObject vida;
+    public HealthBar healthbar;
+
     public int dmg;
     float timer;
-    bool SetTimer;
-    
+    bool setTimer;
 
     void Start()
     {
-        SetTimer = false;
-        timer = 0;
         
-
+        health = maxHealth;
+        vida.SetActive(true);
+        healthbar.SetMaxHealth(maxHealth);
+        setTimer = false;
+        timer = 0;
     }
 
     void Update()
     {
-        
-        if (SetTimer)
+        if (setTimer)
         {
             timer += Time.deltaTime;
             if (timer > 1)
             {
-                SetTimer = false;
+                setTimer = false;
                 timer = 0;
             }
         }
@@ -40,19 +46,17 @@ public class Enemy : MonoBehaviour
             camara = cam.GetComponent<MainCamera>();
             camara.numenemigos += -1;
 
-            //Debug.Log("Enemigo muerto");
-
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<AtkDeff>() && SetTimer == false)
+        if (collision.GetComponent<AtkDeff>() && !setTimer)
         {
-            SetTimer = true;
-            health -=  dmg;
-            
+            setTimer = true;
+            health -= dmg;
+            healthbar.SetHealth(health);
         }
     }
 }
