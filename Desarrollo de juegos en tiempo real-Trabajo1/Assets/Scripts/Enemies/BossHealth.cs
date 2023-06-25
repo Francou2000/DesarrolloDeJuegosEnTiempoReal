@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BossHealth : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class BossHealth : MonoBehaviour
     public int dmg;
     float timer;
     bool setTimer;
+
+    public UnityEvent OnDeath = new UnityEvent(); 
 
     void Start()
     {
@@ -45,6 +48,8 @@ public class BossHealth : MonoBehaviour
             MainCamera camara;
             camara = cam.GetComponent<MainCamera>();
             camara.numenemigos += -1;
+
+            OnDeath.Invoke();
 
             Destroy(gameObject);
         }
