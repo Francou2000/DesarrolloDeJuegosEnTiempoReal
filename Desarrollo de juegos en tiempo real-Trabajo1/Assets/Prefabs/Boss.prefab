@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2358968670680140601}
   - component: {fileID: 5595083205133538381}
   - component: {fileID: 275221125}
-  - component: {fileID: 1777575864}
+  - component: {fileID: 1293916267052569968}
   m_Layer: 12
   m_Name: Boss
   m_TagString: Untagged
@@ -186,7 +186,7 @@ MonoBehaviour:
   target: {fileID: 3494154052932620921, guid: 1d4cf74c5073fca49b1ac8c289590dc3, type: 3}
   bullet: {fileID: 1396397695724230608, guid: c035d14bd5b502a41b7a73ab53f01e1f, type: 3}
   firePoint: {fileID: 2714286981569047352}
---- !u!114 &1777575864
+--- !u!114 &1293916267052569968
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,12 +195,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4094092491712443894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5b4677e3db416742ac798a4c381924e, type: 3}
+  m_Script: {fileID: 11500000, guid: 582d1baa4c161a74c9aedd02bfb0724f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  dmg: 20
-  alive: 0
+  health: 0
+  maxHealth: 150
+  minHealth: 0
+  vida: {fileID: 0}
+  healthbar: {fileID: 0}
+  dmg: 0
 --- !u!1 &8204055664273783504
 GameObject:
   m_ObjectHideFlags: 0
