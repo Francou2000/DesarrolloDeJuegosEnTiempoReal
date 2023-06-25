@@ -7,6 +7,9 @@ public class BossHealth : MonoBehaviour
     public int health;
     public int maxHealth;
     public int minHealth;
+
+
+    [SerializeField] public GameObject vida;
     public HealthBar healthbar;
 
     public int dmg;
@@ -17,6 +20,7 @@ public class BossHealth : MonoBehaviour
     {
         
         health = maxHealth;
+        vida.SetActive(true);
         healthbar.SetMaxHealth(maxHealth);
         setTimer = false;
         timer = 0;
