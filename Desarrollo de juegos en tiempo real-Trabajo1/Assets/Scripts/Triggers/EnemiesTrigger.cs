@@ -26,7 +26,7 @@ public class EnemiesTrigger : MonoBehaviour
         cam = GameObject.FindGameObjectWithTag("MainCamera");
         MainCamera camara;
         camara = cam.GetComponent<MainCamera>();
-        camara.numenemigos= spawnenemigos;
+        //camara.numenemigos= spawnenemigos;
 
         ActivateEnemies();
 
