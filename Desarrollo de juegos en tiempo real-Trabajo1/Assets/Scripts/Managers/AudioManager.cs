@@ -12,13 +12,15 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip m_golpeDIO;
     [SerializeField] AudioSource m_audiosource;
     [SerializeField] private AtkDeff golpejotaro;
-    
+    [SerializeField] private BossAttacks golpeDIO;
 
+    
     private void Start()
     {
         m_audiosource = GetComponent<AudioSource>();
         
         golpejotaro.Onhit.AddListener(GolpeJotaro);
+        golpeDIO.Onhit.AddListener(GolpeDIO);
     }
 
 
@@ -35,9 +37,9 @@ public class AudioManager : MonoBehaviour
     }
 
 
-    private void GolpeDIO()
+    public void GolpeDIO()
     {
         m_audiosource.clip = m_golpeDIO;
-        m_audiosource.Play();
+        m_audiosource.PlayOneShot(m_golpeDIO);
     }
 }

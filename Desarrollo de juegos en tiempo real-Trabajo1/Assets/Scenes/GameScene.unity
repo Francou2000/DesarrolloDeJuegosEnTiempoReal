@@ -1521,11 +1521,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 392320847919660720, guid: 5b725c1eae6dde14c8597b2e77c10e66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.52
+      value: 5.31
       objectReference: {fileID: 0}
     - target: {fileID: 392320847919660720, guid: 5b725c1eae6dde14c8597b2e77c10e66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8062444
+      value: -1.93
       objectReference: {fileID: 0}
     - target: {fileID: 392320847919660720, guid: 5b725c1eae6dde14c8597b2e77c10e66, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3721,6 +3721,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582d1baa4c161a74c9aedd02bfb0724f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1211919466 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 275221125, guid: f9c4e2aa8e058a242936bab204d96c45, type: 3}
+  m_PrefabInstance: {fileID: 996103393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211919462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d64c08f01d52c14fb7e06246cac5a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1228288192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5377,6 +5388,7 @@ MonoBehaviour:
   m_golpeDIO: {fileID: 8300000, guid: 45c9779ad7da9d743ae661ddcb42abd1, type: 3}
   m_audiosource: {fileID: 1634050087}
   golpejotaro: {fileID: 44891747}
+  golpeDIO: {fileID: 1211919466}
 --- !u!4 &1634050089
 Transform:
   m_ObjectHideFlags: 0

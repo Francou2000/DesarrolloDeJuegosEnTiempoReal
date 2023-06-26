@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BossAttacks : MonoBehaviour
 {
@@ -22,8 +24,11 @@ public class BossAttacks : MonoBehaviour
     float timer2;
     EnemyAttack ataque;
 
+    public UnityEvent Onhit = new UnityEvent();
+
     void Start()
     {
+        //gameObject.SetActive(false);
         SetTimer = true;
         timer2 = 0;
         speed = Setspeed;
@@ -39,34 +44,37 @@ public class BossAttacks : MonoBehaviour
 
         targetDist = Vector2.Distance(transform.position, target.transform.position);
 
-
-        if (targetDist > chaseDist && timer > 1.5)
+        if (timer > 1.5)
         {
-            timer = 0;
-            Shoot();
-        }
-        else
-        {
-            if (SetTimer)
+            if (targetDist > chaseDist)
             {
-                if (targetDist < chaseDist && targetDist > stopDist)
-                {
-                    ChasePlayer();
-                }
-                else
-                {
-                    Attack();
-                }
+                timer = 0;
+                Shoot();
             }
             else
             {
-                timer2 += Time.deltaTime;
-                if (timer2 > 1.5)
+                if (SetTimer)
                 {
-                    SetTimer = true;
-                    timer2 = 0;
-                    speed = Setspeed;
-                    ataque.DesactivarCollider();
+                    if (targetDist < chaseDist && targetDist > stopDist)
+                    {
+                        ChasePlayer();
+                    }
+                    else
+                    {
+                        Attack();
+                        Onhit.Invoke();
+                    }
+                }
+                else
+                {
+                    timer2 += Time.deltaTime;
+                    if (timer2 > 1.5)
+                    {
+                        SetTimer = true;
+                        timer2 = 0;
+                        speed = Setspeed;
+                        ataque.DesactivarCollider();
+                    }
                 }
             }
         }
@@ -89,12 +97,16 @@ public class BossAttacks : MonoBehaviour
     }
     private void Attack()
     {
+        //AudioManager.Instance.GolpeDIO();
+       
         SetTimer = false;
         speed = 0;
         ataque.ActivarCollider();
 
         anim.SetTrigger("Attack");
         anim.SetBool("Move", false);
+
+        
     }
 
     private void Shoot()
