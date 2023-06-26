@@ -76,11 +76,11 @@ public class BossAttacks : MonoBehaviour
     {
         if (transform.position.x < target.transform.position.x)
         {
-            gameObject.transform.localScale = new Vector3(2, 2, 1);
+            gameObject.transform.localScale = new Vector3(1.5f, 1.5f, 1);
         }
         else
         {
-            gameObject.transform.localScale = new Vector3(-2, 2, 1);
+            gameObject.transform.localScale = new Vector3(-1.5f, 1.5f, 1);
         }
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
