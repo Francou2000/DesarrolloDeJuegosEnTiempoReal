@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
             cam = GameObject.FindGameObjectWithTag("MainCamera");
             MainCamera camara;
             camara = cam.GetComponent<MainCamera>();
-            camara.numenemigos += -1;
+            //camara.numenemigos += -1;
 
             //Debug.Log("Enemigo muerto");
 

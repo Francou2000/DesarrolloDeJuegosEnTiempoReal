@@ -47,7 +47,7 @@ public class BossHealth : MonoBehaviour
             cam = GameObject.FindGameObjectWithTag("MainCamera");
             MainCamera camara;
             camara = cam.GetComponent<MainCamera>();
-            camara.numenemigos += -1;
+            //camara.numenemigos += -1;
 
             OnDeath.Invoke();
 

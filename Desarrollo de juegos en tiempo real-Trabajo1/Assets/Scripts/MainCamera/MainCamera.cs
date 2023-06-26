@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MainCamera : MonoBehaviour
 {
-    public Transform personaje;
+   /* public Transform personaje;
     float limite;
     public int numenemigos;
 
-    void Start()
+   /* void Start()
     {
         limite = transform.position.x;
         numenemigos = 0;
@@ -24,9 +24,9 @@ public class MainCamera : MonoBehaviour
         }
         else 
 
-        if  (personaje.position.x >= limite && personaje.position.x <= limite * (-1))
+        //if  (personaje.position.x >= limite && personaje.position.x <= limite * (-1))
         {
             transform.position = new Vector3(personaje.position.x, transform.position.y, transform.position.z);
         }
-    }
+    }*/
 }
