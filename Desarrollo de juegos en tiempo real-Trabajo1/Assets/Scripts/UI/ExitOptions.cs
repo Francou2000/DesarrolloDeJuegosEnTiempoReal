@@ -5,19 +5,15 @@ using UnityEngine;
 public class ExitOptions : MonoBehaviour
 {
 
-    public GameObject optionsMenu;  
-
-    void Start()
-    {
-        
-    }
-
+    [SerializeField] private GameObject panelToActivate;
+    [SerializeField] private GameObject panelToDeactivate;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) 
-        { 
-            optionsMenu.SetActive(true);
+        {
+            panelToActivate.SetActive(true);
+            panelToDeactivate.SetActive(false);
         }
     }
 }
