@@ -14,6 +14,8 @@ public class BossAttacks : MonoBehaviour
     public GameObject bullet;
     public GameObject firePoint;
 
+    private Animator anim;
+
     private float targetDist;
 
     bool SetTimer;
@@ -27,7 +29,7 @@ public class BossAttacks : MonoBehaviour
         speed = Setspeed;
         ataque = GetComponentInChildren<EnemyAttack>();
 
-
+        anim = GetComponent<Animator>();
     }
 
 
@@ -88,6 +90,8 @@ public class BossAttacks : MonoBehaviour
         SetTimer = false;
         speed = 0;
         ataque.ActivarCollider();
+
+        anim.SetTrigger("Attack");
     }
 
     private void Shoot()

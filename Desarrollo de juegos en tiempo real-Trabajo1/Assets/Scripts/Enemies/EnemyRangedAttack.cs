@@ -12,9 +12,15 @@ public class EnemyRangedAttack : MonoBehaviour
     public GameObject target;
     public GameObject bullet;
     public GameObject firePoint;
+    private Animator anim;
 
     private float targetDist;
 
+
+    private void Start()
+    {
+       anim = GetComponent<Animator>();
+    }
 
 
     void Update()
@@ -51,5 +57,7 @@ public class EnemyRangedAttack : MonoBehaviour
     private void Shoot()
     {
         Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+
+        anim.SetTrigger("Attack");
     }
 }

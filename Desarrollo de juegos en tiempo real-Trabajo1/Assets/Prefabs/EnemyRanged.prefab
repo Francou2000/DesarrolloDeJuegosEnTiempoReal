@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 3711200610230082582}
   - component: {fileID: 1276578485}
   - component: {fileID: 505643099}
+  - component: {fileID: 2221311079446398466}
   m_Layer: 7
   m_Name: EnemyRanged
   m_TagString: Untagged
@@ -199,4 +200,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   dmg: 10
-  alive: 0
+--- !u!95 &2221311079446398466
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979068006403944980}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b1766a15609b684fbf2753e25e6eec1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

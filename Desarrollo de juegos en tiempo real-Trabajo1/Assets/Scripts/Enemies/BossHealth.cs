@@ -8,6 +8,7 @@ public class BossHealth : MonoBehaviour
     public int maxHealth;
     public int minHealth;
 
+    private Animator anim;
 
     [SerializeField] public GameObject vida;
     public HealthBar healthbar;
@@ -24,6 +25,8 @@ public class BossHealth : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
         setTimer = false;
         timer = 0;
+
+        anim = GetComponent<Animator>();    
     }
 
     void Update()
@@ -56,6 +59,9 @@ public class BossHealth : MonoBehaviour
         {
             setTimer = true;
             health -= dmg;
+
+            anim.SetTrigger("TakeHit");
+
             healthbar.SetHealth(health);
         }
     }
