@@ -25,10 +25,12 @@ public class BossAttacks : MonoBehaviour
     EnemyAttack ataque;
 
     public UnityEvent Onhit = new UnityEvent();
+    public UnityEvent BattleStart = new UnityEvent();
 
     void Start()
     {
-        //gameObject.SetActive(false);
+
+        BattleStart.Invoke();
         SetTimer = true;
         timer2 = 0;
         speed = Setspeed;

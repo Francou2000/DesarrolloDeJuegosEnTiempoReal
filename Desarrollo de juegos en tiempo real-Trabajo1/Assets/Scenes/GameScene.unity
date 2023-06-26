@@ -5385,7 +5385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_golpeJotaro: {fileID: 8300000, guid: bfafe1aa81e490d4394c345db75934d2, type: 3}
-  m_golpeDIO: {fileID: 8300000, guid: 45c9779ad7da9d743ae661ddcb42abd1, type: 3}
+  m_golpeDIO: {fileID: 8300000, guid: 04c43a549c62f5e4fa0528a3709d078a, type: 3}
   m_audiosource: {fileID: 1634050087}
   golpejotaro: {fileID: 44891747}
   golpeDIO: {fileID: 1211919466}
@@ -6152,6 +6152,7 @@ GameObject:
   - component: {fileID: 1883061836}
   - component: {fileID: 1883061837}
   - component: {fileID: 1883061838}
+  - component: {fileID: 1883061839}
   m_Layer: 0
   m_Name: GlobalMusic
   m_TagString: Untagged
@@ -6283,6 +6284,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_audiosource: {fileID: 1883061837}
+--- !u!114 &1883061839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883061835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870d6681dd241744cabc0405ca41242f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_newmusic: {fileID: 8300000, guid: 7bc1909f41d8bfc4d8261610947440bd, type: 3}
+  m_audiosource: {fileID: 1883061837}
+  golpeDIO: {fileID: 1211919466}
 --- !u!1001 &1896973371
 PrefabInstance:
   m_ObjectHideFlags: 0
