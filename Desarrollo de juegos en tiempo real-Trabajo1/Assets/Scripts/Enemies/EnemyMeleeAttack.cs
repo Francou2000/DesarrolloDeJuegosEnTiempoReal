@@ -73,6 +73,8 @@ public class EnemyMeleeAttack : MonoBehaviour
         }
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+
+        anim.SetBool("Move", true);
     }
 
     private void Attack()
@@ -82,6 +84,7 @@ public class EnemyMeleeAttack : MonoBehaviour
         ataque.ActivarCollider();
 
         anim.SetTrigger("Attack");
+        anim.SetBool("Move", false);
     }
 
 }

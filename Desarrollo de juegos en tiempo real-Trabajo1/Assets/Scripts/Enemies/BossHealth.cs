@@ -61,6 +61,7 @@ public class BossHealth : MonoBehaviour
             health -= dmg;
 
             anim.SetTrigger("TakeHit");
+            anim.SetBool("Move", false);
 
             healthbar.SetHealth(health);
         }

@@ -56,6 +56,7 @@ public class Enemy : MonoBehaviour
             health -=  dmg;
 
             anim.SetTrigger("TakeHit");
+            anim.SetBool("Move", false);
         }
     }
 }

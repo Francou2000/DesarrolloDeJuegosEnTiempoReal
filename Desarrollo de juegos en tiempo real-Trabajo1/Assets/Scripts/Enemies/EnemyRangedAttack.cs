@@ -52,6 +52,8 @@ public class EnemyRangedAttack : MonoBehaviour
         }
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+
+        anim.SetBool("Move", true);
     }
 
     private void Shoot()
@@ -59,5 +61,6 @@ public class EnemyRangedAttack : MonoBehaviour
         Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
 
         anim.SetTrigger("Attack");
+        anim.SetBool("Move", false);
     }
 }
