@@ -16,7 +16,8 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        
+        m_audiosource = GetComponent<AudioSource>();
+        m_audiosource.volume = VolumeController.Instance.SFXVolume;
         golpejotaro.Onhit.AddListener(GolpeJotaro);
     }
 
