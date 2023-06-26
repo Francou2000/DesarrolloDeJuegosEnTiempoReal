@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public class HealthPJ : MonoBehaviour
 {
@@ -11,7 +13,8 @@ public class HealthPJ : MonoBehaviour
     public HealthBar healthBar;
 
     CharacterMovement movimientos;
-    
+
+    public UnityEvent OnDeath = new UnityEvent();
 
     void Start()
     {
@@ -28,8 +31,10 @@ public class HealthPJ : MonoBehaviour
         {
             health = minHealth;
             movimientos.enabled = false;
+
             movimientos.animar.SetFloat("Movimiento", 0);
             movimientos.animar.SetBool("Muerte", true);
+            OnDeath.Invoke();
             //MUERTE
         }
         if (health > maxHealth)
