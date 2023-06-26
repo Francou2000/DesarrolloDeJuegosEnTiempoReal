@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AtkDeff : MonoBehaviour
 {
+    public UnityEvent Onhit = new UnityEvent();
     public Animator animar;
     float timer = 0;
 
@@ -19,6 +21,7 @@ public class AtkDeff : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Onhit.Invoke();
             Debug.Log("ORA ORA");
 
             animar.SetBool("Ataca", true);
