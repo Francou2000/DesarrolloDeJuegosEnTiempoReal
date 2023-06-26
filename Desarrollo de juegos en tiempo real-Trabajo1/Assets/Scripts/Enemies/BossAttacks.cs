@@ -14,6 +14,8 @@ public class BossAttacks : MonoBehaviour
     public GameObject bullet;
     public GameObject firePoint;
 
+    private Animator anim;
+
     private float targetDist;
 
     bool SetTimer;
@@ -27,7 +29,7 @@ public class BossAttacks : MonoBehaviour
         speed = Setspeed;
         ataque = GetComponentInChildren<EnemyAttack>();
 
-
+        anim = GetComponent<Animator>();
     }
 
 
@@ -74,20 +76,25 @@ public class BossAttacks : MonoBehaviour
     {
         if (transform.position.x < target.transform.position.x)
         {
-            gameObject.transform.localScale = new Vector3(2, 2, 1);
+            gameObject.transform.localScale = new Vector3(1.5f, 1.5f, 1);
         }
         else
         {
-            gameObject.transform.localScale = new Vector3(-2, 2, 1);
+            gameObject.transform.localScale = new Vector3(-1.5f, 1.5f, 1);
         }
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+
+        anim.SetBool("Move", true);
     }
     private void Attack()
     {
         SetTimer = false;
         speed = 0;
         ataque.ActivarCollider();
+
+        anim.SetTrigger("Attack");
+        anim.SetBool("Move", false);
     }
 
     private void Shoot()

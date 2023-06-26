@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public int dmg;
     float timer;
     bool SetTimer;
+
+    private Animator anim;
     
 
     void Start()
@@ -16,7 +18,7 @@ public class Enemy : MonoBehaviour
         SetTimer = false;
         timer = 0;
         
-
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -52,7 +54,9 @@ public class Enemy : MonoBehaviour
         {
             SetTimer = true;
             health -=  dmg;
-            
+
+            anim.SetTrigger("TakeHit");
+            anim.SetBool("Move", false);
         }
     }
 }
