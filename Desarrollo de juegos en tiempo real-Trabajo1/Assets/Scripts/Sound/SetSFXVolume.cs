@@ -10,6 +10,7 @@ public class SetSFXVolume : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _slider.value = VolumeController.Instance.SFXVolume;
         _slider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetSFXVolumeTo(v);
         });

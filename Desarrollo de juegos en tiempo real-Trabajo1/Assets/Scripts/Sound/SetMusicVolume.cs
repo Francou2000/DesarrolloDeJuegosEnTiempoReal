@@ -10,6 +10,7 @@ public class SetMusicVolume : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _slider.value = VolumeController.Instance.MusicVolume;
         _slider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetMusicVolumeTo(v);
         });
