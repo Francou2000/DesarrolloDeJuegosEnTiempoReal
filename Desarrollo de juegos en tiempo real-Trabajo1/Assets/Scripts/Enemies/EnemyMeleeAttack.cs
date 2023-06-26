@@ -9,6 +9,7 @@ public class EnemyMeleeAttack : MonoBehaviour
     public float chaseDist;
     public float stopDist;
     GameObject target;
+    private Animator anim;
 
     private float targetDist;
 
@@ -24,6 +25,8 @@ public class EnemyMeleeAttack : MonoBehaviour
         ataque = GetComponentInChildren<EnemyAttack>();
 
         target = GameObject.FindWithTag("Player");
+
+        anim = GetComponent<Animator>();
 
 
     }
@@ -77,6 +80,8 @@ public class EnemyMeleeAttack : MonoBehaviour
         SetTimer = false;
         speed = 0;
         ataque.ActivarCollider();
+
+        anim.SetTrigger("Attack");
     }
 
 }
