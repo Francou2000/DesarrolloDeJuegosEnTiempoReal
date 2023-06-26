@@ -8,7 +8,7 @@ public class BossHealth : MonoBehaviour
     public int health;
     public int maxHealth;
     public int minHealth;
-
+    private Animator anim;
 
     [SerializeField] public GameObject vida;
     public HealthBar healthbar;
@@ -21,7 +21,7 @@ public class BossHealth : MonoBehaviour
 
     void Start()
     {
-        
+        anim= GetComponent<Animator>();
         health = maxHealth;
         vida.SetActive(true);
         healthbar.SetMaxHealth(maxHealth);
@@ -59,6 +59,8 @@ public class BossHealth : MonoBehaviour
     {
         if (collision.GetComponent<AtkDeff>() && !setTimer)
         {
+            anim.SetTrigger("TakeHit");
+            anim.SetBool("Move",false);
             setTimer = true;
             health -= dmg;
             healthbar.SetHealth(health);
