@@ -43,14 +43,6 @@ public class BossHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            GameObject cam;
-            cam = GameObject.FindGameObjectWithTag("MainCamera");
-            MainCamera camara;
-            camara = cam.GetComponent<MainCamera>();
-            //camara.numenemigos += -1;
-
-            OnDeath.Invoke();
-
             Destroy(gameObject);
         }
     }
@@ -60,7 +52,6 @@ public class BossHealth : MonoBehaviour
         if (collision.GetComponent<AtkDeff>() && !setTimer)
         {
             anim.SetTrigger("TakeHit");
-            anim.SetBool("Move",false);
             setTimer = true;
             health -= dmg;
             healthbar.SetHealth(health);
