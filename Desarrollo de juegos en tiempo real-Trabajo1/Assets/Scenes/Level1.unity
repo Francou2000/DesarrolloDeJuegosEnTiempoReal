@@ -280,10 +280,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NDoul
       objectReference: {fileID: 0}
-    - target: {fileID: 574855335344620662, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 574855335344620663, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -332,17 +328,5 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 893557880}
-    - target: {fileID: 574855335344621451, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
-      propertyPath: MidDist
-      value: 5.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 574855335344621451, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
-      propertyPath: LongDist
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 574855335344621451, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
-      propertyPath: ShortDist
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}

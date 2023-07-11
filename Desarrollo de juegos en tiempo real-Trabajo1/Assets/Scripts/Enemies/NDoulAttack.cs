@@ -8,6 +8,8 @@ public class NDoulAttack : MonoBehaviour
     public float LongDist;
     public float MidDist;
     public float ShortDist;
+    public float attackSpeed;
+
     private float timer;
 
     public GameObject target;
@@ -39,7 +41,7 @@ public class NDoulAttack : MonoBehaviour
 
         targetDist = Vector2.Distance(transform.position, target.transform.position);
 
-        if (timer > 1)
+        if (timer >= attackSpeed)
         {
             if (targetDist >= LongDist)
             {
