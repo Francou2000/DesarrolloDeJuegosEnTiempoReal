@@ -8,6 +8,8 @@ public class CharacterMovement : MonoBehaviour
 
     public bool Defender;
     float timer;
+    float timerVel;
+    int multiplicadorVel;
     Rigidbody2D ForceMov;
 
     public Animator animar;
@@ -15,6 +17,8 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         timer = 0;
+        timerVel = 0;
+        multiplicadorVel = 1;
         Defender = false;
         ForceMov = GetComponent<Rigidbody2D>();
         animar = GetComponent<Animator>();
@@ -67,6 +71,12 @@ public class CharacterMovement : MonoBehaviour
             transform.localScale = new Vector3(-escalaX, escalaY, 1);
         }
 
+        timerVel -= Time.deltaTime;
+        if (timerVel < 0)
+        {
+            multiplicadorVel = 1;
+        }
+
     }
 
 
@@ -74,10 +84,23 @@ public class CharacterMovement : MonoBehaviour
     {
         if (!Input.GetKey(KeyCode.Space) && !Defender)
         {
-            float MovHorizontal = Input.GetAxis("Horizontal");
-            float MovVertical = Input.GetAxis("Vertical");
+            float MovHorizontal = multiplicadorVel * Input.GetAxis("Horizontal");
+            float MovVertical = multiplicadorVel * Input.GetAxis("Vertical");
 
             ForceMov.AddForce(new Vector2(MovHorizontal, MovVertical), ForceMode2D.Force);
+        }
+
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+
+        //Debug.Log("aaaa");
+        if (other.GetComponent<DoubleVelocity>())
+        {
+            timerVel = 5;
+            multiplicadorVel = 2;
+            Destroy(other.gameObject);
         }
 
     }

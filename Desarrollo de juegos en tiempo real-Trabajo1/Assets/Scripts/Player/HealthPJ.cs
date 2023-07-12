@@ -51,6 +51,8 @@ public class HealthPJ : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+       
+
     }
 
     public void RestarHP(int damage)
