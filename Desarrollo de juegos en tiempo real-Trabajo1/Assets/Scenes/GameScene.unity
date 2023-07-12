@@ -2111,7 +2111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.6508474, y: -3.1715698, z: -150}
+  m_LocalPosition: {x: -8.608648, y: -3.1715698, z: -150}
   m_LocalScale: {x: 2.5, y: 5.7735844, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3652,24 +3652,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840986121}
   m_CullTransparentMesh: 1
---- !u!1 &865779425 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 202879331768281762, guid: e4233ffe87e7ed244b0aada86a4a7b86, type: 3}
-  m_PrefabInstance: {fileID: 202879330099810702}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &865779429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865779425}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c43a0df4ac7dca4da256fdf0acf3044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.3
 --- !u!1 &901301225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,7 +8600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930462241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.6508474, y: -3.1715698, z: -150}
+  m_LocalPosition: {x: -8.608648, y: -3.1715698, z: -150}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

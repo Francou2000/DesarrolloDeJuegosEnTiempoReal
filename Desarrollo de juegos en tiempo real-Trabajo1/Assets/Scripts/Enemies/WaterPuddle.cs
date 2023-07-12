@@ -19,7 +19,5 @@ public class WaterPuddle : MonoBehaviour
             other = collision.GetComponent<HealthPJ>();
             other.RestarHP(10);
         }
-
-
     }
 }

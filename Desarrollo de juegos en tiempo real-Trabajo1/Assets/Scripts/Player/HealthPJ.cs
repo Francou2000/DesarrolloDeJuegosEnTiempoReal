@@ -56,13 +56,14 @@ public class HealthPJ : MonoBehaviour
     public void RestarHP(int damage)
     {
         health -= damage;
-        healthBar.SetHealth(health);
+
 
         AtkDeff defensa;
         defensa = GetComponentInChildren<AtkDeff>();
         defensa.Defender();
 
         movimientos.Defender = true;
+        healthBar.SetHealth(health);
     }
 
     public void SumarHP(int damage)
