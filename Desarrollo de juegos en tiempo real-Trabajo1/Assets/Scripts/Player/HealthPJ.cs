@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -12,6 +13,11 @@ public class HealthPJ : MonoBehaviour
     public int minHealth;
     public HealthBar healthBar;
 
+    private int playerLayer;
+    private int enemyLayer;
+
+    private float invinTimer = 2f;
+
     CharacterMovement movimientos;
 
     public UnityEvent OnDeath = new UnityEvent();
@@ -21,6 +27,9 @@ public class HealthPJ : MonoBehaviour
         health = maxHealth;
         movimientos = GetComponent<CharacterMovement>();
         healthBar.SetMaxHealth(maxHealth);
+
+        playerLayer = LayerMask.NameToLayer("Player");
+        enemyLayer = LayerMask.NameToLayer("Enemy");
     }
 
     
@@ -50,11 +59,19 @@ public class HealthPJ : MonoBehaviour
             SumarHP(50);
             Destroy(other.gameObject);
         }
-
-       
-
     }
 
+    public void TriggerInvincibility() 
+    {
+        StartCoroutine(InvincibilityRoutine());
+    }
+
+    private IEnumerator InvincibilityRoutine()
+    {
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer);
+        yield return new WaitForSeconds(invinTimer);
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
+    }
     public void RestarHP(int damage)
     {
         health -= damage;

@@ -95,7 +95,6 @@ public class CharacterMovement : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
 
-        //Debug.Log("aaaa");
         if (other.GetComponent<DoubleVelocity>())
         {
             timerVel = 5;
