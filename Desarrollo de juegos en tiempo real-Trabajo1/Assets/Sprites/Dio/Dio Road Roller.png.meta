@@ -1,0 +1,3401 @@
+fileFormatVersion: 2
+guid: 0f96f61fa5187ee45a4db844acb62ae6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dio Road Roller_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2094
+        width: 68
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ec1e1b5748a014a8f668d222dfc011
+      internalID: 1432185765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2112
+        width: 80
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd21db773b43d44ba2117ae2c37f18
+      internalID: -1354420310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2112
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b484672f83d7d4384063e137fc4a68
+      internalID: 1480437859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2078
+        width: 333
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a738a4b0f42334fb0233a619187e49
+      internalID: -191596347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2078
+        width: 331
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a0e5de73f7ebb40938363ca8c535b4
+      internalID: -1049735063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_5
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2055
+        width: 337
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06480ba3d8cf5499b8c5d8f16af531
+      internalID: -887109304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_6
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 2060
+        width: 333
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a74ffd8af162644a72d620e2998277
+      internalID: -716279679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_7
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2061
+        width: 332
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b6daa66ef82e47951bc6919225357
+      internalID: -347470994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_8
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2062
+        width: 337
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dc740f28f44804295abeac7e4d4ea3
+      internalID: -1285648904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_9
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 2062
+        width: 333
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114b7c75cdc2c3142acb02f344391844
+      internalID: -362719705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_10
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 2062
+        width: 333
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0accaf07b3e8934ebcde96d2d794000
+      internalID: -447817590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_11
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 2062
+        width: 332
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a35710c605e9045866f8b38efa8e81
+      internalID: 377879195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_12
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 2062
+        width: 333
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20706309698fe2748bd10be5a0843808
+      internalID: 2044418142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_13
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 2062
+        width: 332
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f64307e1c13f8409c63989b7203a7f
+      internalID: 401025716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_14
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 2062
+        width: 333
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1080a856a91594143819ed1426c021c3
+      internalID: 622177386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_15
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 2062
+        width: 333
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58742b966e2424cb93ece33235ccf8
+      internalID: 261316097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1825
+        width: 337
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce96248f2fc6a664284dfb45872d302a
+      internalID: 672092636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1824
+        width: 328
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b77dbcc13c77b14c99850935489026d
+      internalID: 1487237782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_18
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1824
+        width: 336
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d62c61ce56be9448de72c19765c0da
+      internalID: 320257796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_19
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1826
+        width: 330
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ad6849e5b2bb4a9fa9ec2b9dc31e2
+      internalID: 1167870952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_20
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1826
+        width: 334
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f7f800e01eae84e8ebd527a081a580
+      internalID: 309044689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_21
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1826
+        width: 335
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c297125ab02734f8d2f77888384ed8
+      internalID: 2075928303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_22
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1826
+        width: 338
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5df1077838d8d4088c59742eddb309
+      internalID: 2130852764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_23
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1826
+        width: 331
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3bbc578662f5b488bb57b5e05ca917
+      internalID: 1155554251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_24
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1826
+        width: 338
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e4d88cf833b53418c4c204c54f4f3e
+      internalID: -802191371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_25
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1826
+        width: 333
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce6afd306f49c4b9cc2889720dd0eb
+      internalID: 453558896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_26
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 1826
+        width: 336
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb94c362ea4d0644be5e9ed008ff28e
+      internalID: 900814754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_27
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1826
+        width: 335
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04f22369f5bf7a4c8f97ecdb5e9ec0c
+      internalID: 1622880017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_28
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 1826
+        width: 335
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2da18ff83ed344eaa58933956ee0a6
+      internalID: -1753161617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_29
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 1826
+        width: 338
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e46a26aa48f5a47a0ce53fbed6033d
+      internalID: 1195761116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1611
+        width: 331
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb61af8a600ec9a45bba991d9a977aa6
+      internalID: 1339604217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1611
+        width: 342
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a61828d74c144cb238746c22fef17
+      internalID: -46115171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1611
+        width: 333
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f534adfbec279647b87f55175ccce31
+      internalID: -1359724682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_33
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1611
+        width: 336
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e697ea05f858e92428959b6f434ac052
+      internalID: -104542417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_34
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1611
+        width: 335
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7e6c0d180f92a48b8d1187020c18ce
+      internalID: -1048024593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_35
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1611
+        width: 340
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812308f5f527b3f40981342c6c75374b
+      internalID: -613231255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_36
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1611
+        width: 330
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dbd7bd4f683c444aaf2d68c9be1113
+      internalID: -564519022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_37
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1611
+        width: 337
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c20641e422524a8657a68c07bd33e
+      internalID: -1792285914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_38
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 1611
+        width: 333
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d2c29ea7b4a64881c7fbcd175f24f
+      internalID: -1747563742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_39
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 1611
+        width: 336
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d82c65ad02a73489f14fe4ddfde204
+      internalID: 1470894559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_40
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 1611
+        width: 335
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee59fbd9251a9c40b9da1c1a4dc67d2
+      internalID: -118692085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_41
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 1612
+        width: 335
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362c3af0c0b78b94b9e86375434acfed
+      internalID: 756627504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_42
+      rect:
+        serializedVersion: 2
+        x: 4127
+        y: 1612
+        width: 340
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e48bba0bf85e64b8e82b6447c0f251
+      internalID: 1877068784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_43
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 1612
+        width: 328
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaabad6d1e72d04ca7c9a94c43aaf90
+      internalID: 611586996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_44
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1400
+        width: 331
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2adf63c8afdf83408f9d653c666a48f
+      internalID: 198688115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_45
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1400
+        width: 333
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07c917f074c2d47af3320f3723199f
+      internalID: -721602613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_46
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1400
+        width: 336
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48505554010dfa845996b42420734870
+      internalID: -905787825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_47
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1400
+        width: 335
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd9ff56926d0d4090c775711133a0a
+      internalID: 1047632427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_48
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1400
+        width: 340
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37d1f04f7b2f78439f96e14157af7c2
+      internalID: -1515716913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_49
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1398
+        width: 330
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99358e6b8f2be7c41b930934cbd21a52
+      internalID: 1258625844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_50
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1398
+        width: 338
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2fe6344d6b0e84bb23c175d23218c3
+      internalID: -1861237455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_51
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 1398
+        width: 335
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7ede6f111f641418e47df419b1a4a3
+      internalID: 2093429594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_52
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 1399
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1a0fcea0f54a64fa3898c8da661552
+      internalID: -1893198986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_53
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1394
+        width: 336
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a315bdce62fb449896f4aa53e56b4c
+      internalID: 1715574305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_54
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 1394
+        width: 336
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f412d562cc156094e9df70ebb6fe9659
+      internalID: -778698094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_55
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 1397
+        width: 341
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3178ca073bbd03043a6cbc5ec02e051a
+      internalID: 1985156327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_56
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 1392
+        width: 333
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c38c2f4d2e3254d9e28bffc411c014
+      internalID: 1424309754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_57
+      rect:
+        serializedVersion: 2
+        x: 4468
+        y: 1396
+        width: 330
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e284bcae5d67e349ab8b3839d682b1c
+      internalID: 613645970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1182
+        width: 335
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371f117a2cb31b94e8ea8cbe70341432
+      internalID: 985756820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_59
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1182
+        width: 337
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dcb8335ef7ac542b3ecb9fa05bfd64
+      internalID: 723310907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_60
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1182
+        width: 337
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859b009684805547a5c15b75dfc7855
+      internalID: -1988575460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_61
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1184
+        width: 342
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa4da086d1f70746a10f5d38cb50c96
+      internalID: 1606803906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_62
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1179
+        width: 332
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2438a932a94f3dc499abde5bd2ea741a
+      internalID: -1153384408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_63
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1182
+        width: 340
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ef30bc4417fc48bb244f9268d2316
+      internalID: 888774659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_64
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1182
+        width: 334
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d683a584cf6df4ba587ff382be9433
+      internalID: -1490870802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_65
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1182
+        width: 338
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26ea61ae99db3549bcfe4d74f1dc768
+      internalID: -1089353943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_66
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 1182
+        width: 337
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642fb5b6bf438ce4ca10dcda1b2abd20
+      internalID: -966201848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_67
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 1182
+        width: 337
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea1ca0ef76c4d14798759233cd4c6c2
+      internalID: -796137515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_68
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 1183
+        width: 342
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0452863d674d4a902cbeb2a792f59
+      internalID: -891233841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_69
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 1178
+        width: 333
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c2f083959826d43ba3b7d6fbdca1cd
+      internalID: -1471780087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_70
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 1182
+        width: 338
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7162411f9196ed141aff25e1d1fa992b
+      internalID: 509865778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_71
+      rect:
+        serializedVersion: 2
+        x: 4459
+        y: 1180
+        width: 333
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6128f72f3b50428d9b9be18782783
+      internalID: -1053749089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 962
+        width: 337
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08148992d8e6d4c45bebce1bbb682763
+      internalID: 375303767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_73
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 962
+        width: 337
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce2c4fa302f63548b3806ce56d6c09a
+      internalID: 2120313003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_74
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 965
+        width: 342
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99a70d2c02855c49a22c15e34050ebb
+      internalID: 2109195244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_75
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 961
+        width: 332
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba6cca60744d84bb73025df40ad693
+      internalID: -1732911081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_76
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 963
+        width: 339
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fd43808132cdc43862742a318806bf
+      internalID: -831482633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_77
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 962
+        width: 334
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4d1fd4a3ad3ab4b938914bb8f016e4
+      internalID: 1498424213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_78
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 962
+        width: 338
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ca7b249bccd1c4fa916fd20b3c0227
+      internalID: 1686894323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_79
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 962
+        width: 336
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07025c888919f54f95f4f681c284b4d
+      internalID: 1520050488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_80
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 962
+        width: 336
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ade5bbe6c7ba8e409ce04f26f0b8d6f
+      internalID: 1283393029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_81
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 965
+        width: 342
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a741a915416d2a7419a99f3579c73dcc
+      internalID: 920636260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_82
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 961
+        width: 333
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeb48f954f077b4f8144582c8bf6729
+      internalID: 831577739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_83
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 963
+        width: 338
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90661bd1618b02c4ab3134cc8cf35e40
+      internalID: 430675665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_84
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 962
+        width: 335
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb51f9d4347ef0b4fb8851bfa0563ec2
+      internalID: -1900151267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_85
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 962
+        width: 337
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524200911d7a6ea48836bcfb8c57ec8d
+      internalID: 1313579728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_86
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 747
+        width: 337
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b933126984ee74c499859745dae69de5
+      internalID: -365788377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_87
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 748
+        width: 342
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc598a7872abdc4a981ef61a29069fc
+      internalID: -592585170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_88
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 743
+        width: 333
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e90d89814ffb4e80e6178c260bb58
+      internalID: 1402576098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_89
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 747
+        width: 339
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3702de3f9867f354c8fbf7f017b3ce86
+      internalID: 1201867571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_90
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 745
+        width: 335
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330803a81e1ce354595df22dd364fb4a
+      internalID: 1338596434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_91
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 745
+        width: 337
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557303b7cdb49fa4d8b68cadcff5d854
+      internalID: 1741061032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_92
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 745
+        width: 337
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e8f0870d651744a777076a29d21d0
+      internalID: 864851564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_93
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 745
+        width: 337
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da6af23092d624db310ca628ccd800
+      internalID: 1009285730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_94
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 748
+        width: 342
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3005931c016ead14da9bb6c85c6edfd4
+      internalID: 1924934891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_95
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 743
+        width: 333
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01b65a844141524da3d0f23e1bb2eab
+      internalID: -102333403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_96
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 747
+        width: 340
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb0aa32c1df0f046844230c525ba5c6
+      internalID: 1953860920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_97
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 745
+        width: 335
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9c3ddafc39c86449d9cdea78980c03
+      internalID: 2057530328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_98
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 745
+        width: 338
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfadebaa3b43fb5408000b170bc0c5ea
+      internalID: 1512316252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_99
+      rect:
+        serializedVersion: 2
+        x: 4460
+        y: 745
+        width: 337
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f83010f481d8d2469735ea5c4cac5cf
+      internalID: -2028837989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 535
+        width: 342
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bf863f98780a540b7c7f09fcf1a61e
+      internalID: -1104535256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_101
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 530
+        width: 333
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e073f38b2f58a5c48924c6be6fe48753
+      internalID: -631448822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_102
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 533
+        width: 340
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba403582ae6d9b4fa8d726e73e51735
+      internalID: -705573425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_103
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 533
+        width: 334
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5972476bf95feaa4781d555c862e6b44
+      internalID: 423432725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_104
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 533
+        width: 338
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff864e39476b5d489895470060c241d
+      internalID: -212867941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_105
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 533
+        width: 336
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3680f39b9be669e40b72d311759169ad
+      internalID: 333194697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_106
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 533
+        width: 337
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227773ab9f23ecd4b9d6e8a37f1dbb77
+      internalID: 54479035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_107
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 535
+        width: 341
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a9fbb269d14d24aaf89f72d51b9815
+      internalID: -98579398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_108
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 530
+        width: 332
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c595dbaad77959745b34a14df72bfc9d
+      internalID: -320851465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_109
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 533
+        width: 340
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f1bc896c28db849a5bc1e141a4063c
+      internalID: 718405949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_110
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 533
+        width: 334
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e23e6b3a3f0cf34aa3671e8c4238f5e
+      internalID: -1219854023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_111
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 533
+        width: 338
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9347b9cdcaee6aa42be228a17448eba2
+      internalID: 369920412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_112
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 533
+        width: 337
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785930cd8acf2ee429b6f33b70f4bd60
+      internalID: 2108699398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_113
+      rect:
+        serializedVersion: 2
+        x: 4459
+        y: 534
+        width: 341
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df80bdcb82dec8c4c9c69ab904eb65fd
+      internalID: -334343187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_114
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 325
+        width: 332
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f694e5433ac8483498bfb1328cec0834
+      internalID: -1561362627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_115
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 327
+        width: 339
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351643c79f9a87048b63093b02625523
+      internalID: 207400150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_116
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 326
+        width: 335
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1b468adfc7f849a4de7f27d70b2a7
+      internalID: 958444174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_117
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 326
+        width: 337
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74181a3025247894999af1b6c2061ee4
+      internalID: 658480528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_118
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 326
+        width: 336
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa94692e05f7704987d0d3cb639c21a
+      internalID: -797658696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_119
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 326
+        width: 337
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5456d58313f2445890bbfa4fcb58d0
+      internalID: 107237814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_120
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 326
+        width: 337
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8418b3dab9ac15409f454860de91632
+      internalID: 888606945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_121
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 326
+        width: 336
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb97f781699df84cbf061ce31d4ccac
+      internalID: 142458408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_122
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 329
+        width: 341
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101848ec51f03534f9a7cc1a2189f465
+      internalID: -1026044311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_123
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 325
+        width: 333
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a0f9d56dbab5c47b97b3b1faa9862f
+      internalID: -1520209883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_124
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 327
+        width: 338
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213cec96015599140ac56e13c5e63937
+      internalID: 523389878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_125
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 326
+        width: 335
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88461f60a968dce4cab7ea43f93b3204
+      internalID: -2030649679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_126
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 326
+        width: 338
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf2a8101202cad4c919ce9f5cc0abab
+      internalID: -1376498507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_127
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 326
+        width: 337
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea4c1a5da20bb345b5c9bd9c853a1a9
+      internalID: -71359410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_128
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 85
+        width: 337
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45090fa2d8e1ba64abbee89072f65ac8
+      internalID: 1298677860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_129
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 85
+        width: 337
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e754ef4f587414081a96b19f3f6e4b
+      internalID: -835400707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_130
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 85
+        width: 336
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67c34280e961654d943c126c7f3fe03
+      internalID: -671499436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_131
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 85
+        width: 337
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fd9baac2b7d0d4592092eebf0eca76
+      internalID: -1484196172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_132
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 85
+        width: 336
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3472f3021fee1b640950f96aca191cb3
+      internalID: -889435494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_133
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 85
+        width: 337
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0f9472d7780e4499866d5d10a85ae9
+      internalID: 344168085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_134
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 150
+        width: 185
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0154613de6d524085ccf202650bebd
+      internalID: -1524632835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_135
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 146
+        width: 215
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5bc002b8bcd014385b31b7702ddc9e
+      internalID: -894023074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_136
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 147
+        width: 214
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a189444e13654ba93ac830d0cbd8c
+      internalID: -1781405808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_137
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 165
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cacf8b4afbaba45a61e37c061c20f2
+      internalID: -244860841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_138
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 112
+        width: 122
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e7079f903823944892d5a672bf8af7
+      internalID: -1132845292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_139
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 112
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ee393d13477994c9e1577a53737d04
+      internalID: -1003859939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_140
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 109
+        width: 119
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3525030a2f879418ad1d4e456a9b23
+      internalID: -665328564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_141
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 112
+        width: 140
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be492c9b692290e4dbdc379730f71b16
+      internalID: 965846971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_142
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 112
+        width: 123
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b1857f38bbf747b2775acd3903ac0
+      internalID: -1462375140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_143
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 112
+        width: 148
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0848514af1e1e0945b71fe91a151f4ed
+      internalID: -1688525068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_144
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 109
+        width: 119
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74543b45f625d448962f3df6b5c1ca
+      internalID: -662879627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_145
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 112
+        width: 123
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656ce8d7c2feebc4e9240ab94c28e3c3
+      internalID: 193505920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_146
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 12
+        width: 146
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7f71e7598e25b4abf07e2fa56f1ae4
+      internalID: -2026742579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_147
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 0
+        width: 171
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7918218efd04304da4f489d119c6aab
+      internalID: 390739919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dio Road Roller_148
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 19
+        width: 171
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ac0c107694f24fb2460e56f6da135
+      internalID: -588969155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dio Road Roller_0: 1432185765
+      Dio Road Roller_1: -1354420310
+      Dio Road Roller_10: -447817590
+      Dio Road Roller_100: -1104535256
+      Dio Road Roller_101: -631448822
+      Dio Road Roller_102: -705573425
+      Dio Road Roller_103: 423432725
+      Dio Road Roller_104: -212867941
+      Dio Road Roller_105: 333194697
+      Dio Road Roller_106: 54479035
+      Dio Road Roller_107: -98579398
+      Dio Road Roller_108: -320851465
+      Dio Road Roller_109: 718405949
+      Dio Road Roller_11: 377879195
+      Dio Road Roller_110: -1219854023
+      Dio Road Roller_111: 369920412
+      Dio Road Roller_112: 2108699398
+      Dio Road Roller_113: -334343187
+      Dio Road Roller_114: -1561362627
+      Dio Road Roller_115: 207400150
+      Dio Road Roller_116: 958444174
+      Dio Road Roller_117: 658480528
+      Dio Road Roller_118: -797658696
+      Dio Road Roller_119: 107237814
+      Dio Road Roller_12: 2044418142
+      Dio Road Roller_120: 888606945
+      Dio Road Roller_121: 142458408
+      Dio Road Roller_122: -1026044311
+      Dio Road Roller_123: -1520209883
+      Dio Road Roller_124: 523389878
+      Dio Road Roller_125: -2030649679
+      Dio Road Roller_126: -1376498507
+      Dio Road Roller_127: -71359410
+      Dio Road Roller_128: 1298677860
+      Dio Road Roller_129: -835400707
+      Dio Road Roller_13: 401025716
+      Dio Road Roller_130: -671499436
+      Dio Road Roller_131: -1484196172
+      Dio Road Roller_132: -889435494
+      Dio Road Roller_133: 344168085
+      Dio Road Roller_134: -1524632835
+      Dio Road Roller_135: -894023074
+      Dio Road Roller_136: -1781405808
+      Dio Road Roller_137: -244860841
+      Dio Road Roller_138: -1132845292
+      Dio Road Roller_139: -1003859939
+      Dio Road Roller_14: 622177386
+      Dio Road Roller_140: -665328564
+      Dio Road Roller_141: 965846971
+      Dio Road Roller_142: -1462375140
+      Dio Road Roller_143: -1688525068
+      Dio Road Roller_144: -662879627
+      Dio Road Roller_145: 193505920
+      Dio Road Roller_146: -2026742579
+      Dio Road Roller_147: 390739919
+      Dio Road Roller_148: -588969155
+      Dio Road Roller_15: 261316097
+      Dio Road Roller_16: 672092636
+      Dio Road Roller_17: 1487237782
+      Dio Road Roller_18: 320257796
+      Dio Road Roller_19: 1167870952
+      Dio Road Roller_2: 1480437859
+      Dio Road Roller_20: 309044689
+      Dio Road Roller_21: 2075928303
+      Dio Road Roller_22: 2130852764
+      Dio Road Roller_23: 1155554251
+      Dio Road Roller_24: -802191371
+      Dio Road Roller_25: 453558896
+      Dio Road Roller_26: 900814754
+      Dio Road Roller_27: 1622880017
+      Dio Road Roller_28: -1753161617
+      Dio Road Roller_29: 1195761116
+      Dio Road Roller_3: -191596347
+      Dio Road Roller_30: 1339604217
+      Dio Road Roller_31: -46115171
+      Dio Road Roller_32: -1359724682
+      Dio Road Roller_33: -104542417
+      Dio Road Roller_34: -1048024593
+      Dio Road Roller_35: -613231255
+      Dio Road Roller_36: -564519022
+      Dio Road Roller_37: -1792285914
+      Dio Road Roller_38: -1747563742
+      Dio Road Roller_39: 1470894559
+      Dio Road Roller_4: -1049735063
+      Dio Road Roller_40: -118692085
+      Dio Road Roller_41: 756627504
+      Dio Road Roller_42: 1877068784
+      Dio Road Roller_43: 611586996
+      Dio Road Roller_44: 198688115
+      Dio Road Roller_45: -721602613
+      Dio Road Roller_46: -905787825
+      Dio Road Roller_47: 1047632427
+      Dio Road Roller_48: -1515716913
+      Dio Road Roller_49: 1258625844
+      Dio Road Roller_5: -887109304
+      Dio Road Roller_50: -1861237455
+      Dio Road Roller_51: 2093429594
+      Dio Road Roller_52: -1893198986
+      Dio Road Roller_53: 1715574305
+      Dio Road Roller_54: -778698094
+      Dio Road Roller_55: 1985156327
+      Dio Road Roller_56: 1424309754
+      Dio Road Roller_57: 613645970
+      Dio Road Roller_58: 985756820
+      Dio Road Roller_59: 723310907
+      Dio Road Roller_6: -716279679
+      Dio Road Roller_60: -1988575460
+      Dio Road Roller_61: 1606803906
+      Dio Road Roller_62: -1153384408
+      Dio Road Roller_63: 888774659
+      Dio Road Roller_64: -1490870802
+      Dio Road Roller_65: -1089353943
+      Dio Road Roller_66: -966201848
+      Dio Road Roller_67: -796137515
+      Dio Road Roller_68: -891233841
+      Dio Road Roller_69: -1471780087
+      Dio Road Roller_7: -347470994
+      Dio Road Roller_70: 509865778
+      Dio Road Roller_71: -1053749089
+      Dio Road Roller_72: 375303767
+      Dio Road Roller_73: 2120313003
+      Dio Road Roller_74: 2109195244
+      Dio Road Roller_75: -1732911081
+      Dio Road Roller_76: -831482633
+      Dio Road Roller_77: 1498424213
+      Dio Road Roller_78: 1686894323
+      Dio Road Roller_79: 1520050488
+      Dio Road Roller_8: -1285648904
+      Dio Road Roller_80: 1283393029
+      Dio Road Roller_81: 920636260
+      Dio Road Roller_82: 831577739
+      Dio Road Roller_83: 430675665
+      Dio Road Roller_84: -1900151267
+      Dio Road Roller_85: 1313579728
+      Dio Road Roller_86: -365788377
+      Dio Road Roller_87: -592585170
+      Dio Road Roller_88: 1402576098
+      Dio Road Roller_89: 1201867571
+      Dio Road Roller_9: -362719705
+      Dio Road Roller_90: 1338596434
+      Dio Road Roller_91: 1741061032
+      Dio Road Roller_92: 864851564
+      Dio Road Roller_93: 1009285730
+      Dio Road Roller_94: 1924934891
+      Dio Road Roller_95: -102333403
+      Dio Road Roller_96: 1953860920
+      Dio Road Roller_97: 2057530328
+      Dio Road Roller_98: 1512316252
+      Dio Road Roller_99: -2028837989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

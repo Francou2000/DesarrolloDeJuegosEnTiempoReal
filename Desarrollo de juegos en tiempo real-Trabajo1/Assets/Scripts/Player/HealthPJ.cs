@@ -33,24 +33,6 @@ public class HealthPJ : MonoBehaviour
     }
 
     
-    void Update()
-    {
-
-        if (health <= minHealth)
-        {
-            health = minHealth;
-            movimientos.enabled = false;
-
-            movimientos.animar.SetFloat("Movimiento", 0);
-            movimientos.animar.SetBool("Muerte", true);
-            OnDeath.Invoke();
-            //MUERTE
-        }
-        if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
-    }
   
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -76,6 +58,16 @@ public class HealthPJ : MonoBehaviour
     {
         health -= damage;
 
+        if (health <= minHealth)
+        {
+            health = minHealth;
+            movimientos.enabled = false;
+
+            movimientos.animar.SetFloat("Movimiento", 0);
+            movimientos.animar.SetBool("Muerte", true);
+            OnDeath.Invoke();
+            //MUERTE
+        }
 
         AtkDeff defensa;
         defensa = GetComponentInChildren<AtkDeff>();
@@ -88,6 +80,12 @@ public class HealthPJ : MonoBehaviour
     public void SumarHP(int damage)
     {
         health += damage;
+
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+
         healthBar.SetHealth(health);
     }
 

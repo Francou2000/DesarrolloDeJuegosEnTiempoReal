@@ -10,6 +10,7 @@ public class ExplodingEnemy : MonoBehaviour
     public float chaseDist;
     public float stopDist;
     public float speed;
+    public int danio;
 
     [SerializeField] private float exRad;
     [SerializeField] private float exForce;
@@ -65,7 +66,14 @@ public class ExplodingEnemy : MonoBehaviour
                 float finalForce = exForce / distance;
                 rb.AddForce(direction * finalForce);
             }
+
+            if (collision.GetComponent<HealthPJ>())
+            {
+                collision.GetComponent<HealthPJ>().RestarHP(danio);
+            }
         }
+
+        
 
         Destroy(gameObject);
     }
