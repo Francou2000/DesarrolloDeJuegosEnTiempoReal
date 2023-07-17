@@ -41,6 +41,12 @@ public class HealthPJ : MonoBehaviour
             SumarHP(50);
             Destroy(other.gameObject);
         }
+        if (other.GetComponent<Partes>())
+        {
+            other.GetComponent<BoxCollider2D>().enabled = false;
+            RestarHP(40);
+            
+        }
     }
 
     public void TriggerInvincibility() 
@@ -54,6 +60,7 @@ public class HealthPJ : MonoBehaviour
         yield return new WaitForSeconds(invinTimer);
         Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
     }
+
     public void RestarHP(int damage)
     {
         health -= damage;

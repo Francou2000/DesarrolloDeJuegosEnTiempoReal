@@ -33,9 +33,9 @@ public class Aplanadora : MonoBehaviour
             if (timer > 1)
             {
                 timer = 0;
-                int posSpawn = Random.Range(-3, 1);
+                int posSpawn = Random.Range(-5, 0);
                 Partes.GetComponent<SpriteRenderer>().sprite = SpritePartes[Random.Range(0,6)];
-                Instantiate(Partes, new Vector3(posSpawn *5f, 0,0f), Quaternion.identity);
+                Instantiate(Partes, new Vector3(posSpawn *3f, 0,0f), Quaternion.identity);
             }
             if(timer2 > 10.08f)
             {

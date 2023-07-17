@@ -5400,8 +5400,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1890134883}
-  - component: {fileID: 1890134885}
   - component: {fileID: 1890134884}
+  - component: {fileID: 1890134885}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -5529,14 +5529,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890134882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935f122ae014873478e8a3942457bade, type: 3}
+  m_Script: {fileID: 11500000, guid: 634dffcdcee062c41a771cda6e2b5ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_golpeJotaro: {fileID: 8300000, guid: bfafe1aa81e490d4394c345db75934d2, type: 3}
   m_golpeDIO: {fileID: 8300000, guid: 04c43a549c62f5e4fa0528a3709d078a, type: 3}
   m_audiosource: {fileID: 1890134884}
   golpejotaro: {fileID: 778900873}
-  golpeDIO: {fileID: 0}
+  golpeDIO: {fileID: 1907078014}
+--- !u!114 &1907078014 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5389722300268264038, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
+  m_PrefabInstance: {fileID: 537154547}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9461252db8d2c459319e5e54e177ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994492112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5761,15 +5772,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8955476573710247904, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.8774776
+      value: -6.73
       objectReference: {fileID: 0}
     - target: {fileID: 8955476573710247904, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49374747
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 8955476573710247904, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.2568045
+      value: -3.36
       objectReference: {fileID: 0}
     - target: {fileID: 8955476573710247904, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
       propertyPath: m_LocalRotation.w

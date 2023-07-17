@@ -13,7 +13,7 @@ public class Partes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, -5 * Time.deltaTime, 0);
+        transform.Translate(0, -4 * Time.deltaTime, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

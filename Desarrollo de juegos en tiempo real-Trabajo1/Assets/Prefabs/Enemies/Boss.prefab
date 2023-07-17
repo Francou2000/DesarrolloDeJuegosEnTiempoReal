@@ -187,6 +187,12 @@ MonoBehaviour:
   target: {fileID: 0}
   bullet: {fileID: 1396397695724230608, guid: c035d14bd5b502a41b7a73ab53f01e1f, type: 3}
   firePoint: {fileID: 2714286981569047352}
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  BattleStart:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5772346213348463045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +211,12 @@ MonoBehaviour:
   vida: {fileID: 0}
   healthbar: {fileID: 0}
   dmg: 20
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  SpecialAttack:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &4354803062303902043
 Animator:
   serializedVersion: 5

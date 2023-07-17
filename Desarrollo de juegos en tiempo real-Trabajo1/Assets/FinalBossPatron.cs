@@ -19,6 +19,7 @@ public class FinalBossPatron : MonoBehaviour
     private float targetDist;
 
     private Animator anim;
+    EnemyAttack ataque;
 
     public UnityEvent Onhit = new UnityEvent();
 
@@ -35,6 +36,7 @@ public class FinalBossPatron : MonoBehaviour
         timer = 0;
         timer2 = 0;
         speed = Setspeed;
+        ataque = GetComponentInChildren<EnemyAttack>();
         anim = GetComponent<Animator>();
         attackType = true;
         contador = 0;
@@ -109,7 +111,7 @@ public class FinalBossPatron : MonoBehaviour
 
         SetTimer = false;
         speed = 0;
-        //ataque.ActivarCollider();
+        ataque.ActivarCollider();
 
         anim.SetTrigger("Attack");
         anim.SetBool("Move", false);
