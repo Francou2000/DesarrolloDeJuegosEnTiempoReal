@@ -46,45 +46,53 @@ public class FinalBossPatron : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        timer2 += Time.deltaTime;
+
+        if (timer2 > 0.5f)
+        {
+            ataque.DesactivarCollider();
+        }
 
         targetDist = Vector2.Distance(transform.position, target.transform.position);
-
-        if (attackType)
+        if (timer > 1.5)
         {
-            if (targetDist > stopDist)
+            if (attackType)
             {
-                ChasePlayer();
-            }
-            else
-            {
-                if (timer > 1.5)
+                if (targetDist > stopDist)
+                {
+                    
+                    ChasePlayer();
+                }
+                else
                 {
                     timer = 0;
                     Attack();
-                    Onhit.Invoke();
+                    Onhit.Invoke(); 
                     contador++;
+                    
+                }
+                if (contador > 4)
+                {
+                    attackType = false;
+                    contador = 0;
                 }
             }
-            if (contador > 4)
-            {
-                attackType = false;
-                contador = 0;
-            }
-        }
-        else
-        {
-            if (timer > 1.5)
+            else
             {
                 timer = 0;
                 Shoot();
                 contador++;
-            }
 
-            if (contador > 4)
-            {
-                attackType = false;
-                contador = 0;
+                if (contador > 4)
+                {
+                    attackType = true;
+                    contador = 0;
+                }
             }
+        }
+        else
+        {
+            speed = Setspeed;
         }
 
     }
@@ -115,6 +123,8 @@ public class FinalBossPatron : MonoBehaviour
 
         anim.SetTrigger("Attack");
         anim.SetBool("Move", false);
+
+        timer2 = 0;
 
 
     }
