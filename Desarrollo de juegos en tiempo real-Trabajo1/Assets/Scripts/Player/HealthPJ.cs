@@ -44,7 +44,7 @@ public class HealthPJ : MonoBehaviour
         if (other.GetComponent<Partes>())
         {
             other.GetComponent<BoxCollider2D>().enabled = false;
-            RestarHP(40);
+            RestarHP(5);
             
         }
     }
