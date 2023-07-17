@@ -8,20 +8,23 @@ public class FinalBossPatron : MonoBehaviour
     public float Setspeed;
     float speed;
     bool SetTimer;
+    float timer;
     float timer2;
-
+    public float stopDist;
 
     public GameObject target;
     public GameObject bullet;
     public GameObject firePoint;
 
+    private float targetDist;
 
     private Animator anim;
 
     public UnityEvent Onhit = new UnityEvent();
 
 
-
+    bool attackType;
+    int contador;
 
 
 
@@ -29,15 +32,59 @@ public class FinalBossPatron : MonoBehaviour
     void Start()
     {
         SetTimer = true;
+        timer = 0;
         timer2 = 0;
         speed = Setspeed;
         anim = GetComponent<Animator>();
+        attackType = true;
+        contador = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        timer += Time.deltaTime;
+
+        targetDist = Vector2.Distance(transform.position, target.transform.position);
+
+        if (attackType)
+        {
+            if (targetDist > stopDist)
+            {
+                ChasePlayer();
+            }
+            else
+            {
+                if (timer > 1.5)
+                {
+                    timer = 0;
+                    Attack();
+                    Onhit.Invoke();
+                    contador++;
+                }
+            }
+            if (contador > 4)
+            {
+                attackType = false;
+                contador = 0;
+            }
+        }
+        else
+        {
+            if (timer > 1.5)
+            {
+                timer = 0;
+                Shoot();
+                contador++;
+            }
+
+            if (contador > 4)
+            {
+                attackType = false;
+                contador = 0;
+            }
+        }
+
     }
 
     private void ChasePlayer()

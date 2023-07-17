@@ -17,7 +17,9 @@ public class BossHealth : MonoBehaviour
     float timer;
     bool setTimer;
 
-    public UnityEvent OnDeath = new UnityEvent(); 
+    public UnityEvent OnDeath = new UnityEvent();
+    public UnityEvent SpecialAttack = new UnityEvent();
+
 
     void Start()
     {
@@ -53,8 +55,17 @@ public class BossHealth : MonoBehaviour
             setTimer = true;
             health -= dmg;
             healthbar.SetHealth(health);
+            if(health == 100)
+            {
+                SpecialAttack.Invoke();
+            }
+            if (health == 40)
+            {
+                SpecialAttack.Invoke();
+            }
             if (health <= 0)
             {
+                OnDeath.Invoke();
                 Destroy(gameObject);
             }
 
