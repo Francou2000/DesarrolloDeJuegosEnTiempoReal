@@ -16,8 +16,6 @@ public class EnemiesTrigger : MonoBehaviour
             var enemy = enemies[i];
             enemy.SetActive(true);
         }
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
