@@ -18,6 +18,11 @@ public class WaterPuddle : MonoBehaviour
             HealthPJ other;
             other = collision.GetComponent<HealthPJ>();
             other.RestarHP(10);
+            Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
+            Vector2 direction = collision.transform.position - transform.position;
+            float distance = 1 + direction.magnitude;
+            float finalForce = 50 / distance;
+            rb.AddForce(direction * finalForce);
         }
     }
 }

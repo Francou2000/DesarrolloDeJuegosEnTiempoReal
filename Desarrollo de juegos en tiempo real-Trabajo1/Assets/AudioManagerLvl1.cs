@@ -19,7 +19,7 @@ public class AudioManagerLvl1 : MonoBehaviour
         m_audiosource = GetComponent<AudioSource>();
 
         golpejotaro.Onhit.AddListener(GolpeJotaro);
-        golpeNdoul.Onhit.AddListener(GolpeDIO);
+
     }
 
 

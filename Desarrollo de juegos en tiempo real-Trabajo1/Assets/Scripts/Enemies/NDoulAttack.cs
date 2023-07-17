@@ -28,7 +28,7 @@ public class NDoulAttack : MonoBehaviour
 
     private float targetDist;
 
-    public UnityEvent Onhit = new UnityEvent();
+
 
 
     void Start()
@@ -45,7 +45,6 @@ public class NDoulAttack : MonoBehaviour
 
         if (timer >= attackSpeed)
         {
-            Onhit.Invoke();
             if (targetDist >= LongDist)
             {
                 timer = 0;
