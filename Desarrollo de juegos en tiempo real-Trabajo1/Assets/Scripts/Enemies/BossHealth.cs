@@ -41,20 +41,23 @@ public class BossHealth : MonoBehaviour
             }
         }
 
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+      
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<AtkDeff>() && !setTimer)
         {
+           
             anim.SetTrigger("TakeHit");
             setTimer = true;
             health -= dmg;
             healthbar.SetHealth(health);
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+            }
+
         }
     }
 }
