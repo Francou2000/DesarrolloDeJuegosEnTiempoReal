@@ -7,7 +7,9 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private BossHealth boss;
+    [SerializeField] private BossHealth firstBoss;
+    [SerializeField] private BossHealth secondBoss;
+    [SerializeField] private BossHealth finalBoss;
     [SerializeField] private HealthPJ PJ;
 
 
@@ -15,15 +17,19 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         PJ.OnDeath.AddListener(LoadDefeatScene);
-        boss.OnDeath.AddListener(LoadWinScene);
+        firstBoss.OnDeath.AddListener(LoadLevel2);
+        secondBoss.OnDeath.AddListener(LoadLevel3);
+        finalBoss.OnDeath.AddListener(LoadWinScene);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadLevel2()
     {
-        
+        SceneManager.LoadScene("GameScene");
     }
-
+    public void LoadLevel3() 
+    {
+        SceneManager.LoadScene("FinalBoss");
+    }
     public void LoadWinScene()
     {
         SceneManager.LoadScene("VictoryScreen");

@@ -148,8 +148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   exEffect: {fileID: 1709093626729055723, guid: a2b5450a4d309dc438b079f06908fe12, type: 3}
-  chaseDist: 20
+  chaseDist: 50
   stopDist: 1.2
   speed: 1.5
+  danio: 0
   exRad: 1
   exForce: 500

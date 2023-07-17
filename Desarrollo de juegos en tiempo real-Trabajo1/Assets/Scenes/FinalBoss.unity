@@ -3959,7 +3959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0364b8aac1acb8c4ba1fb5d8f9e7c64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boss: {fileID: 1525368059}
+  firstBoss: {fileID: 574855335344620662, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
+  secondBoss: {fileID: 5772346213348463045, guid: f9c4e2aa8e058a242936bab204d96c45, type: 3}
+  finalBoss: {fileID: 1525368059}
   PJ: {fileID: 778900874}
 --- !u!1 &1400949710
 GameObject:
