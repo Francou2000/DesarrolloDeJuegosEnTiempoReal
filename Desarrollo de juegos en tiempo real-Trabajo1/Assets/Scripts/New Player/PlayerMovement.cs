@@ -5,11 +5,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private InputManager myInputManager = new InputManager();
+    private PlayerAnimatorController myAnimatorController;
     private Rigidbody2D myRigidbody;
 
     
     void Start()
     {
+        myAnimatorController = new PlayerAnimatorController(GetComponent<Animator>());
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -24,7 +26,12 @@ public class PlayerMovement : MonoBehaviour
 
         myInputManager.MovementInput();
         myRigidbody.AddForce(new Vector2(myInputManager.MovHorizontal, myInputManager.MovVertical), ForceMode2D.Force);
-
+        myAnimatorController.MovementUpdate(myInputManager.MovHorizontal, myInputManager.MovVertical);
+        if (myInputManager.MovHorizontal != 0)
+        {
+            transform.localScale = new Vector3(myInputManager.MovHorizontal, transform.localScale.y, 1);
+        }
+        
 
         //if (!Input.GetKey(KeyCode.Space) && !Defender)
         //{
