@@ -6,12 +6,12 @@ public class InputManager
 {
     private float movHorizontal = 0;
     private float movVertical = 0;
-    private bool shoot = false;
+    private bool punch = false;
     //private bool powerUp = false;
 
     public float MovHorizontal => movHorizontal;
     public float MovVertical => movVertical;
-    public bool Shoot => shoot;
+    public bool Punch => punch;
     //public bool PowerUp => powerUp;
 
     public InputManager() { }
@@ -19,13 +19,13 @@ public class InputManager
 
     public void ActionsInput()
     {
-        if (Input.GetKey(KeyCode.Space)) // The player shoots with "Space"
+        if (Input.GetKeyDown(KeyCode.Space)) // The player shoots with "Space"
         {
-            shoot = true;
+            punch = true;
         }
         else
         {
-            shoot = false;
+            punch = false;
         }
 
         //if (Input.GetKeyDown(KeyCode.Mouse1)) // The player uses the powerUP with "Mouse1" (right click)

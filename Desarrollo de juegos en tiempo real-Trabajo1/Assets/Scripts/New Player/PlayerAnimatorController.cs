@@ -23,4 +23,13 @@ public class PlayerAnimatorController
         }
         
     }
+
+    public void TriggerAnimation(string id)
+    {
+        _animator.SetTrigger(id);
+    }
+    public void ResetTrigger(string id)
+    {
+        _animator.ResetTrigger(id);
+    }
 }

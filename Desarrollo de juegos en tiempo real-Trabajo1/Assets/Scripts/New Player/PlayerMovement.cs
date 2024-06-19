@@ -7,30 +7,37 @@ public class PlayerMovement : MonoBehaviour
     private InputManager myInputManager = new InputManager();
     private PlayerAnimatorController myAnimatorController;
     private Rigidbody2D myRigidbody;
+    private bool canMove = true;
 
-    
+    public bool CanMove { set { canMove = value; } }
     void Start()
     {
         myAnimatorController = new PlayerAnimatorController(GetComponent<Animator>());
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
-    
-    void Update()
-    {
-        myInputManager.ActionsInput();
-    }
-
+  
     private void FixedUpdate()
     {
-
-        myInputManager.MovementInput();
-        myRigidbody.AddForce(new Vector2(myInputManager.MovHorizontal, myInputManager.MovVertical), ForceMode2D.Force);
-        myAnimatorController.MovementUpdate(myInputManager.MovHorizontal, myInputManager.MovVertical);
-        if (myInputManager.MovHorizontal != 0)
+        if (canMove)
         {
-            transform.localScale = new Vector3(myInputManager.MovHorizontal, transform.localScale.y, 1);
+            myInputManager.MovementInput();
+            myRigidbody.AddForce(new Vector2(myInputManager.MovHorizontal, myInputManager.MovVertical), ForceMode2D.Force);
+            myAnimatorController.MovementUpdate(myInputManager.MovHorizontal, myInputManager.MovVertical);
+            if (myInputManager.MovHorizontal < 0)
+            {
+                transform.localScale = new Vector3(-1, transform.localScale.y, 1);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1, transform.localScale.y, 1);
+            }
         }
+        else
+        {
+            myRigidbody.velocity = Vector3.zero;
+        }
+       
         
 
         //if (!Input.GetKey(KeyCode.Space) && !Defender)
