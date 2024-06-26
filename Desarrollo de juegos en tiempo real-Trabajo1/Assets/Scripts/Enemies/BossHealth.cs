@@ -21,6 +21,8 @@ public class BossHealth : MonoBehaviour
     public UnityEvent OnDeath = new UnityEvent();
     public UnityEvent SpecialAttack = new UnityEvent();
 
+    public UnityEvent NoLife = new UnityEvent();
+
     public PlayableDirector timelineDirector;
     public GameObject player;
 
@@ -69,32 +71,32 @@ public class BossHealth : MonoBehaviour
             }
             if (health <= 0)
             {
-                OnDeath.Invoke();
                 StartCoroutine(DeathCourutine());
             }
 
         }
     }
 
-    private void OnTimelineStopped(PlayableDirector director)
-    {
-        player.GetComponent<CharacterMovement>().enabled = true;
-
-        timelineDirector.stopped -= OnTimelineStopped;
-
-        Destroy(this.gameObject);
-    }
-
     public IEnumerator DeathCourutine()
     {
-        player.GetComponent<CharacterMovement>().enabled = false;
+        player.GetComponent <PlayerMovement>().enabled = false;
+
+        GetComponent<SpriteRenderer>().enabled = false;
+        NoLife.Invoke();
+        //GetComponent<FinalBossPatron>().enabled = false;
+        //GetComponent<BossAttacks>().enabled = false;
+        //GetComponent<NDoulAttack>().enabled = false;
 
         if (timelineDirector != null)
         {
             timelineDirector.Play();
-
-            timelineDirector.stopped += OnTimelineStopped;
         }
+
+        yield return new WaitForSeconds((float)timelineDirector.duration);
+
+        OnDeath.Invoke();
+
+        Destroy(this.gameObject);
 
         yield return null;
     }

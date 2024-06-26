@@ -40,6 +40,7 @@ public class FinalBossPatron : MonoBehaviour
         anim = GetComponent<Animator>();
         attackType = true;
         contador = 0;
+        GetComponent<BossHealth>().NoLife.AddListener(Deactive);
     }
 
     // Update is called once per frame
@@ -95,6 +96,11 @@ public class FinalBossPatron : MonoBehaviour
             speed = Setspeed;
         }
 
+    }
+
+    public void Deactive()
+    {
+        this.enabled = false;
     }
 
     private void ChasePlayer()

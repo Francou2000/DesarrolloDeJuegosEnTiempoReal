@@ -43,6 +43,7 @@ public class NDoulAttack : MonoBehaviour
     public void Start()
     {
         anim = GetComponent<Animator>();   
+        GetComponent<BossHealth>().NoLife.AddListener(Deactive);
     }
 
     void Update()
@@ -73,6 +74,11 @@ public class NDoulAttack : MonoBehaviour
             StartCoroutine(SecondAttackCoroutine());
             timer = 0;
         }
+    }
+
+    public void Deactive()
+    {
+        this.enabled = false; 
     }
 
     public IEnumerator AttackCoroutine()

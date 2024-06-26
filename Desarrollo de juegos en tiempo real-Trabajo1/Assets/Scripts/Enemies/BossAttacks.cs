@@ -37,6 +37,7 @@ public class BossAttacks : MonoBehaviour
         ataque = GetComponentInChildren<EnemyAttack>();
 
         anim = GetComponent<Animator>();
+        GetComponent<BossHealth>().NoLife.AddListener(Deactive);
     }
 
 
@@ -80,6 +81,11 @@ public class BossAttacks : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void Deactive()
+    {
+        this.enabled = false;
     }
 
     private void ChasePlayer()

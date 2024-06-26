@@ -72,13 +72,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983584538a8a9a4449d2956e9b565f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 375
   actualHealth: 0
   movePlayer: {fileID: 3247059582127033077}
   attackREFF: {fileID: 7726565660106779934}
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  healthBar: {fileID: 0}
 --- !u!82 &994749463729260494
 AudioSource:
   m_ObjectHideFlags: 0
