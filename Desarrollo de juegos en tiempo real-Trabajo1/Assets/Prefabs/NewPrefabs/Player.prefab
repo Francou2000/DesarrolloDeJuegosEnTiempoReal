@@ -74,8 +74,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   actualHealth: 0
-  movePlayer: {fileID: 0}
-  attackREFF: {fileID: 0}
+  movePlayer: {fileID: 3247059582127033077}
+  attackREFF: {fileID: 7726565660106779934}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &994749463729260494
 AudioSource:
   m_ObjectHideFlags: 0
@@ -412,6 +415,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 0
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!212 &7544816191388640207
 SpriteRenderer:
   m_ObjectHideFlags: 0
