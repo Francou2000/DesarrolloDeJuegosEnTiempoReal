@@ -36,7 +36,7 @@ public class EnemyRangedAttack : MonoBehaviour
         else if (timer > 3)
         {
             timer = 0;
-            Shoot();
+            StartCoroutine(ShootCoroutine());
         }
     }
 
@@ -44,11 +44,11 @@ public class EnemyRangedAttack : MonoBehaviour
     {
         if (transform.position.x < target.transform.position.x)
         {
-            gameObject.transform.localScale = new Vector3(2, 2, 1);
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
         }
         else
         {
-            gameObject.transform.localScale = new Vector3(-2, 2, 1);
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
@@ -56,11 +56,12 @@ public class EnemyRangedAttack : MonoBehaviour
         anim.SetBool("Move", true);
     }
 
-    private void Shoot()
+    public IEnumerator ShootCoroutine()
     {
-        Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
-
         anim.SetTrigger("Attack");
         anim.SetBool("Move", false);
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
+        Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        yield return null;
     }
 }

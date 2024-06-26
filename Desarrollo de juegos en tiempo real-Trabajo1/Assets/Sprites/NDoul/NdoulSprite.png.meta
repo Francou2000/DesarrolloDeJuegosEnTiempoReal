@@ -1,0 +1,7257 @@
+fileFormatVersion: 2
+guid: d6dd27910c95a174983461c7bfa4b79d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NdoulSprite_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2456
+        width: 97
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d46ddbd55fc384da88084ad6e6cbd8
+      internalID: -627555339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2456
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5296043ea0dcb5541a23f2e0dac1252e
+      internalID: -1514503589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2456
+        width: 120
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a61afcab5c3e54f8c4584dc147d59a
+      internalID: 894869359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2456
+        width: 121
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2583b25a0b965274da92a4f304b5c7bf
+      internalID: 61146803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2456
+        width: 119
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207b1afb3fb7c34ea23715d7026f4e9
+      internalID: 1622607586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2506
+        width: 298
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be1272ddbc432549809b697eba5dbfb
+      internalID: -630627868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2483
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe795f3d86ef240b8cc5b4454e5c3c
+      internalID: 1880430280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_7
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2483
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa553995961fb4d82963e1607f93c0
+      internalID: 452591049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_8
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2481
+        width: 160
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ea7675e15a70f44bf2cd1103b42609
+      internalID: -1082613565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_9
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 2459
+        width: 79
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99f05c7b4bd1d4a95fd3422f8278fb
+      internalID: 771969789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_10
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2433
+        width: 213
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c405fbb1d2c40a449a91e274595b9b9
+      internalID: -502358363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2371
+        width: 130
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16314f17e3c3572448f945c2e73e05ae
+      internalID: 1481976425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2371
+        width: 160
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2033af9911aa0442ac38886fff68d61
+      internalID: -509192941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2371
+        width: 153
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6286f836b68db449eaf791542ad268
+      internalID: 62608345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_14
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2410
+        width: 92
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0156b7c3c22e14d82c3d20a005c420
+      internalID: 49560925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 2410
+        width: 84
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c449e95ff97fed14e9a941a9908b36d7
+      internalID: -1846890836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2371
+        width: 152
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23dcaefce577974998276b4cb9481c2
+      internalID: 1854133321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2256
+        width: 93
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c218251495666438108eb1543dd894
+      internalID: 1258298433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2256
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eb59e32b2b6474d9952eeef44df130
+      internalID: -1426669513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2256
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba50da093394a94b8e5f7d2498836d6
+      internalID: 339629167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2256
+        width: 94
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579614f999bff144ba0d56868d5d3e8d
+      internalID: -233723809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_21
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2256
+        width: 92
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381908fcc14bb246bd435fd83191892
+      internalID: -1269282874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_22
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2256
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d6c3a766d7f3040909f73e9918afc9
+      internalID: 977155383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_23
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2256
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96b25f4996a08d469150d4814cde1d7
+      internalID: -1502299776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_24
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2256
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44faeb6bb1c79843a9e38b096da17a7
+      internalID: 1231197142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_25
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2256
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c3196697b5dd04dbbfdc69ad72def1
+      internalID: 284939368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2144
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0cc310a7dcec7498f6f164e9487242
+      internalID: 2078034547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_27
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2144
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a98b88f81e54df459ef33f551134de8
+      internalID: 117343129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2144
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a9c310683e1a40a1825308c54d127
+      internalID: 1423766246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2144
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b7ec03cad74254e9cf04c88bc2faec
+      internalID: -229362120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_30
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2144
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a0faf1268c3c643aaebf592d1d8e27
+      internalID: -53774179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_31
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2144
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd01873fef820d4384581d67a9ee8e2
+      internalID: -57946441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_32
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2144
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a7e7fd4624d394099f4ac7f5ef1278
+      internalID: 710307244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2144
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e4d47b0db68ae41bd6b020beb6217a
+      internalID: -1140219861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_34
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2144
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7854dc721dd9e43a358266d0c798b3
+      internalID: -684031151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_35
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2126
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f3a5b9ba34bee4e8f4681805e13a21
+      internalID: -853057680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_36
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2106
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783a211c6dc63674e80d8dc4209d9094
+      internalID: -2123003015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_37
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2106
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973fe3ef4251f2945bde0f0ba45dbc4d
+      internalID: 218187282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_38
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2108
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4be6e154654be14f8876eb784433c6e
+      internalID: 1545212325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_39
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2108
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c7b9c79f3c70d45a610d737c236839
+      internalID: -108438898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_40
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2116
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec0659dd14cf2f4ab55613e48f07fc7
+      internalID: -1595670475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1e9acda95850e4e8c70ce527667a81
+      internalID: -866390192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2017
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37f14439e518349a6b6daee2e5dd04
+      internalID: -126250858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2032
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ca18922f208047a5d416dcb5f420e
+      internalID: 934382974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2029
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef65408101e08f94a844d6a9e1493744
+      internalID: 176983162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_45
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2105
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139eb94c3d1dc734fa36dfaf87470c51
+      internalID: 779995485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_46
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2102
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aca019a45c700448b2f4e1235cd1e8
+      internalID: -946906154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2108
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee71d330807522f44bb94a15be4c478a
+      internalID: -97763487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_48
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 2113
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc018b03887ef28498e3c3359aa30aa6
+      internalID: -812334361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_49
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1096dedef2d805a4a8f431bea2c80121
+      internalID: -1185255974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2039
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61978e8279030a4a85c9bd8257b39b2
+      internalID: 210062585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_51
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2061
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44637597fb2d55d4face2dd370d02114
+      internalID: -1186192665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_52
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2068
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108071ba44a2fce4cae79ba488b4ad9c
+      internalID: 448220493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_53
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2095
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9193747c7edea4ea8b6a011df32e71
+      internalID: -1545422028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_54
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2106
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc79ad0c4809f040ad448be82b3e2ab
+      internalID: 1348421165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_55
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2106
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069f713cb25cfdf478495bb4bbd2c14f
+      internalID: 1591637011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_56
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2046
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf728231a99fb84eb041c8c04db46d7
+      internalID: 844292301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_57
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2087
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e145caac6e3e00a4ea8a415262f0c61b
+      internalID: 1387000528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_58
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2085
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c874ceb45cb5449ce035f2028ebc3
+      internalID: -638402203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_59
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2071
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3594b5fdf5b21a145b9c8ec4e8403638
+      internalID: -658697897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_60
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 2067
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a417df13e7c1e54e92dd91e67775a39
+      internalID: -1842303831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_61
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2066
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a14df84d416324cb19221f62d327f7
+      internalID: 1543047578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_62
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2090
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2a808c4befc02439be1624008c4d07
+      internalID: 1060937562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_63
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2090
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c527d703d6f51b4ea70e98e3bb8c6a9
+      internalID: 1330400765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_64
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2087
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b119cb563d56454197f25101b03800f
+      internalID: 1374893972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_65
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2075
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fa35c2d127734b8ed3d2da7b24c14
+      internalID: -290493346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_66
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2075
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20fae42f3de1f143982ebfb46627762
+      internalID: 1317247936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_67
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2077
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ad56dbfa8f1c469b485e21d2206cd
+      internalID: 806315102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_68
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2081
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7525cf2eb6136041925334dbfc44424
+      internalID: 748166482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_69
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2080
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ccf9f8f7f3004a93a3c835a5e07e6
+      internalID: -1139638844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_70
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 2068
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc8ffd2504a6074fbef1607e978eb34
+      internalID: 794445193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_71
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2081
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4e0faf6518cd842b9875be8343ded5
+      internalID: 692096735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_72
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2077
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e913f9ac3a68cfe4392b0fcfec665fe5
+      internalID: 1735928580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_73
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2061
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89772673428f344a910f5bb50f5305b
+      internalID: -1157575907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_74
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2039
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4b3dc2e13bbc146a8c5e73812b9e04
+      internalID: 1215796754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_75
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2049
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd035e7c13152346bffd8e9b1d97aab
+      internalID: -36622143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_76
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2027
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aafa303aa2202748b14b9b9472596e7
+      internalID: -992044779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_77
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2055
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823cf7362c4446e419452ceb4cd56d89
+      internalID: -1510126349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_78
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2067
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df21f40138531246a98771a45541ad2
+      internalID: -403674731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_79
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2057
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fca1695a8f7ee45bb2462d7e320c22
+      internalID: 2110147872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_80
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2056
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5fa4504681f4f46acc502b05fef3bb
+      internalID: 148592902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_81
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2051
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2229f5cba584c9f4a9fed707e802d7dc
+      internalID: 236798268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_82
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2056
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129cc46d1b581d54d8b5234389195813
+      internalID: -101526795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_83
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2067
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e606747d98e4441a8e3fa881d66bcd
+      internalID: 1142140940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_84
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2048
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0542ec0d63292428ecf26c1d2a7f69
+      internalID: -351695378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2026
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e2d89e248ae84ba8a95598dd352e6
+      internalID: -361115340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_86
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2044
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4575f8ebdaa20e04583a56ab615d89cd
+      internalID: -1632016250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_87
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2044
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476eaf8c98190774fb8d31e796c408d3
+      internalID: -1953567913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_88
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2044
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8181b510944220c40b0bb32549889c5d
+      internalID: 542565949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_89
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2044
+        width: 55
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2a5123d5320284e968e17cc38fc491
+      internalID: 447164760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_90
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2043
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13040be2a865dc46a3dc6ccd6d19357
+      internalID: -1894355832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_91
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2037
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3a0fdaeaff5a946b7d13eb49a9f798
+      internalID: -1923401436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_92
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2033
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4a4b20001d54c4fa5a8f3b28a46e42
+      internalID: 1837052200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_93
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2029
+        width: 58
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971cbd06ddcac6f41847a3bf92932e42
+      internalID: -1415829908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_94
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2029
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c07cb7af5eefb7489d8a57009f25037
+      internalID: 2132820639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_95
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2029
+        width: 73
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cc12531615cad43a9ecea2047192a7
+      internalID: -102339391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_96
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2019
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1896875326ddfb4bbe6629dfb421480
+      internalID: 621165613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_97
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2019
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844cc76f5e0deb84c8a021fe3b4d8da9
+      internalID: -749124718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_98
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2022
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cad4aea314b4a44bc9da540133bd0e
+      internalID: -2146390481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_99
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1939
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3791034c4fd00348b16ed6fbb9381d0
+      internalID: -2044450834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1939
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a708da5cba41d1845880a13e14bb621d
+      internalID: -787967871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_101
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1939
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312e30207f8116245b53e6d29aa57861
+      internalID: 1569227928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1939
+        width: 82
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90508ecd0414c5140b1cee14d33332e3
+      internalID: 1619288240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_103
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1939
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddc6ab9fa92c5c42b52df9659f992e5
+      internalID: 1538556048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_104
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1939
+        width: 117
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba24a5d11972cb4dad5f9df519d97ce
+      internalID: -1558667542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_105
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1939
+        width: 159
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd1083cc91955449eb9839cae662ad
+      internalID: 1006196182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_106
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1939
+        width: 154
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae6f22a52000f34f8eba414e6f8f064
+      internalID: -853134748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1872
+        width: 154
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bbaf94fbe021947bc1910e848e80db
+      internalID: -299710365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1872
+        width: 169
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41c84a7c95fd90498f2b2aa1b4da722
+      internalID: 1314918962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_109
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1872
+        width: 139
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5989a144afbf94ab9e745e0540749c
+      internalID: -1765010689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_110
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1884
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c28551a5cff20a4b87767201f9e591a
+      internalID: -497316791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_111
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1872
+        width: 133
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba529e8519bd1e4295f963e8ebdb947
+      internalID: 1990935171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_112
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1884
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30de24e1e27dd9848b566c8c1f326dd9
+      internalID: -856307944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_113
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1868
+        width: 143
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad672bf1ae80d284a93f7faf85142516
+      internalID: -1360899262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_114
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1891
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c6032374ea2ee49b1e1b7feb5b1b60
+      internalID: 1260176227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_115
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1886
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7c7c44e075f264780c6f50ce6b81a8
+      internalID: -1123544703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_116
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1795
+        width: 128
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df550faed7834104ab63849293218a51
+      internalID: 458884783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1820
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e590db1e1972c1468b9fa9b748b447b
+      internalID: 1393223207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_118
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1795
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0781c5e548b09864da47059b60831e90
+      internalID: 1759629299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_119
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1795
+        width: 93
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d84387f24cca04683ab730a170c248
+      internalID: 353681432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_120
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1795
+        width: 93
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4a1dca3aff7e1408a4300f3964a776
+      internalID: -1924289122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_121
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1795
+        width: 93
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b4f61afdc06648ae628fbeb205c6d
+      internalID: 1378140763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_122
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1795
+        width: 137
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fca2e4fba05b04ea427534ce60c7c7
+      internalID: -854268301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_123
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1795
+        width: 83
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1621778bce13e74aa97e4b60a9c2188
+      internalID: 1178402816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_124
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1795
+        width: 93
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9ca9d82ccd1442afcecbffdc41810
+      internalID: 2141337366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_125
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1688
+        width: 243
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930857303d478ea4c9d53f4d60c376f3
+      internalID: 1556526652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_126
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1688
+        width: 291
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c1ba5f0c99a7c4c9ff0b247e1ccf88
+      internalID: 925349655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_127
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1688
+        width: 301
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2640f3178f1c0f24191bc715f36245a8
+      internalID: 964517296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_128
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1593
+        width: 300
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1204db3aac5fc499c2e29d3c3343b8
+      internalID: 1765253973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_129
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1595
+        width: 220
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fde49af8c730704980c569333dbb8fc
+      internalID: 1774789413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_130
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1593
+        width: 145
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336992501c7843d459d12272667d568c
+      internalID: 734835497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_131
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177fcbe79bd53964191fd6683eb337ae
+      internalID: 674532482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_132
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1626
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788a794098ccc3f478b57a26f4f0141d
+      internalID: -770023034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_133
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1608
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b324cb42da1bd454ab115a9a2ef1b8a8
+      internalID: -591429838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_134
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1593
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03e7a816ff40b40a60481a12e47e29
+      internalID: 448157521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_135
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1593
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efbaa23506f01d42a116018f42763ba
+      internalID: 304539622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_136
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1535
+        width: 112
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db20db21aeaf7d24688a7d3ae688ff5b
+      internalID: 1220186867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_137
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1550
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e526b43315fa6f4aba3470740332c5b
+      internalID: -878875378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_138
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1535
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8737434de43794f8ceafd73f435c96
+      internalID: 865097761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_139
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1535
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c7c23af60d22f4ab3e8333dd5bcdc5
+      internalID: 1264993968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_140
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1536
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01b90430583dc34f9c5b4d20f7a14f5
+      internalID: 1793991873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_141
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1542
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027d766a538f2824abafc99c17122a8f
+      internalID: -2027047074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_142
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1541
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77a02e81eedf774c8bf8e423f7e4c0a
+      internalID: 65056780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_143
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1542
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c008d6b14e2834ea343d19442e110c
+      internalID: 1221252291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_144
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1539
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b342d65e856b146b253313152b4add
+      internalID: 759956621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_145
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1535
+        width: 96
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a802b426cd4c42d46a3c198707fb143a
+      internalID: -252201200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_146
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1537
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff249d457c97df40873f389c9973a7a
+      internalID: 652296003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_147
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1536
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a6d0b40e2d0f9469040e6b2de9282c
+      internalID: -1549309649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_148
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1542
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc416b3c117b164e821c9c858925ec2
+      internalID: -1007880374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_149
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1537
+        width: 92
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b78807025bd16f4b9957ef06f774d31
+      internalID: 505084580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_150
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1535
+        width: 96
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fe9c0f993de684990419ddb62b3960
+      internalID: 1043685484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_151
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1536
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91de2968d3a654e9fa31397b8f3815
+      internalID: 300756035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_152
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1541
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaba5b94ba74034bbed985a8411391f
+      internalID: 669386732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_153
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1542
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348d0d2428843d948ad6953d6ec37fd8
+      internalID: 594613011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_154
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1537
+        width: 93
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515bf6fb3619b194ab8a263ebff8030e
+      internalID: 309266635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_155
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1535
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5e6181a5d4d34eb2ad22f7c1502a6
+      internalID: -1396577865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_156
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1535
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c096feed3a8aa4aa951fa48807da01
+      internalID: 42285505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_157
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1536
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e22cb811c97f48b31bb6a71ecc60e
+      internalID: 140599798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_158
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1513
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e388c081692b54081b8dc99c8ea927
+      internalID: 1873927743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_159
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1511
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c6dd9181dda39478d7c007b86d3f13
+      internalID: -2054637852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_160
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1510
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b13b7b4387fe54aad894fa61a45b74
+      internalID: 1615765447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_161
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1515
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3889ad2447f943c4998d0871df453a3e
+      internalID: 1182449579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_162
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1511
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb0dff7c7d5977429a659eca24a1135
+      internalID: -1462676153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_163
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1507
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ea91f04f472e45a96c2bd526954b5
+      internalID: -871626659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_164
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1511
+        width: 83
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62634791cc03b5649ba9385008b46c1b
+      internalID: -1560913625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_165
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1510
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f6178322d07ec45855ece1b212dd43
+      internalID: -1108839927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_166
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1515
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8756c9c988ac4b42aa0336c39c89fb2
+      internalID: 1528381274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_167
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1511
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c2da124d2a3b4f81ecf91f967b785
+      internalID: 1148101278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_168
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1507
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e240ce7c786830b44b8093b05aebf6c0
+      internalID: -1415272016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_169
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1511
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548a86c243caf62409b22fad7d837219
+      internalID: 1203902330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_170
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1510
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd833e31760338f4988d12917c0b190a
+      internalID: -1131026290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_171
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1515
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee45e8bc5cf3d154a93e96306d861d49
+      internalID: 296994463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_172
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1511
+        width: 93
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697bddac992c3a440bdeef89bdc6f2d4
+      internalID: 76557108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_173
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1508
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4898e4b32d481ba4f89b2f821c3e2bcb
+      internalID: -183335828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_174
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1508
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b024e1b37b04649a5dd16f8294fcfc
+      internalID: 1449938099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_175
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1508
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddda021e2e8aaf148bdb758a420db869
+      internalID: -742165537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_176
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1487
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6297e4b026ec1414fb44756c4213076c
+      internalID: 158201827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_177
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1486
+        width: 74
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b600818253c0954ba4edc194dc895fb
+      internalID: -263710143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_178
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1458
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4461e29793c2db849a9cad0a31adae9e
+      internalID: -2091411757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_179
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1491
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a92f48941437bc4caa15878795db0ab
+      internalID: 102578943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1481
+        width: 98
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36e3c15e59c9474abbecb65cef01230
+      internalID: -1004537950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_181
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1487
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8670b3eafbf30479f7b41e075141cc
+      internalID: -18155035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_182
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1486
+        width: 74
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b9863d9b22b5479cd2de84303bce1
+      internalID: 569536386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_183
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1490
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed695ac809a48a48ad680741fea7094
+      internalID: -2144717118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_184
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1481
+        width: 99
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666b3a71ed60c644ca92eb598c7f8184
+      internalID: -1988975836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_185
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1486
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b285d2872fd06409120b2880c6e54b
+      internalID: 618898620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_186
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1484
+        width: 58
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c1d4760aa053d4f8d8c36818be5318
+      internalID: -1511065963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_187
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1488
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432925d32d1c80e48889467ab48c5dac
+      internalID: -2091976779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_188
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1483
+        width: 94
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fb06ac23327984e832345a0d699416
+      internalID: 19473871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1483
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5115f74d2dcb6e849b16d7da33c881cc
+      internalID: -612815115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_190
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1483
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b50fc76f5a01c46951a42b158411b2
+      internalID: 419922541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_191
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1469
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c13b94ae89d7243bf45edfcc15c268
+      internalID: -1107108832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_192
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1462
+        width: 92
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea85872310829234db589968d038d1de
+      internalID: 1116160467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_193
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1469
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5052fbba84ef1ac4ebae346b766ecdc6
+      internalID: 2081756328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_194
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1457
+        width: 98
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a32a58ce3e08a4ab734e4182aa5d1a
+      internalID: -1441539624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_195
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1469
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d1a86c1c349d34ba970406013d1c51
+      internalID: 1030859621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_196
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1462
+        width: 92
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1484dde06d998bd47a70dd74b7512938
+      internalID: -692697501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_197
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1463
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d7eb0b1f42e70479ff71ea89240e86
+      internalID: 794946503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_198
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1463
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e304843520b7c4a9dd373b90dff446
+      internalID: 1561481002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_199
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1463
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c936bdfea86c448c7d1eed3c9b439
+      internalID: 499213540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_200
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1385
+        width: 94
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf805ef06379a64a95bc3162ef18f8e
+      internalID: -1869500985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_201
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1385
+        width: 98
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c762bc454127eb49b45a22de021583b
+      internalID: 50138110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_202
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1385
+        width: 171
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00e3c45699c92e41b90dc9be750d0e0
+      internalID: -810580706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_203
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1385
+        width: 298
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d1cd5013d2538468511553deffc6e7
+      internalID: -1178836165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_204
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1297
+        width: 335
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b338661eeacc3d24ab5724a52a8c71a4
+      internalID: 1591102809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_205
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1297
+        width: 210
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c51020e054dfc408ce3e1ce878774a
+      internalID: 1001674478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_206
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1297
+        width: 206
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a733edeb00ba4a8880bc3a6c75609
+      internalID: -855746565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_207
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1207
+        width: 207
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfab275cfed3bf042ba7a918905fbfa1
+      internalID: -2006609416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_208
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1207
+        width: 209
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9caa1fc35552e45abe0f2e9de58399
+      internalID: -1602887153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_209
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1178
+        width: 335
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3046fbd3127fb74e935e764916b1fc5
+      internalID: -1954854667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_210
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1125
+        width: 264
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e1e7458da86ef48b531f1588385959
+      internalID: -410129609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_211
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1125
+        width: 170
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc2e2dcbb800743b655adca764c056
+      internalID: 218012067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_212
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1125
+        width: 98
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13a0c50bf7a1134d94f11b0bf42d771
+      internalID: -2442811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_213
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1125
+        width: 94
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ce4000212c78e41b69da1fffa6ce39
+      internalID: 1624237391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_214
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1048
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d484494218c6604db22f132b6aae9a9
+      internalID: -420898938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_215
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1048
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f95aea5adc4534cb5fa70657bfeb4d
+      internalID: -859208084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_216
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1048
+        width: 137
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e14f90f9a3117c41988206a82a67a52
+      internalID: 216783121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_217
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1048
+        width: 179
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61277f4e4e309e946b143ec4c9e0505b
+      internalID: 1031655336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_218
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1048
+        width: 174
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca55340b5db0a53429f41a5649eca5ed
+      internalID: 1291159951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_219
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1048
+        width: 175
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e116f9f083c7147a214196d6e5a3a4
+      internalID: -588790470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_220
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 972
+        width: 186
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b39daa11137d2446a760980787b33ff
+      internalID: -2080595639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_221
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 972
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbbd140e25857a43b0ffea0f9847867
+      internalID: -2099342637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_222
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 985
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e238cee1af2bcc5438bbbdc63f0c201c
+      internalID: -276575680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_223
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 972
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a121ede49c5dd4f8cc35eebd4d53d5
+      internalID: -1705224254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_224
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 985
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242eb867410754c418b025092e9ec71c
+      internalID: -1357056407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_225
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 972
+        width: 160
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8130f7c41c6e4e4c89cbb8576c985c8
+      internalID: -2032735114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_226
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 993
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18533988aef1e2640ada930d1bd1e83c
+      internalID: -1093023506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_227
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 986
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8ab1c9df15e194faaff3c67f582db9
+      internalID: -19568256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_228
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 887
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ee8df5ef379214ab7b793425770252
+      internalID: 2041449706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_229
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 887
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd62c3cb910874980bd746cdf6cbe2
+      internalID: -1509485149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_230
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 887
+        width: 83
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55beff88cf4020341af650d2e5e4b9d3
+      internalID: -1145498858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_231
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 941
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f826ed18d0c54641a44a53a9bc00615
+      internalID: 141141616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_232
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 887
+        width: 146
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009197bbff963c94f9f046e48d52d956
+      internalID: -555995100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_233
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 928
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d75475535693134184e02783efb82ed
+      internalID: 1437095233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_234
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 926
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01450b7b28df8b743aa560db08187855
+      internalID: 2066633717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_235
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 887
+        width: 87
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d692678d5e42841aa420a7297a3539
+      internalID: -104638449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_236
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 921
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de169d56373fc6449c920212c7c0cb1
+      internalID: 605867527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_237
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 912
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b5bdca2989702449b9bbbcf5706b00
+      internalID: 600345953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_238
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 903
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f64cb82db4ca649a231f072f26f7b2
+      internalID: 1290941040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_239
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 887
+        width: 112
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bda3a161fa9a1d448145e2622e6c55a
+      internalID: 1402003677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_240
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 906
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e2db4cdd4ca34cb7877a952d36305
+      internalID: -182816165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_241
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 904
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4de23e827db644093c16c75bb59091
+      internalID: 884920942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_242
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 902
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabfbadbbd3c41942a62cf6b930c12c3
+      internalID: -1679474180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_243
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 894
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ddd09cf443be34dbdf66cba67e89c0
+      internalID: 1492836209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_244
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 892
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64249a1ba5ee7d2499f17824175300b9
+      internalID: -892918200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_245
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 893
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc96a28814cca164eb130c8ceeadde31
+      internalID: 2113750534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_246
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 889
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7235a4bd41c394ca16ba3845439be1
+      internalID: -1881562692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_247
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 859
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df78e6367f1c47d4f82d261a8d6109b6
+      internalID: 169348573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_248
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 854
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bbdccbf3196da4f9131be96ba9863a
+      internalID: 2118755331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_249
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 854
+        width: 97
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72318628b0a8744846ee9356befdcf
+      internalID: 263127464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_250
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 856
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6103a2ac8aa7cc49bdb7c63bfcda828
+      internalID: -2038071075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_251
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 855
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307c10f25ff2b714bbd9db8d727b2622
+      internalID: -1996710406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_252
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 854
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b252b07916f03124d8d3ebb418a4809c
+      internalID: -793716290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_253
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 854
+        width: 96
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927a85aac10a6e459b501eb04ccb76d
+      internalID: -801975208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_254
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 855
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417716637845a6945a52ccd6b422f5e7
+      internalID: 325873617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_255
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 853
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8788fcbc95c5084fa0d9c4d59ae294a
+      internalID: 358665148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_256
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 859
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10033415dea130e49877d91baad6134b
+      internalID: -34247809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_257
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 856
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea81937afe48654eb0b749263c73d5e
+      internalID: -34304264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_258
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 851
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78198b193d0c060498f6cd255f382ba8
+      internalID: -868879720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_259
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 854
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cce7f08087ae64b8b6949b14b603ca
+      internalID: 354604054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_260
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 858
+        width: 83
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88741e94ce998674fb2033b7f4982299
+      internalID: -1146153280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_261
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 851
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648ee5c738052ca46ae8501851d39f80
+      internalID: -1047169322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_262
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 858
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8f8f9a50b87ad429e93e439902ff09
+      internalID: -1662257328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_263
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 858
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186c915bcc39df4eb944e0abecdaa5a
+      internalID: 1721602861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_264
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 855
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb42be9d4d8dd34db0e32d29b179c3c
+      internalID: -1241109032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_265
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 854
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d71e4b40a868a9428f50b1161a56894
+      internalID: 1528062300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_266
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 854
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ee63aa8f9f2204798706998742676d
+      internalID: 186898642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_267
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 855
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f2d8a7d31b88489b9474dc685f868
+      internalID: -67576102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_268
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 855
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fff4e1cca5f5e34d97d9b677785c39b
+      internalID: 258419260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_269
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 854
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6edd3577010b1340abdc4d7207d7687
+      internalID: -807369444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_270
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 824
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b8a5b43e011f14b93514beced05a46
+      internalID: -1695505334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_271
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 820
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48defd0dcca2ff4d8721118357cdfbc
+      internalID: -2127913435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_272
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 822
+        width: 73
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71e24dc5768b204ab059cd3b3d529a5
+      internalID: -1413180974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_273
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 820
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d180d0d55eeacd4eb288954b3cd7516
+      internalID: 1731449224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_274
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 821
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fedaa2db197bf24687919c42bd0246a
+      internalID: 285565350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_275
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 815
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a19050e2f5fd0479f1d30cfe3e927a
+      internalID: 1175421234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_276
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 820
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2d88466cb02354491032510a6f5028
+      internalID: 835011257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_277
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 822
+        width: 74
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e0289466af4c245ba394a61182d200
+      internalID: 1712332406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_278
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 815
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c7221962a437649825adf70cd08207
+      internalID: -485308292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_279
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 821
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4cb3ce5cf6a44abea77f885ba19a8
+      internalID: 1161910183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_280
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 815
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d0a6786343a224bbedf12802c135f4
+      internalID: -139463578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_281
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 820
+        width: 56
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db73bd8ed0d698848afe4352241eaa81
+      internalID: -1169951490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_282
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 782
+        width: 93
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9dbe8bcad79545a573066d62a17df
+      internalID: 400033445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_283
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 782
+        width: 93
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e767bf7d2882544e9b0b63f7859d861
+      internalID: 1708735817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_284
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 782
+        width: 93
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfed22673641244e9245efda6285476
+      internalID: 1964929481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_285
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 782
+        width: 93
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76455eb8420a14428216c5128856be7
+      internalID: 188345041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_286
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 782
+        width: 93
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9a257442bfd2941969e65f6d3dff3f
+      internalID: 568133574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_287
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 782
+        width: 94
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7201cb4521940043b37694b3dfb13d0
+      internalID: -13821506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_288
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 782
+        width: 93
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd59eb6310a997e46b9dd0cb8e78a8e9
+      internalID: -264017125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_289
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 782
+        width: 92
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b586a4afec2f7f54093ca87e6cce0889
+      internalID: -1215247761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_290
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 714
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf1861e4158a304fa3ffa154b714dde
+      internalID: 762811664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_291
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 714
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898901260c3bdd54fbf051a9c19799b9
+      internalID: -513852697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_292
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 714
+        width: 92
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772db89380feab644aff439bfc0e9b63
+      internalID: -761021720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_293
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 714
+        width: 92
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b241e0f559324c4a843619c332caeae
+      internalID: 1860292790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_294
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 714
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f35dfe8e249af469e8e4433196c4bf
+      internalID: 599241309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_295
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 714
+        width: 93
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a228dfa2e442f47bf7d26d46a90c0c
+      internalID: -1515706019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_296
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 714
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b6432ab8201844583c7d0171108d10
+      internalID: 2136444647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_297
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 714
+        width: 92
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6390c9fe9f70984d91a000a7f3b9169
+      internalID: 926895939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_298
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 714
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a452cc4b9f11e794f9228be452811ead
+      internalID: -921166267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_299
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 549
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1188cd12ce3f54ba69af274944b0af
+      internalID: -1458388729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_300
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 549
+        width: 113
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329e09ec17302a7448f495ce1aa791f8
+      internalID: -751155373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_301
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 549
+        width: 143
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c70d3953dec946bc386cda152b933
+      internalID: -819857612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_306
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 544
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c87eb1870d9cdb42b1e1cb19d1b5a5a
+      internalID: -1438662271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_307
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 549
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302dac2f57c6e5a41add2dbdd0cbd8c6
+      internalID: 1863603970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_309
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 549
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe72d527dd41140ba5b85f9ae2d332
+      internalID: 1905521191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_310
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 549
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b418ed721cb5c254fb42d87b21bff52f
+      internalID: -283579033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_313
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 545
+        width: 163
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca7cb0ce9c4e4e4f9619ce5ce2e4a2d
+      internalID: 1190372789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_320
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 366
+        width: 144
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43579842375b54f4789420993dd5774d
+      internalID: 1840961583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_322
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 368
+        width: 147
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcb8490832390842832f70d53f543e0
+      internalID: -105121123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_324
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 368
+        width: 111
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6e4197ff935b4ba9f348ad8cd62fd
+      internalID: 2144549423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_325
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 368
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a6c3d78f78fab48bc340281e16f469
+      internalID: -1803345764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_327
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 367
+        width: 115
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0000929f453695b44885d96cec81177a
+      internalID: -1944265202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_335
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 367
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c524324889979c24091bf3d2e12ae8ab
+      internalID: 1253744314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_358
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 246
+        width: 121
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c73b3fe4c69cf40b8f182dd968c925
+      internalID: -1110944221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_359
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 211
+        width: 145
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6062542cbfa0fc4eb632d28a7a3fd77
+      internalID: 335628258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_360
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 122
+        width: 248
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14449e43fd9474f4aada8390bfd04836
+      internalID: 1083783611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_361
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 112
+        width: 266
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f357aa83581d1e45991870b979965bd
+      internalID: 349166106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_363
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 14
+        width: 315
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f36d2d27482a664496d8bd78a990b98
+      internalID: -1145303877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_368
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 11
+        width: 240
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c17baca302fb404489507573562e6a0
+      internalID: 1753856801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_369
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 16
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1ad5fbc6afc944c92f29242a792027
+      internalID: -1875173045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_370
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 16
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd129ce2e780342b2e2a5de942af8b
+      internalID: -1270978991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NdoulSprite_371
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 16
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc466dd0ba6f6643a522e76f95799d7
+      internalID: 977796996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NdoulSprite_0: -627555339
+      NdoulSprite_1: -1514503589
+      NdoulSprite_10: -502358363
+      NdoulSprite_100: -787967871
+      NdoulSprite_101: 1569227928
+      NdoulSprite_102: 1619288240
+      NdoulSprite_103: 1538556048
+      NdoulSprite_104: -1558667542
+      NdoulSprite_105: 1006196182
+      NdoulSprite_106: -853134748
+      NdoulSprite_107: -299710365
+      NdoulSprite_108: 1314918962
+      NdoulSprite_109: -1765010689
+      NdoulSprite_11: 1481976425
+      NdoulSprite_110: -497316791
+      NdoulSprite_111: 1990935171
+      NdoulSprite_112: -856307944
+      NdoulSprite_113: -1360899262
+      NdoulSprite_114: 1260176227
+      NdoulSprite_115: -1123544703
+      NdoulSprite_116: 458884783
+      NdoulSprite_117: 1393223207
+      NdoulSprite_118: 1759629299
+      NdoulSprite_119: 353681432
+      NdoulSprite_12: -509192941
+      NdoulSprite_120: -1924289122
+      NdoulSprite_121: 1378140763
+      NdoulSprite_122: -854268301
+      NdoulSprite_123: 1178402816
+      NdoulSprite_124: 2141337366
+      NdoulSprite_125: 1556526652
+      NdoulSprite_126: 925349655
+      NdoulSprite_127: 964517296
+      NdoulSprite_128: 1765253973
+      NdoulSprite_129: 1774789413
+      NdoulSprite_13: 62608345
+      NdoulSprite_130: 734835497
+      NdoulSprite_131: 674532482
+      NdoulSprite_132: -770023034
+      NdoulSprite_133: -591429838
+      NdoulSprite_134: 448157521
+      NdoulSprite_135: 304539622
+      NdoulSprite_136: 1220186867
+      NdoulSprite_137: -878875378
+      NdoulSprite_138: 865097761
+      NdoulSprite_139: 1264993968
+      NdoulSprite_14: 49560925
+      NdoulSprite_140: 1793991873
+      NdoulSprite_141: -2027047074
+      NdoulSprite_142: 65056780
+      NdoulSprite_143: 1221252291
+      NdoulSprite_144: 759956621
+      NdoulSprite_145: -252201200
+      NdoulSprite_146: 652296003
+      NdoulSprite_147: -1549309649
+      NdoulSprite_148: -1007880374
+      NdoulSprite_149: 505084580
+      NdoulSprite_15: -1846890836
+      NdoulSprite_150: 1043685484
+      NdoulSprite_151: 300756035
+      NdoulSprite_152: 669386732
+      NdoulSprite_153: 594613011
+      NdoulSprite_154: 309266635
+      NdoulSprite_155: -1396577865
+      NdoulSprite_156: 42285505
+      NdoulSprite_157: 140599798
+      NdoulSprite_158: 1873927743
+      NdoulSprite_159: -2054637852
+      NdoulSprite_16: 1854133321
+      NdoulSprite_160: 1615765447
+      NdoulSprite_161: 1182449579
+      NdoulSprite_162: -1462676153
+      NdoulSprite_163: -871626659
+      NdoulSprite_164: -1560913625
+      NdoulSprite_165: -1108839927
+      NdoulSprite_166: 1528381274
+      NdoulSprite_167: 1148101278
+      NdoulSprite_168: -1415272016
+      NdoulSprite_169: 1203902330
+      NdoulSprite_17: 1258298433
+      NdoulSprite_170: -1131026290
+      NdoulSprite_171: 296994463
+      NdoulSprite_172: 76557108
+      NdoulSprite_173: -183335828
+      NdoulSprite_174: 1449938099
+      NdoulSprite_175: -742165537
+      NdoulSprite_176: 158201827
+      NdoulSprite_177: -263710143
+      NdoulSprite_178: -2091411757
+      NdoulSprite_179: 102578943
+      NdoulSprite_18: -1426669513
+      NdoulSprite_180: -1004537950
+      NdoulSprite_181: -18155035
+      NdoulSprite_182: 569536386
+      NdoulSprite_183: -2144717118
+      NdoulSprite_184: -1988975836
+      NdoulSprite_185: 618898620
+      NdoulSprite_186: -1511065963
+      NdoulSprite_187: -2091976779
+      NdoulSprite_188: 19473871
+      NdoulSprite_189: -612815115
+      NdoulSprite_19: 339629167
+      NdoulSprite_190: 419922541
+      NdoulSprite_191: -1107108832
+      NdoulSprite_192: 1116160467
+      NdoulSprite_193: 2081756328
+      NdoulSprite_194: -1441539624
+      NdoulSprite_195: 1030859621
+      NdoulSprite_196: -692697501
+      NdoulSprite_197: 794946503
+      NdoulSprite_198: 1561481002
+      NdoulSprite_199: 499213540
+      NdoulSprite_2: 894869359
+      NdoulSprite_20: -233723809
+      NdoulSprite_200: -1869500985
+      NdoulSprite_201: 50138110
+      NdoulSprite_202: -810580706
+      NdoulSprite_203: -1178836165
+      NdoulSprite_204: 1591102809
+      NdoulSprite_205: 1001674478
+      NdoulSprite_206: -855746565
+      NdoulSprite_207: -2006609416
+      NdoulSprite_208: -1602887153
+      NdoulSprite_209: -1954854667
+      NdoulSprite_21: -1269282874
+      NdoulSprite_210: -410129609
+      NdoulSprite_211: 218012067
+      NdoulSprite_212: -2442811
+      NdoulSprite_213: 1624237391
+      NdoulSprite_214: -420898938
+      NdoulSprite_215: -859208084
+      NdoulSprite_216: 216783121
+      NdoulSprite_217: 1031655336
+      NdoulSprite_218: 1291159951
+      NdoulSprite_219: -588790470
+      NdoulSprite_22: 977155383
+      NdoulSprite_220: -2080595639
+      NdoulSprite_221: -2099342637
+      NdoulSprite_222: -276575680
+      NdoulSprite_223: -1705224254
+      NdoulSprite_224: -1357056407
+      NdoulSprite_225: -2032735114
+      NdoulSprite_226: -1093023506
+      NdoulSprite_227: -19568256
+      NdoulSprite_228: 2041449706
+      NdoulSprite_229: -1509485149
+      NdoulSprite_23: -1502299776
+      NdoulSprite_230: -1145498858
+      NdoulSprite_231: 141141616
+      NdoulSprite_232: -555995100
+      NdoulSprite_233: 1437095233
+      NdoulSprite_234: 2066633717
+      NdoulSprite_235: -104638449
+      NdoulSprite_236: 605867527
+      NdoulSprite_237: 600345953
+      NdoulSprite_238: 1290941040
+      NdoulSprite_239: 1402003677
+      NdoulSprite_24: 1231197142
+      NdoulSprite_240: -182816165
+      NdoulSprite_241: 884920942
+      NdoulSprite_242: -1679474180
+      NdoulSprite_243: 1492836209
+      NdoulSprite_244: -892918200
+      NdoulSprite_245: 2113750534
+      NdoulSprite_246: -1881562692
+      NdoulSprite_247: 169348573
+      NdoulSprite_248: 2118755331
+      NdoulSprite_249: 263127464
+      NdoulSprite_25: 284939368
+      NdoulSprite_250: -2038071075
+      NdoulSprite_251: -1996710406
+      NdoulSprite_252: -793716290
+      NdoulSprite_253: -801975208
+      NdoulSprite_254: 325873617
+      NdoulSprite_255: 358665148
+      NdoulSprite_256: -34247809
+      NdoulSprite_257: -34304264
+      NdoulSprite_258: -868879720
+      NdoulSprite_259: 354604054
+      NdoulSprite_26: 2078034547
+      NdoulSprite_260: -1146153280
+      NdoulSprite_261: -1047169322
+      NdoulSprite_262: -1662257328
+      NdoulSprite_263: 1721602861
+      NdoulSprite_264: -1241109032
+      NdoulSprite_265: 1528062300
+      NdoulSprite_266: 186898642
+      NdoulSprite_267: -67576102
+      NdoulSprite_268: 258419260
+      NdoulSprite_269: -807369444
+      NdoulSprite_27: 117343129
+      NdoulSprite_270: -1695505334
+      NdoulSprite_271: -2127913435
+      NdoulSprite_272: -1413180974
+      NdoulSprite_273: 1731449224
+      NdoulSprite_274: 285565350
+      NdoulSprite_275: 1175421234
+      NdoulSprite_276: 835011257
+      NdoulSprite_277: 1712332406
+      NdoulSprite_278: -485308292
+      NdoulSprite_279: 1161910183
+      NdoulSprite_28: 1423766246
+      NdoulSprite_280: -139463578
+      NdoulSprite_281: -1169951490
+      NdoulSprite_282: 400033445
+      NdoulSprite_283: 1708735817
+      NdoulSprite_284: 1964929481
+      NdoulSprite_285: 188345041
+      NdoulSprite_286: 568133574
+      NdoulSprite_287: -13821506
+      NdoulSprite_288: -264017125
+      NdoulSprite_289: -1215247761
+      NdoulSprite_29: -229362120
+      NdoulSprite_290: 762811664
+      NdoulSprite_291: -513852697
+      NdoulSprite_292: -761021720
+      NdoulSprite_293: 1860292790
+      NdoulSprite_294: 599241309
+      NdoulSprite_295: -1515706019
+      NdoulSprite_296: 2136444647
+      NdoulSprite_297: 926895939
+      NdoulSprite_298: -921166267
+      NdoulSprite_299: -1458388729
+      NdoulSprite_3: 61146803
+      NdoulSprite_30: -53774179
+      NdoulSprite_300: -751155373
+      NdoulSprite_301: -819857612
+      NdoulSprite_302: 1968850621
+      NdoulSprite_303: 11737236
+      NdoulSprite_304: -679093360
+      NdoulSprite_305: 976859348
+      NdoulSprite_306: -1438662271
+      NdoulSprite_307: 1863603970
+      NdoulSprite_308: -1502315380
+      NdoulSprite_309: 1905521191
+      NdoulSprite_31: -57946441
+      NdoulSprite_310: -283579033
+      NdoulSprite_311: 105000742
+      NdoulSprite_312: 2061197860
+      NdoulSprite_313: 1190372789
+      NdoulSprite_314: 2021194932
+      NdoulSprite_315: -1180420046
+      NdoulSprite_316: 1914480546
+      NdoulSprite_317: 796437349
+      NdoulSprite_318: 551603999
+      NdoulSprite_319: 332066120
+      NdoulSprite_32: 710307244
+      NdoulSprite_320: 1840961583
+      NdoulSprite_321: -41956966
+      NdoulSprite_322: -105121123
+      NdoulSprite_323: 186827382
+      NdoulSprite_324: 2144549423
+      NdoulSprite_325: -1803345764
+      NdoulSprite_326: -937865661
+      NdoulSprite_327: -1944265202
+      NdoulSprite_328: 883468746
+      NdoulSprite_329: -434307456
+      NdoulSprite_33: -1140219861
+      NdoulSprite_330: -2056367122
+      NdoulSprite_331: -336492922
+      NdoulSprite_332: 1219328963
+      NdoulSprite_333: -1248723804
+      NdoulSprite_334: 2058828985
+      NdoulSprite_335: 1253744314
+      NdoulSprite_336: 2121262622
+      NdoulSprite_337: 1232969483
+      NdoulSprite_338: -1117136424
+      NdoulSprite_339: 2125195671
+      NdoulSprite_34: -684031151
+      NdoulSprite_340: -1006640574
+      NdoulSprite_341: -1932316706
+      NdoulSprite_342: 2141724739
+      NdoulSprite_343: -256308384
+      NdoulSprite_344: 556974157
+      NdoulSprite_345: -118635585
+      NdoulSprite_346: 1141577712
+      NdoulSprite_347: 115849558
+      NdoulSprite_348: -158192370
+      NdoulSprite_349: -1359274929
+      NdoulSprite_35: -853057680
+      NdoulSprite_350: 1360929368
+      NdoulSprite_351: 1771594675
+      NdoulSprite_352: -1194472084
+      NdoulSprite_353: -1054455511
+      NdoulSprite_354: -687677354
+      NdoulSprite_355: -1234380229
+      NdoulSprite_356: -2102543200
+      NdoulSprite_357: -1034787359
+      NdoulSprite_358: -1110944221
+      NdoulSprite_359: 335628258
+      NdoulSprite_36: -2123003015
+      NdoulSprite_360: 1083783611
+      NdoulSprite_361: 349166106
+      NdoulSprite_362: 1561582239
+      NdoulSprite_363: -1145303877
+      NdoulSprite_364: 809412906
+      NdoulSprite_365: -493221649
+      NdoulSprite_366: -1910332907
+      NdoulSprite_367: -2117360443
+      NdoulSprite_368: 1753856801
+      NdoulSprite_369: -1875173045
+      NdoulSprite_37: 218187282
+      NdoulSprite_370: -1270978991
+      NdoulSprite_371: 977796996
+      NdoulSprite_38: 1545212325
+      NdoulSprite_39: -108438898
+      NdoulSprite_4: 1622607586
+      NdoulSprite_40: -1595670475
+      NdoulSprite_41: -866390192
+      NdoulSprite_42: -126250858
+      NdoulSprite_43: 934382974
+      NdoulSprite_44: 176983162
+      NdoulSprite_45: 779995485
+      NdoulSprite_46: -946906154
+      NdoulSprite_47: -97763487
+      NdoulSprite_48: -812334361
+      NdoulSprite_49: -1185255974
+      NdoulSprite_5: -630627868
+      NdoulSprite_50: 210062585
+      NdoulSprite_51: -1186192665
+      NdoulSprite_52: 448220493
+      NdoulSprite_53: -1545422028
+      NdoulSprite_54: 1348421165
+      NdoulSprite_55: 1591637011
+      NdoulSprite_56: 844292301
+      NdoulSprite_57: 1387000528
+      NdoulSprite_58: -638402203
+      NdoulSprite_59: -658697897
+      NdoulSprite_6: 1880430280
+      NdoulSprite_60: -1842303831
+      NdoulSprite_61: 1543047578
+      NdoulSprite_62: 1060937562
+      NdoulSprite_63: 1330400765
+      NdoulSprite_64: 1374893972
+      NdoulSprite_65: -290493346
+      NdoulSprite_66: 1317247936
+      NdoulSprite_67: 806315102
+      NdoulSprite_68: 748166482
+      NdoulSprite_69: -1139638844
+      NdoulSprite_7: 452591049
+      NdoulSprite_70: 794445193
+      NdoulSprite_71: 692096735
+      NdoulSprite_72: 1735928580
+      NdoulSprite_73: -1157575907
+      NdoulSprite_74: 1215796754
+      NdoulSprite_75: -36622143
+      NdoulSprite_76: -992044779
+      NdoulSprite_77: -1510126349
+      NdoulSprite_78: -403674731
+      NdoulSprite_79: 2110147872
+      NdoulSprite_8: -1082613565
+      NdoulSprite_80: 148592902
+      NdoulSprite_81: 236798268
+      NdoulSprite_82: -101526795
+      NdoulSprite_83: 1142140940
+      NdoulSprite_84: -351695378
+      NdoulSprite_85: -361115340
+      NdoulSprite_86: -1632016250
+      NdoulSprite_87: -1953567913
+      NdoulSprite_88: 542565949
+      NdoulSprite_89: 447164760
+      NdoulSprite_9: 771969789
+      NdoulSprite_90: -1894355832
+      NdoulSprite_91: -1923401436
+      NdoulSprite_92: 1837052200
+      NdoulSprite_93: -1415829908
+      NdoulSprite_94: 2132820639
+      NdoulSprite_95: -102339391
+      NdoulSprite_96: 621165613
+      NdoulSprite_97: -749124718
+      NdoulSprite_98: -2146390481
+      NdoulSprite_99: -2044450834
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
