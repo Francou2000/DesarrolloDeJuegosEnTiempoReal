@@ -2,11 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterPuddle : MonoBehaviour
+public class WaterBullet : MonoBehaviour
 {
+    [SerializeField] private float speed = 3f;
+
     void Start()
     {
-        Destroy(this.gameObject, 0.8f);
+        Destroy(this.gameObject, 5f);
+    }
+
+    private void Update()
+    {
+        Movement();
+    }
+
+    void Movement()
+    {
+        var dt = Time.deltaTime;
+        transform.position = new Vector2(transform.position.x + -speed * transform.localScale.x * dt, transform.position.y);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,6 +34,7 @@ public class WaterPuddle : MonoBehaviour
             float distance = 1 + direction.magnitude;
             float finalForce = 50 / distance;
             rb.AddForce(direction * finalForce);
+            Destroy(this.gameObject);
         }
     }
 }
