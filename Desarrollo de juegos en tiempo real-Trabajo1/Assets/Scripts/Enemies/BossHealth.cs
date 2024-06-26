@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Playables;
 
 public class BossHealth : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class BossHealth : MonoBehaviour
 
     public UnityEvent OnDeath = new UnityEvent();
     public UnityEvent SpecialAttack = new UnityEvent();
+
+    public PlayableDirector timelineDirector;
+    public GameObject player;
 
 
     void Start()
@@ -66,10 +70,33 @@ public class BossHealth : MonoBehaviour
             if (health <= 0)
             {
                 OnDeath.Invoke();
-                Destroy(gameObject);
+                StartCoroutine(DeathCourutine());
             }
 
         }
+    }
+
+    private void OnTimelineStopped(PlayableDirector director)
+    {
+        player.GetComponent<CharacterMovement>().enabled = true;
+
+        timelineDirector.stopped -= OnTimelineStopped;
+
+        Destroy(this.gameObject);
+    }
+
+    public IEnumerator DeathCourutine()
+    {
+        player.GetComponent<CharacterMovement>().enabled = false;
+
+        if (timelineDirector != null)
+        {
+            timelineDirector.Play();
+
+            timelineDirector.stopped += OnTimelineStopped;
+        }
+
+        yield return null;
     }
 
 }
