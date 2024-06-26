@@ -7,7 +7,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxHealth;
     [SerializeField] int actualHealth;
 
-    
+    bool isInvencible = false;
+    public GameObject movePlayer;
+    public GameObject attackREFF;
+
     void Start()
     {
         actualHealth = maxHealth;
@@ -19,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("BBBBB");
         var other = collision.GetComponent<CollectableItems>();
-        if (other)
+        if (other is CollectableItems)
         {
             switch (other.ItemsData.Effect)
             {
@@ -27,27 +30,35 @@ public class PlayerHealth : MonoBehaviour
                     Heal(other.ItemsData.EffectStrength);
                     break;
                 case ItemEffect.SpeedUp:
-
+                    StartCoroutine(movePlayer.GetComponent<PlayerMovement>().SpeedUp(other.ItemsData.EffectStrength));
                     break;
-                case ItemEffect.Invincibility: 
-
+                case ItemEffect.Invincibility:
+                    StartCoroutine(Invencible(other.ItemsData.EffectStrength));
                     break;
                 case ItemEffect.StrengthUp:
-
+                    StartCoroutine(attackREFF.GetComponent<PlayerActions>().StrengthUp(other.ItemsData.EffectStrength));
+                    break;
+                default:
+                    Debug.Log("CCCCC");
                     break;
             }
+            Destroy(collision.gameObject);
             Debug.Log("AAAAAAAAAAAAAA");
         }
     }
 
     public void GetDamage(int damage)
     {
-        actualHealth -= damage;
-        if (actualHealth < 0)
+        if (!isInvencible)
         {
-            actualHealth = 0;
-            //Además se muere
+            actualHealth -= damage;
+            if (actualHealth < 0)
+            {
+                actualHealth = 0;
+                //Además se muere
+            }
         }
+        
     }
 
     public void Heal(int heal)
@@ -58,4 +69,13 @@ public class PlayerHealth : MonoBehaviour
             actualHealth = maxHealth;
         }
     }
+
+    public IEnumerator Invencible(int duration)
+    {
+        isInvencible = true;
+        yield return new WaitForSeconds(duration);
+        isInvencible = false;
+    }
+
+    
 }

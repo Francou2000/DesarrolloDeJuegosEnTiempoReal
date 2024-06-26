@@ -8,6 +8,7 @@ public class PlayerActions : MonoBehaviour
     private PlayerAnimatorController myAnimatorController;
     private Collider2D myAttackCollider;
     private bool canAttack = true;
+    public int attackDamage;
 
     public bool CanAttack { set { canAttack = value; } }
     void Start()
@@ -49,6 +50,13 @@ public class PlayerActions : MonoBehaviour
         myAttackCollider.enabled = false;
         GetComponentInParent<PlayerMovement>().CanMove = true;
         transform.position = new Vector3(transform.position.x - 0.3f, transform.position.y, 1);
+    }
+
+    public IEnumerator StrengthUp(int duration)
+    {
+        attackDamage *= 2;
+        yield return new WaitForSeconds(duration);
+        attackDamage /= 2;
     }
 
     //void ZaWarudo()
