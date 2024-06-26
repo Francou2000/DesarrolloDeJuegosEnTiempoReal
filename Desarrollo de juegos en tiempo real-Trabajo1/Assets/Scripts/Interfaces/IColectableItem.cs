@@ -6,5 +6,5 @@ public interface IColectableItem
 {
     void Bounce() { }
 
-    public void PlaySoundEffect() { }
+    public IEnumerator PlaySoundEffect();
 }

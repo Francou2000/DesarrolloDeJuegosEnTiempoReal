@@ -18,6 +18,7 @@ public class CollectableItems : MonoBehaviour, IColectableItem
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        audioSource.clip = itemsData.SoundEffect;
     }
 
 
@@ -54,9 +55,12 @@ public class CollectableItems : MonoBehaviour, IColectableItem
 
     }
 
-    public void PlaySoundEffect()
+    public IEnumerator PlaySoundEffect()
     {
-        audioSource.PlayOneShot(itemsData.SoundEffect);
+        GetComponent<SpriteRenderer>().enabled = false;
+        audioSource.Play();
+        yield return new WaitForSeconds(audioSource.clip.length);
+        Destroy(gameObject);
     }
 
 

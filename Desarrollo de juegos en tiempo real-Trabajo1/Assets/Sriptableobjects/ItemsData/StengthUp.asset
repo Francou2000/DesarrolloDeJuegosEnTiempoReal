@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effect: 3
   effectStrength: 5
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 956e87bb16244244dac2bfb29a1206c3, type: 3}

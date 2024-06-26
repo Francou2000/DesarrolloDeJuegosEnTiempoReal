@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -20,7 +21,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("BBBBB");
         var other = collision.GetComponent<CollectableItems>();
         if (other is CollectableItems)
         {
@@ -45,9 +45,8 @@ public class PlayerHealth : MonoBehaviour
                     Debug.Log("CCCCC");
                     break;
             }
-            other.PlaySoundEffect();
-            Destroy(collision.gameObject);
-            Debug.Log("AAAAAAAAAAAAAA");
+            StartCoroutine(other.PlaySoundEffect());
+            
         }
     }
 
@@ -55,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!isInvencible)
         {
+            StartCoroutine(PlayerFlinch());
             StartCoroutine(ColorFeedBack(0.5f, Color.red));
             actualHealth -= damage;
             if (actualHealth < 0)
@@ -89,6 +89,14 @@ public class PlayerHealth : MonoBehaviour
         movePlayer.GetComponent<SpriteRenderer>().color = feedbackColor;
         yield return new WaitForSeconds(duration);
         movePlayer.GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    public IEnumerator PlayerFlinch()
+    {
+        movePlayer.GetComponent<PlayerMovement>().CanMove = false;
+        movePlayer.GetComponent<PlayerMovement>().MyAnimatorController.TriggerAnimation("GetDamage");
+        yield return new WaitForSeconds(movePlayer.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        movePlayer.GetComponent<PlayerMovement>().CanMove = true;
     }
     
 }

@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public int speedMultiply = 1;
 
     public bool CanMove { set { canMove = value; } }
+    public PlayerAnimatorController MyAnimatorController => myAnimatorController;
     void Start()
     {
         myAnimatorController = new PlayerAnimatorController(GetComponent<Animator>());
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             myRigidbody.velocity = Vector3.zero;
+            myAnimatorController.MovementUpdate(0, 0);
         }
        
         
