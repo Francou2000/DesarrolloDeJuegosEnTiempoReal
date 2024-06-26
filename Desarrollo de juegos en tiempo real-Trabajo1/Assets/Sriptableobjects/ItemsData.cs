@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class ItemsData : ScriptableObject
 {
-    [SerializeField] float rotationSpeed;
-    [SerializeField] float bouncinessSpeed;
+    float rotationSpeed = 10;
+    float bouncinessSpeed = 0.1f;
     [SerializeField] ItemEffect effect;
+    [SerializeField] int effectStrength;
+    [SerializeField] AudioClip soundEffect;
+
+    public float RotationSpeed => rotationSpeed;
+    public float BouncinessSpeed => bouncinessSpeed;
+    public ItemEffect Effect => effect;
+    public int EffectStrength => effectStrength;
+    public AudioClip SoundEffect => soundEffect;
 
 }
 
 public enum ItemEffect
 {
     Heal,
-    Speed,
-    Invincibility
+    SpeedUp,
+    Invincibility,
+    StrengthUp
 }
