@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03322bcffa316ff45b4ded3b2861a863, type: 3}
   m_Name: StengthUp
   m_EditorClassIdentifier: 
-  effect: 0
+  effect: 3
   effectStrength: 5
   soundEffect: {fileID: 0}

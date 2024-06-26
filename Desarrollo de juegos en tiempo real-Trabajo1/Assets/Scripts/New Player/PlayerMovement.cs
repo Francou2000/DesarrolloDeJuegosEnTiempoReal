@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerAnimatorController myAnimatorController;
     private Rigidbody2D myRigidbody;
     private bool canMove = true;
+    public int speedMultiply = 1;
 
     public bool CanMove { set { canMove = value; } }
     void Start()
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         if (canMove)
         {
             myInputManager.MovementInput();
-            myRigidbody.AddForce(new Vector2(myInputManager.MovHorizontal, myInputManager.MovVertical), ForceMode2D.Force);
+            myRigidbody.AddForce(new Vector2(myInputManager.MovHorizontal, myInputManager.MovVertical) * speedMultiply, ForceMode2D.Force);
             myAnimatorController.MovementUpdate(myInputManager.MovHorizontal, myInputManager.MovVertical);
             if (myInputManager.MovHorizontal < 0)
             {
@@ -47,5 +48,12 @@ public class PlayerMovement : MonoBehaviour
 
         //    ForceMov.AddForce(new Vector2(MovHorizontal, MovVertical), ForceMode2D.Force);
         //}
+    }
+
+    public IEnumerator SpeedUp(int duration)
+    {
+        speedMultiply = 2;
+        yield return new WaitForSeconds(duration);
+        speedMultiply = 1;
     }
 }
