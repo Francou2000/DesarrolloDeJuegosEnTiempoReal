@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8748660293167513088}
   - component: {fileID: 8748660293167513089}
   - component: {fileID: 8748660293167513094}
+  - component: {fileID: 3580135606574263233}
   m_Layer: 7
   m_Name: HPBarrel
   m_TagString: Untagged
@@ -94,14 +95,14 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8748660293167513095}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.09}
-  m_Size: {x: 0.14, y: 0.18}
+  m_Offset: {x: 0, y: 0.06545673}
+  m_Size: {x: 0.13091345, y: 0.13091347}
   m_Direction: 0
 --- !u!114 &8748660293167513094
 MonoBehaviour:
@@ -119,6 +120,32 @@ MonoBehaviour:
   dmg: 1
   powerUp: {fileID: 6614218172288336841, guid: 0888011ba50cdb24c81060097a6c3c52, type: 3}
   spawnPoint: {fileID: 8748660293550414785}
+--- !u!61 &3580135606574263233
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8748660293167513095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.03}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.14, y: 0.18}
+    newSize: {x: 0.14, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.06}
+  m_EdgeRadius: 0
 --- !u!1 &8748660293550414785
 GameObject:
   m_ObjectHideFlags: 0
