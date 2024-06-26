@@ -83,9 +83,6 @@ public class BossHealth : MonoBehaviour
 
         GetComponent<SpriteRenderer>().enabled = false;
         NoLife.Invoke();
-        //GetComponent<FinalBossPatron>().enabled = false;
-        //GetComponent<BossAttacks>().enabled = false;
-        //GetComponent<NDoulAttack>().enabled = false;
 
         if (timelineDirector != null)
         {
