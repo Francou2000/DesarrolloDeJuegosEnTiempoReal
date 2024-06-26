@@ -1154,6 +1154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5155654171440200052, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 3655475296643373786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
 --- !u!114 &507253270 stripped
@@ -6023,7 +6027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.087995
+      value: -8.839192
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6084,7 +6088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.087995
+      value: -8.839192
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6379,6 +6383,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4357bde37ca40cb49b89fb88af53125e, type: 3}
+--- !u!114 &3655475296643373786 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3655475296926442304, guid: 4357bde37ca40cb49b89fb88af53125e, type: 3}
+  m_PrefabInstance: {fileID: 3655475296643373785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6d790642d46cf48a6bfd0d2a0dd9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3974265118684829858
 PrefabInstance:
   m_ObjectHideFlags: 0

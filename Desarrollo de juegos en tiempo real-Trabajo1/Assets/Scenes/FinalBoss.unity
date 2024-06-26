@@ -701,7 +701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177038842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.453564, y: -4.816084, z: -150}
+  m_LocalPosition: {x: -11.430945, y: -4.816084, z: -150}
   m_LocalScale: {x: 2.5, y: 5.7735844, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -776,7 +776,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193488926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.453564, y: -4.816084, z: -150}
+  m_LocalPosition: {x: -11.430945, y: -4.816084, z: -150}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -839,6 +839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5155654171440200052, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1707661448}
     - target: {fileID: 5155654171440200052, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
       propertyPath: attackREFF
       value: 

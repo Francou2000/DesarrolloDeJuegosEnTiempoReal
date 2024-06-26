@@ -17,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
 
     public UnityEvent OnDeath = new UnityEvent();
 
+    public HealthBar healthBar;
+
     void Start()
     {
         myAudioSource = GetComponent<AudioSource>();
@@ -24,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
         actualHealth = maxHealth;
         SetSFXVolume();
         VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void SetSFXVolume()
@@ -72,8 +75,10 @@ public void OnTriggerEnter2D(Collider2D collision)
             if (actualHealth <= 0)
             {
                 actualHealth = 0;
+                healthBar.SetHealth(actualHealth);
                 OnDeath.Invoke();
             }
+            healthBar.SetHealth(actualHealth);
         }
         
     }
@@ -84,7 +89,9 @@ public void OnTriggerEnter2D(Collider2D collision)
         if (actualHealth > maxHealth)
         {
             actualHealth = maxHealth;
+            
         }
+        healthBar.SetHealth(actualHealth);
     }
 
     public IEnumerator Invencible(int duration)

@@ -24,17 +24,12 @@ public class HealthBar : MonoBehaviour
     public void SetHealth(int health)
     {
         sliderHealth.value = health;
-    }
-
-    public void Update()
-    {
         if (sliderHealth.value == 0)
         {
             Destroy(gameObject);
         }
-
-        
     }
+
 }
 
 

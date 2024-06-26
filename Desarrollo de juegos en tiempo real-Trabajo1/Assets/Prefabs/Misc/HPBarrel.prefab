@@ -118,7 +118,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   dmg: 1
-  powerUp: {fileID: 6614218172288336841, guid: 0888011ba50cdb24c81060097a6c3c52, type: 3}
+  powerUp:
+  - {fileID: 1597323412023938816, guid: 83f163c200ba71a47982349b4793f4e1, type: 3}
+  - {fileID: 1597323412023938816, guid: d197ca73d528cd54eb79630b180a0fb7, type: 3}
+  - {fileID: 1597323412023938816, guid: f87777d170425444bb02a3ee183d5d5f, type: 3}
+  - {fileID: 1597323412023938816, guid: 96a19f3417c435e41a8faf3b27f9c025, type: 3}
   spawnPoint: {fileID: 8748660293550414785}
 --- !u!61 &3580135606574263233
 BoxCollider2D:

@@ -7,7 +7,7 @@ public class Barrel : MonoBehaviour
     public int health;
     public int dmg;
 
-    public GameObject powerUp;
+    public GameObject[] powerUp;
     public GameObject spawnPoint;
     private GameObject player;
 
@@ -40,7 +40,7 @@ public class Barrel : MonoBehaviour
 
     private void Death()
     {
-        Instantiate(powerUp, spawnPoint.transform.position, Quaternion.identity);
+        Instantiate(powerUp[Random.Range(0,4)], spawnPoint.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 }
