@@ -50,7 +50,7 @@ public class Enemy : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<AtkDeff>() && SetTimer == false)
+        if (collision.GetComponent<PlayerActions>() && SetTimer == false)
         {
             SetTimer = true;
             health -=  dmg;

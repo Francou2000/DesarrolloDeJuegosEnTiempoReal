@@ -52,7 +52,7 @@ public class BossHealth : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<AtkDeff>() && !setTimer)
+        if (collision.GetComponent<PlayerActions>() && !setTimer)
         {
            
             anim.SetTrigger("TakeHit");

@@ -8,10 +8,10 @@ public class EnemyAttack : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        var l_healthPJ = other.GetComponent<HealthPJ>();
+        var l_healthPJ = other.GetComponent<PlayerHealth>();
         if (l_healthPJ != null)
         {
-            l_healthPJ.RestarHP(20);
+            l_healthPJ.GetDamage(20);
 
         }
         

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PlayerHealth : MonoBehaviour
     public GameObject attackREFF;
 
     private AudioSource myAudioSource;
+
+    public UnityEvent OnDeath = new UnityEvent();
 
     void Start()
     {
@@ -66,10 +69,10 @@ public void OnTriggerEnter2D(Collider2D collision)
             StartCoroutine(PlayerFlinch());
             StartCoroutine(ColorFeedBack(0.5f, Color.red));
             actualHealth -= damage;
-            if (actualHealth < 0)
+            if (actualHealth <= 0)
             {
                 actualHealth = 0;
-                //Además se muere
+                OnDeath.Invoke();
             }
         }
         
@@ -103,10 +106,12 @@ public void OnTriggerEnter2D(Collider2D collision)
     public IEnumerator PlayerFlinch()
     {
         movePlayer.GetComponent<PlayerMovement>().CanMove = false;
+        isInvencible = true;
         myAudioSource.Play();
         movePlayer.GetComponent<PlayerMovement>().MyAnimatorController.TriggerAnimation("GetDamage");
         yield return new WaitForSeconds(movePlayer.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
         movePlayer.GetComponent<PlayerMovement>().CanMove = true;
+        isInvencible = false;
     }
     
 }

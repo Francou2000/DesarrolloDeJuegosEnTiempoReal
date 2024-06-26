@@ -18,10 +18,10 @@ public class Partes : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        var pj = collision.GetComponent<HealthPJ>();
+        var pj = collision.GetComponent<PlayerHealth>();
         if (pj)
         {
-            pj.RestarHP(50);
+            pj.GetDamage(50);
         }
     }
 }

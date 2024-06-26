@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1372820383027775379}
   - component: {fileID: 5155654171440200052}
   - component: {fileID: 994749463729260494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,9 +186,9 @@ GameObject:
   - component: {fileID: 5385994470075526023}
   - component: {fileID: 8556687876846851116}
   - component: {fileID: 8584725327548849394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 3247059582127033077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4594, y: 1.55905, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6200414682973002735}
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 8835864696705741168}
   - component: {fileID: 7544816191388640207}
   - component: {fileID: 1418778824871011364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

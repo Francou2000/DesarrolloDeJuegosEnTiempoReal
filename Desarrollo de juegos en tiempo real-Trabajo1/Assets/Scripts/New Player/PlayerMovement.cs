@@ -28,11 +28,11 @@ public class PlayerMovement : MonoBehaviour
             myAnimatorController.MovementUpdate(myInputManager.MovHorizontal, myInputManager.MovVertical);
             if (myInputManager.MovHorizontal < 0)
             {
-                transform.localScale = new Vector3(-1, transform.localScale.y, 1);
+                transform.localScale = new Vector3(-1.4594f, transform.localScale.y, 1);
             }
             else
             {
-                transform.localScale = new Vector3(1, transform.localScale.y, 1);
+                transform.localScale = new Vector3(1.4594f, transform.localScale.y, 1);
             }
         }
         else

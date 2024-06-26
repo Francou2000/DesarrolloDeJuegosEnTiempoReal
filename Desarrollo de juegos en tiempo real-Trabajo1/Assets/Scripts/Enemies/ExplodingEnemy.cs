@@ -67,9 +67,9 @@ public class ExplodingEnemy : MonoBehaviour
                 rb.AddForce(direction * finalForce);
             }
 
-            if (collision.GetComponent<HealthPJ>())
+            if (collision.GetComponent<PlayerHealth>())
             {
-                collision.GetComponent<HealthPJ>().RestarHP(danio);
+                collision.GetComponent<PlayerHealth>().GetDamage(danio);
             }
         }
 
