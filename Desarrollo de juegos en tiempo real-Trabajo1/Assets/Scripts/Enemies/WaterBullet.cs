@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaterBullet : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
+    [SerializeField] private float speed = 2.5f;
 
     void Start()
     {
