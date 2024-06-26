@@ -8,6 +8,7 @@ public class PlayerActions : MonoBehaviour
     private PlayerAnimatorController myAnimatorController;
     private Collider2D myAttackCollider;
     private bool canAttack = true;
+    public int attackDamage;
 
     public bool CanAttack { set { canAttack = value; } }
     void Start()
@@ -39,16 +40,34 @@ public class PlayerActions : MonoBehaviour
 
     public IEnumerator AttackColliderCoroutine()
     {
+        canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
-        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.2f);
-        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.3f);
         myAttackCollider.enabled = true;
         yield return new WaitForSeconds(0.5f);
         myAttackCollider.enabled = false;
         GetComponentInParent<PlayerMovement>().CanMove = true;
-        transform.position = new Vector3(transform.position.x - 0.3f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x - 0.3f * myInputManager.MovHorizontal, transform.position.y, 1);
+        canAttack = true;
+    }
+
+    public IEnumerator StrengthUp(int duration)
+    {
+        attackDamage *= 2;
+        yield return new WaitForSeconds(duration);
+        attackDamage /= 2;
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.GetComponent<EnemyHealth>())
+        {
+            collision.GetComponent<EnemyHealth>().GetDamage(attackDamage);
+        }
     }
 
     //void ZaWarudo()

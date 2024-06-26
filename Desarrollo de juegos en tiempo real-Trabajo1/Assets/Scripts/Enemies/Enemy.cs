@@ -59,4 +59,5 @@ public class Enemy : MonoBehaviour
             anim.SetBool("Move", false);
         }
     }
+
 }
