@@ -40,6 +40,7 @@ public class PlayerActions : MonoBehaviour
 
     public IEnumerator AttackColliderCoroutine()
     {
+        canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
         transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
         yield return new WaitForSeconds(0.2f);
@@ -50,6 +51,7 @@ public class PlayerActions : MonoBehaviour
         myAttackCollider.enabled = false;
         GetComponentInParent<PlayerMovement>().CanMove = true;
         transform.position = new Vector3(transform.position.x - 0.3f, transform.position.y, 1);
+        canAttack = true;
     }
 
     public IEnumerator StrengthUp(int duration)
@@ -57,6 +59,15 @@ public class PlayerActions : MonoBehaviour
         attackDamage *= 2;
         yield return new WaitForSeconds(duration);
         attackDamage /= 2;
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.GetComponent<EnemyHealth>())
+        {
+            collision.GetComponent<EnemyHealth>().GetDamage(attackDamage);
+        }
     }
 
     //void ZaWarudo()
