@@ -373,6 +373,11 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  SpecialAttack:
+    m_PersistentCalls:
+      m_Calls: []
+  timelineDirector: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &574855335344621451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,12 +390,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df6509f3c888e641aa54d567e09a0e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LongDist: 8
-  MidDist: 5.75
-  ShortDist: 2
   attackSpeed: 2
-  target: {fileID: 0}
   bullet: {fileID: 5296363432974149677, guid: 24ef7c88be96a0749aa0e1801429a488, type: 3}
+  secondBullet: {fileID: 0}
   SP1: {fileID: 574855335330986860}
   SP2: {fileID: 574855335536477188}
   SP3: {fileID: 574855334598814141}
@@ -400,6 +402,17 @@ MonoBehaviour:
   SP7: {fileID: 574855335210463819}
   SP8: {fileID: 574855336031762745}
   SP9: {fileID: 574855335014031917}
+  SP10: {fileID: 0}
+  SP11: {fileID: 0}
+  SP12: {fileID: 0}
+  SP13: {fileID: 0}
+  SP14: {fileID: 0}
+  SP15: {fileID: 0}
+  SP16: {fileID: 0}
+  SP17: {fileID: 0}
+  SP18: {fileID: 0}
+  SP19: {fileID: 0}
+  RespawnPoint: {fileID: 0}
 --- !u!1 &574855335536477188
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private BossHealth firstBoss;
     [SerializeField] private BossHealth secondBoss;
     [SerializeField] private BossHealth finalBoss;
-    [SerializeField] private HealthPJ PJ;
+    [SerializeField] private PlayerHealth PJ;
 
 
     // Start is called before the first frame update

@@ -10,7 +10,7 @@ public class AudioManagerLvl1 : MonoBehaviour
     [SerializeField] AudioClip m_golpeJotaro;
     [SerializeField] AudioClip m_golpeDIO;
     [SerializeField] AudioSource m_audiosource;
-    [SerializeField] private AtkDeff golpejotaro;
+    [SerializeField] private PlayerActions golpejotaro;
     [SerializeField] private NDoulAttack golpeNdoul;
 
 
@@ -18,7 +18,7 @@ public class AudioManagerLvl1 : MonoBehaviour
     {
         m_audiosource = GetComponent<AudioSource>();
 
-        golpejotaro.Onhit.AddListener(GolpeJotaro);
+        golpejotaro.OnHit.AddListener(GolpeJotaro);
 
     }
 

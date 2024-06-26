@@ -68,7 +68,7 @@ public class NDoulAttack : MonoBehaviour
             StartCoroutine(RespawnCoroutine());
         }
 
-        if (timer >= attackSpeed * 1.5f && secondPhase == true && respawned == true)
+        if (timer >= attackSpeed * 1.5f && secondPhase == true && respawned == true && bossHealth.health > 0)
         {
             StartCoroutine(SecondAttackCoroutine());
             timer = 0;

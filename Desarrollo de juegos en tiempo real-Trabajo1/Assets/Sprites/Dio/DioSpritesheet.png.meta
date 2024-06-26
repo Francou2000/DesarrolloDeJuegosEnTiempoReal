@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: ed559c7dd808b184db9bff6766176087
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DioSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 430
+        width: 76
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06c20cc03e8d54bac9dc0ef2fd3575
+      internalID: -298940930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 430
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c528e3ab0822f4ca81a5b7b3d90c11
+      internalID: 643367391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 430
+        width: 66
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493aa3a424bf99458baedcad11aba9a
+      internalID: -1499380121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 430
+        width: 67
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612e5449910a44e4896cecf982a3d3d4
+      internalID: -1229861425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 430
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00da4ad451f7e3e44a5ac778c644a0c8
+      internalID: -194357923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 430
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32d9f7c2d4fdc49931c6cbeeaaf680
+      internalID: 1387057391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 430
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac48ec49583c3d4a97de0c798ca442b
+      internalID: -1252761699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 429
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3224e47f2c87a3a4e80432593d3e1446
+      internalID: -37749552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 430
+        width: 66
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1fbc62a586bdf4e9e9ae753389745e
+      internalID: -799843449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 430
+        width: 67
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cbf2b0964bd0b40ac9fe2a685fbfde
+      internalID: 118627661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 430
+        width: 68
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6824f41fdbbfa9241b00c5426c4cbc2c
+      internalID: 1174000744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 430
+        width: 68
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb38a06e2efdb24f8209a825233c43d
+      internalID: 1178406215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 430
+        width: 68
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b9bbda07b79644480bd6ce13a94c28
+      internalID: 666792377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 430
+        width: 66
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c53fd30771916b4e80805ca872993b7
+      internalID: -675946574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 430
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a209cb2f90dfc714cb9c267014b2caa7
+      internalID: 830767926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 431
+        width: 74
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb67c257aa142ff428fba18cc670b84e
+      internalID: 889444599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 430
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99ad00e700edc48ab4ff37f9ab33e7
+      internalID: 140950704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 430
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33bd5357c54c1347971e0093079dfa7
+      internalID: 64800340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 264
+        width: 67
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96941e57e7e0ab544a0a974fe3b9994a
+      internalID: 397260465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 264
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4450c26d075eb4d8a0e0159890428f
+      internalID: -1253760540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 264
+        width: 93
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26f4e075d464304f8a268e37cdd1aed
+      internalID: -2001429702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 264
+        width: 95
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe3ad960f8578540b1cb1eadfdba541
+      internalID: -537503457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 264
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a70d08f4d438ea48bba73d4d96957b3
+      internalID: 150359473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 264
+        width: 95
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccfeda46dbd7d145a4ac34108fad86e
+      internalID: -121816604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 264
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed0634532e9a7941a77be77d2d480d3
+      internalID: -250237021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723e36d066f43f94fb3e16bb8a44fc1a
+      internalID: 721510182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 12
+        width: 221
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7966a5504f42449b4696c1b21e2f9d
+      internalID: 1099981594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DioSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 17
+        width: 334
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6848f63ccc004848bf6b2f902b80480
+      internalID: 1492185014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DioSpritesheet_0: -298940930
+      DioSpritesheet_1: 643367391
+      DioSpritesheet_10: -799843449
+      DioSpritesheet_11: 118627661
+      DioSpritesheet_12: 1174000744
+      DioSpritesheet_13: 1178406215
+      DioSpritesheet_14: 666792377
+      DioSpritesheet_15: -675946574
+      DioSpritesheet_16: 830767926
+      DioSpritesheet_17: -1318938837
+      DioSpritesheet_18: 889444599
+      DioSpritesheet_19: 140950704
+      DioSpritesheet_2: -1613414625
+      DioSpritesheet_20: 64800340
+      DioSpritesheet_21: 1274534050
+      DioSpritesheet_22: 397260465
+      DioSpritesheet_23: -1253760540
+      DioSpritesheet_24: -2001429702
+      DioSpritesheet_25: -537503457
+      DioSpritesheet_26: 988317201
+      DioSpritesheet_27: 150359473
+      DioSpritesheet_28: -121816604
+      DioSpritesheet_29: -250237021
+      DioSpritesheet_3: 1105321008
+      DioSpritesheet_30: 721510182
+      DioSpritesheet_31: 1099981594
+      DioSpritesheet_32: 1492185014
+      DioSpritesheet_4: -1499380121
+      DioSpritesheet_5: -1229861425
+      DioSpritesheet_6: -194357923
+      DioSpritesheet_7: 1387057391
+      DioSpritesheet_8: -1252761699
+      DioSpritesheet_9: -37749552
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
