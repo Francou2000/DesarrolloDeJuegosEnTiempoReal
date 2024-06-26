@@ -40,11 +40,15 @@ public class PlayerActions : MonoBehaviour
     public IEnumerator AttackColliderCoroutine()
     {
         GetComponentInParent<PlayerMovement>().CanMove = false;
-        yield return new WaitForSeconds(0.5f);
+        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        yield return new WaitForSeconds(0.2f);
+        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        yield return new WaitForSeconds(0.3f);
         myAttackCollider.enabled = true;
         yield return new WaitForSeconds(0.5f);
         myAttackCollider.enabled = false;
         GetComponentInParent<PlayerMovement>().CanMove = true;
+        transform.position = new Vector3(transform.position.x - 0.3f, transform.position.y, 1);
     }
 
     //void ZaWarudo()
