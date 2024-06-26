@@ -11,10 +11,12 @@ public class VolumenParaMusica : MonoBehaviour
     void Start()
     {
         m_audiosource = GetComponent<AudioSource>();
-        
+        SetMusicVolume();
+        VolumeController.Instance.volumeUpdate.AddListener(SetMusicVolume);
+
     }
 
-    private void Update()
+    private void SetMusicVolume()
     {
         m_audiosource.volume = VolumeController.Instance.MusicVolume;
     }

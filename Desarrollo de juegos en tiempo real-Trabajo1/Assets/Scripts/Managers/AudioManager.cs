@@ -20,10 +20,13 @@ public class AudioManager : MonoBehaviour
         
         golpejotaro.Onhit.AddListener(GolpeJotaro);
         golpeDIO.Onhit.AddListener(GolpeDIO);
+
+        SetSFXVolume();
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
     }
 
 
-    private void Update()
+    private void SetSFXVolume()
     {
         m_audiosource.volume = VolumeController.Instance.SFXVolume;
     }

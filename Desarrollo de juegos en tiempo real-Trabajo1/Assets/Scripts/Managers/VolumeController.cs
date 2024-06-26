@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class VolumeController : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class VolumeController : MonoBehaviour
 
     public float MusicVolume;
     public float SFXVolume;
-
+    public UnityEvent volumeUpdate = new UnityEvent();
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class VolumeController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 
     public void SetMusicVolumeTo(float volume)
     {
