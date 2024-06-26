@@ -42,15 +42,15 @@ public class PlayerActions : MonoBehaviour
     {
         canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
-        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.2f);
-        transform.position = new Vector3(transform.position.x + 0.15f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.3f);
         myAttackCollider.enabled = true;
         yield return new WaitForSeconds(0.5f);
         myAttackCollider.enabled = false;
         GetComponentInParent<PlayerMovement>().CanMove = true;
-        transform.position = new Vector3(transform.position.x - 0.3f, transform.position.y, 1);
+        transform.position = new Vector3(transform.position.x - 0.3f * myInputManager.MovHorizontal, transform.position.y, 1);
         canAttack = true;
     }
 

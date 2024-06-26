@@ -28,20 +28,24 @@ public class PlayerHealth : MonoBehaviour
             {
                 case ItemEffect.Heal:
                     Heal(other.ItemsData.EffectStrength);
+                    StartCoroutine(ColorFeedBack(0.3f, Color.green));
                     break;
                 case ItemEffect.SpeedUp:
                     StartCoroutine(movePlayer.GetComponent<PlayerMovement>().SpeedUp(other.ItemsData.EffectStrength));
+                    StartCoroutine(ColorFeedBack(other.ItemsData.EffectStrength, new Color32(110, 255, 250, 255)));
                     break;
                 case ItemEffect.Invincibility:
                     StartCoroutine(Invencible(other.ItemsData.EffectStrength));
                     break;
                 case ItemEffect.StrengthUp:
                     StartCoroutine(attackREFF.GetComponent<PlayerActions>().StrengthUp(other.ItemsData.EffectStrength));
+                    StartCoroutine(ColorFeedBack(other.ItemsData.EffectStrength, new Color32(255, 200, 110, 255)));
                     break;
                 default:
                     Debug.Log("CCCCC");
                     break;
             }
+            other.PlaySoundEffect();
             Destroy(collision.gameObject);
             Debug.Log("AAAAAAAAAAAAAA");
         }
@@ -51,6 +55,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!isInvencible)
         {
+            StartCoroutine(ColorFeedBack(0.5f, Color.red));
             actualHealth -= damage;
             if (actualHealth < 0)
             {
@@ -72,10 +77,18 @@ public class PlayerHealth : MonoBehaviour
 
     public IEnumerator Invencible(int duration)
     {
+        movePlayer.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, 150);
         isInvencible = true;
         yield return new WaitForSeconds(duration);
         isInvencible = false;
+        movePlayer.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
+    public IEnumerator ColorFeedBack(float duration, Color feedbackColor)
+    {
+        movePlayer.GetComponent<SpriteRenderer>().color = feedbackColor;
+        yield return new WaitForSeconds(duration);
+        movePlayer.GetComponent<SpriteRenderer>().color = Color.white;
+    }
     
 }

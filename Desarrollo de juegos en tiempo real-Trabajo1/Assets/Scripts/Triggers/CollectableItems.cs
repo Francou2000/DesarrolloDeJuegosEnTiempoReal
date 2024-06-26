@@ -56,7 +56,7 @@ public class CollectableItems : MonoBehaviour, IColectableItem
 
     public void PlaySoundEffect()
     {
-        
+        audioSource.PlayOneShot(itemsData.SoundEffect);
     }
 
 

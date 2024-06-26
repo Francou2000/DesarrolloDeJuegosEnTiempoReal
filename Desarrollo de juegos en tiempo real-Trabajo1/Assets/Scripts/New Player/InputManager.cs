@@ -27,7 +27,7 @@ public class InputManager
         {
             punch = false;
         }
-
+        movHorizontal = Input.GetAxis("Horizontal");
         //if (Input.GetKeyDown(KeyCode.Mouse1)) // The player uses the powerUP with "Mouse1" (right click)
         //{
         //    powerUp = true;
