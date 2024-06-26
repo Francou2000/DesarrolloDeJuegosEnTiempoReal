@@ -13,6 +13,7 @@ public class SetSFXVolume : MonoBehaviour
         _slider.value = VolumeController.Instance.SFXVolume;
         _slider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetSFXVolumeTo(v);
+            VolumeController.Instance.volumeUpdate.Invoke();
         });
 
     }

@@ -19,8 +19,14 @@ public class CollectableItems : MonoBehaviour, IColectableItem
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = itemsData.SoundEffect;
+        SetSFXVolume();
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
     }
 
+    private void SetSFXVolume()
+    {
+        audioSource.volume = VolumeController.Instance.SFXVolume;
+    }
 
     void Update()
     {

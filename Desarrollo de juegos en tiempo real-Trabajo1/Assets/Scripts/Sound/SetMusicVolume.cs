@@ -13,6 +13,7 @@ public class SetMusicVolume : MonoBehaviour
         _slider.value = VolumeController.Instance.MusicVolume;
         _slider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetMusicVolumeTo(v);
+            VolumeController.Instance.volumeUpdate.Invoke();
         });
         
     }

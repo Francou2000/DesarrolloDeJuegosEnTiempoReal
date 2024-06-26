@@ -12,14 +12,23 @@ public class PlayerHealth : MonoBehaviour
     public GameObject movePlayer;
     public GameObject attackREFF;
 
+    private AudioSource myAudioSource;
+
     void Start()
     {
+        myAudioSource = GetComponent<AudioSource>();
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
         actualHealth = maxHealth;
+        SetSFXVolume();
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
     }
 
-   
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
+    }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+public void OnTriggerEnter2D(Collider2D collision)
     {
         var other = collision.GetComponent<CollectableItems>();
         if (other is CollectableItems)
@@ -94,6 +103,7 @@ public class PlayerHealth : MonoBehaviour
     public IEnumerator PlayerFlinch()
     {
         movePlayer.GetComponent<PlayerMovement>().CanMove = false;
+        myAudioSource.Play();
         movePlayer.GetComponent<PlayerMovement>().MyAnimatorController.TriggerAnimation("GetDamage");
         yield return new WaitForSeconds(movePlayer.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
         movePlayer.GetComponent<PlayerMovement>().CanMove = true;
