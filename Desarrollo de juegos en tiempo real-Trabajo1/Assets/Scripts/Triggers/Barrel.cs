@@ -6,43 +6,35 @@ public class Barrel : MonoBehaviour
 {
     public int health;
     public int dmg;
-    float timer;
-    bool SetTimer;
 
     public GameObject powerUp;
     public GameObject spawnPoint;
+    private GameObject player;
 
-    void Start()
-    {
-        SetTimer = false;
-        timer = 0;
-    }
-
+    
     void Update()
     {
-
-        if (SetTimer)
+        player = GameObject.FindWithTag("Player");
+        if (player.transform.position.y < spawnPoint.transform.position.y)
         {
-            timer += Time.deltaTime;
-            if (timer > 1)
-            {
-                SetTimer = false;
-                timer = 0;
-            }
+            GetComponent<SpriteRenderer>().sortingOrder = -1;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = 1;
         }
 
-        if (health <= 0)
-        {
-            Death();
-        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<AtkDeff>() && SetTimer == false)
+        if (collision.GetComponent<PlayerActions>())
         {
-            SetTimer = true;
             health -= dmg;
+            if (health <= 0)
+            {
+                Death();
+            }
         }
     }
 
