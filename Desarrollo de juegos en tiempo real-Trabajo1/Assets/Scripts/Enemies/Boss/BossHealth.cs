@@ -79,7 +79,9 @@ public class BossHealth : MonoBehaviour
 
     public IEnumerator DeathCourutine()
     {
-        player.GetComponent <PlayerMovement>().enabled = false;
+        player.GetComponent<PlayerMovement>().enabled = false;
+
+        GetComponent<NDoulAttack>().enabled = false;
 
         GetComponent<SpriteRenderer>().enabled = false;
         NoLife.Invoke();

@@ -40,8 +40,6 @@ public class PlayerMovement : MonoBehaviour
             myRigidbody.velocity = Vector3.zero;
             myAnimatorController.MovementUpdate(0, 0);
         }
-       
-        
 
         //if (!Input.GetKey(KeyCode.Space) && !Defender)
         //{

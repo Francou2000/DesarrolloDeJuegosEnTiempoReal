@@ -10,7 +10,7 @@ public class CutseneTrigger : MonoBehaviour
     {   
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerMovement>().enabled = false;
+            other.GetComponent<PlayerMovement>().CanMove = false;
             player = other.gameObject;
             if (timelineDirector != null)
             {
@@ -23,7 +23,7 @@ public class CutseneTrigger : MonoBehaviour
 
     private void OnTimelineStopped(PlayableDirector director)
     {
-        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<PlayerMovement>().CanMove = true;
 
         timelineDirector.stopped -= OnTimelineStopped;
 
