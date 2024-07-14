@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: 268120624}
   - component: {fileID: 268120623}
   - component: {fileID: 268120622}
+  - component: {fileID: 268120625}
   m_Layer: 5
   m_Name: PlayAgainButton
   m_TagString: Untagged
@@ -341,19 +342,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 268120623}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 511791886}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Level1
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &268120623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,50 +381,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268120620}
   m_CullTransparentMesh: 1
---- !u!1 &511791885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 511791887}
-  - component: {fileID: 511791886}
-  m_Layer: 0
-  m_Name: SceneManger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &511791886
+--- !u!114 &268120625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511791885}
+  m_GameObject: {fileID: 268120620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fa7b480d63535c439c90185be1b0c47, type: 3}
+  m_Script: {fileID: 11500000, guid: 12549002782f5c44bb35fcd25526e038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &511791887
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511791885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 591.304, y: 271.9306, z: -1.3654656}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  sceneName: Level1
 --- !u!1 &981283129
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +406,7 @@ GameObject:
   - component: {fileID: 981283133}
   - component: {fileID: 981283132}
   - component: {fileID: 981283131}
+  - component: {fileID: 981283134}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -519,19 +478,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 981283132}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 511791886}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &981283132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,6 +517,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981283129}
   m_CullTransparentMesh: 1
+--- !u!114 &981283134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981283129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12549002782f5c44bb35fcd25526e038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: MainMenu
 --- !u!1 &1101210211
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +805,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266615290
 GameObject:
@@ -1089,6 +1049,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicVolume: 0
   SFXVolume: 0
+  volumeUpdate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1705720856
 Transform:
   m_ObjectHideFlags: 0
@@ -1102,7 +1065,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1769854576
 GameObject:

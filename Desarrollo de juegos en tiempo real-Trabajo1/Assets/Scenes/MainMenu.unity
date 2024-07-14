@@ -313,7 +313,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 146189502}
-  - component: {fileID: 146189501}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -321,19 +320,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &146189501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146189500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 371f821601a30c940bf0d36ea60343c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelToActivate: {fileID: 1202128269}
 --- !u!224 &146189502
 RectTransform:
   m_ObjectHideFlags: 0
@@ -369,6 +355,7 @@ GameObject:
   - component: {fileID: 330172165}
   - component: {fileID: 330172164}
   - component: {fileID: 330172163}
+  - component: {fileID: 330172166}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -440,19 +427,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 330172164}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 684628423}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Level1
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &330172164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,6 +466,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330172161}
   m_CullTransparentMesh: 1
+--- !u!114 &330172166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330172161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12549002782f5c44bb35fcd25526e038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Level1
 --- !u!1 &428436977
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +491,7 @@ GameObject:
   - component: {fileID: 428436981}
   - component: {fileID: 428436980}
   - component: {fileID: 428436979}
+  - component: {fileID: 428436982}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -574,19 +563,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 428436980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 146189501}
-        m_TargetAssemblyTypeName: ChangePanels, Assembly-CSharp
-        m_MethodName: GoToPanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &428436980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,6 +602,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428436977}
   m_CullTransparentMesh: 1
+--- !u!114 &428436982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428436977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371f821601a30c940bf0d36ea60343c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelToActivate: {fileID: 1202128269}
+  panelToDeactivate: {fileID: 146189500}
 --- !u!1 &460690317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicVolume: 0.8
   SFXVolume: 0.8
+  volumeUpdate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1120158166
 Transform:
   m_ObjectHideFlags: 0
@@ -1643,7 +1637,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202128270}
-  - component: {fileID: 1202128271}
   m_Layer: 5
   m_Name: OptionsPanel
   m_TagString: Untagged
@@ -1675,19 +1668,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1202128271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202128269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 371f821601a30c940bf0d36ea60343c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelToActivate: {fileID: 146189500}
 --- !u!1 &1263772149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2307,7 @@ GameObject:
   - component: {fileID: 1872876957}
   - component: {fileID: 1872876956}
   - component: {fileID: 1872876955}
+  - component: {fileID: 1872876958}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -2398,19 +2379,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1872876956}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1202128271}
-        m_TargetAssemblyTypeName: ChangePanels, Assembly-CSharp
-        m_MethodName: GoToPanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1872876956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2449,6 +2418,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872876953}
   m_CullTransparentMesh: 1
+--- !u!114 &1872876958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872876953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371f821601a30c940bf0d36ea60343c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelToActivate: {fileID: 146189500}
+  panelToDeactivate: {fileID: 1202128269}
 --- !u!1 &1879211926
 GameObject:
   m_ObjectHideFlags: 0
@@ -2680,19 +2663,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1895975346}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1895975344}
-        m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
-        m_MethodName: ExitGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1895975346
 MonoBehaviour:
   m_ObjectHideFlags: 0
