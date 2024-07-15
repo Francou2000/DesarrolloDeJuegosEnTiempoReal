@@ -1100,6 +1100,10 @@ PrefabInstance:
       propertyPath: movePlayer
       value: 
       objectReference: {fileID: 1195370988}
+    - target: {fileID: 5385994470075526023, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7726565660106779934, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
       propertyPath: m_TagString
       value: Untagged

@@ -340,9 +340,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1025
-        y: 1615
+        y: 1614
         width: 76
-        height: 114
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,9 +382,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1180
-        y: 1616
+        y: 1614
         width: 47
-        height: 113
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,9 +403,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1229
-        y: 1616
+        y: 1614
         width: 56
-        height: 113
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,7 +488,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1490
         y: 1614
-        width: 52
+        width: 54
         height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -507,9 +507,9 @@ TextureImporter:
       name: Jotaro_19
       rect:
         serializedVersion: 2
-        x: 1544
+        x: 1563
         y: 1606
-        width: 126
+        width: 107
         height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
