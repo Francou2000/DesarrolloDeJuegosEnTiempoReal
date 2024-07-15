@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1195370988}
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4979068006403944980, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Name
       value: EnemyRanged (1)
@@ -396,6 +396,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (2)
@@ -700,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1195370988}
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4979068006403944980, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Name
       value: EnemyRanged
@@ -1128,6 +1132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee
@@ -2398,6 +2406,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (3)
@@ -2481,6 +2493,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (4)
@@ -3227,7 +3243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3238192
+      value: -2.531363
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3749,6 +3765,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1258195470}
     m_Modifications:
+    - target: {fileID: 756129938, guid: 6105ed99098f257428a459bee963bde4, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 374502579248890864, guid: 6105ed99098f257428a459bee963bde4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -4057,6 +4077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (1)
@@ -4693,7 +4717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3238192
+      value: -2.531363
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.y
