@@ -36,7 +36,7 @@ public class HealthPJ : MonoBehaviour
   
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<PowerUp>())
+        if (other.GetComponent<PowerUpRotation>())
         {
             SumarHP(50);
             Destroy(other.gameObject);
