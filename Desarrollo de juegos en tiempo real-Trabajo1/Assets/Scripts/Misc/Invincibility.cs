@@ -14,7 +14,6 @@ public class Invincibility : MonoBehaviour
             {
                 player.TriggerInvincibility();
                 Destroy(gameObject);
-                Destroy(gameObject);
             }
         }
     }
