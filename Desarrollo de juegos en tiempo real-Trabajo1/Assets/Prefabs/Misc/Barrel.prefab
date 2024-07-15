@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8748660293167513094}
   - component: {fileID: 3580135606574263233}
   m_Layer: 7
-  m_Name: HPBarrel
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

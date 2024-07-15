@@ -46,9 +46,9 @@ public class PlayerActions : MonoBehaviour
         canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
         transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
         transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.6f);
         myAttackCollider.enabled = true;
         OnHit.Invoke();
         yield return new WaitForSeconds(0.5f);
@@ -65,14 +65,14 @@ public class PlayerActions : MonoBehaviour
         attackDamage /= 2;
     }
 
-    //public void OnTriggerEnter2D(Collider2D collision)
-    //{
-        
-    //    if (collision.GetComponent<EnemyHealth>())
-    //    {
-    //        collision.GetComponent<EnemyHealth>().GetDamage(attackDamage);
-    //    }
-    //}
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        IDamageable other = collision.GetComponent<IDamageable>();
+        if (other != null)
+        {
+            other.GetDamage(attackDamage);
+        }
+    }
 
     //void ZaWarudo()
     //{

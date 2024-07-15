@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 935805492728252178}
   - component: {fileID: 935805492728252177}
   - component: {fileID: 935805492728251629}
+  - component: {fileID: -1693517506156920538}
   m_Layer: 7
   m_Name: ExplodingEnemy
   m_TagString: Untagged
@@ -148,9 +149,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   exEffect: {fileID: 1709093626729055723, guid: a2b5450a4d309dc438b079f06908fe12, type: 3}
-  chaseDist: 50
-  stopDist: 1.2
-  speed: 1.5
-  danio: 0
   exRad: 1
   exForce: 500
+--- !u!114 &-1693517506156920538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935805492728252176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b4677e3db416742ac798a4c381924e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEnemyData: {fileID: 11400000, guid: d0a72b1e9e52e6c458ce1048d8d6a71f, type: 2}
+  dmg: 0

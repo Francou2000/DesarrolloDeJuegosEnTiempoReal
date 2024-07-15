@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Barrel : MonoBehaviour
+public class Barrel : MonoBehaviour, IDamageable
 {
     public int health;
     public int dmg;
@@ -26,21 +26,18 @@ public class Barrel : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void GetDamage(int damage)
     {
-        if (collision.GetComponent<PlayerActions>())
+        health -= damage;
+        if (health <= 0)
         {
-            health -= dmg;
-            if (health <= 0)
-            {
-                Death();
-            }
+            GetKilled();
         }
     }
-
-    private void Death()
+    public void GetKilled()
     {
         Instantiate(powerUp[Random.Range(0,4)], spawnPoint.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
+
 }

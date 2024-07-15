@@ -198,9 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b1153cfdc779ef4eb0fe52aa5f97463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Setspeed: 3
-  chaseDist: 50
-  stopDist: 1.2
+  target: {fileID: 0}
 --- !u!114 &654847319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b4677e3db416742ac798a4c381924e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  myEnemyData: {fileID: 11400000, guid: ac17b128da999594bb4e3e25d69f6618, type: 2}
   dmg: 20
 --- !u!95 &2509849350416631673
 Animator:

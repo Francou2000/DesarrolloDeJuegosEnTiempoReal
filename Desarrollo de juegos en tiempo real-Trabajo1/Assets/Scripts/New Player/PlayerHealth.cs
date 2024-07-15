@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour, IDamageable
 {
     [SerializeField] int maxHealth;
     [SerializeField] int actualHealth;
@@ -74,13 +74,18 @@ public void OnTriggerEnter2D(Collider2D collision)
             actualHealth -= damage;
             if (actualHealth <= 0)
             {
-                actualHealth = 0;
-                healthBar.SetHealth(actualHealth);
-                OnDeath.Invoke();
+                GetKilled();
             }
             healthBar.SetHealth(actualHealth);
         }
         
+    }
+
+    public void GetKilled()
+    {
+        actualHealth = 0;
+        healthBar.SetHealth(actualHealth);
+        OnDeath.Invoke();
     }
 
     public void Heal(int heal)
