@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PowerUp : MonoBehaviour
+public class PowerUpRotation : MonoBehaviour
 {
     float velRot;
-    public float velocidad;
+    public float velocity;
     public float rayCastDist;
     public LayerMask layerMask;
 
@@ -25,18 +25,15 @@ public class PowerUp : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, rayCastDist, layerMask);
         if (hit)
         {
-            velocidad *= -1;
+            velocity *= -1;
             rayCastDist *= -1;
         }
-        transform.Translate(0, velocidad * Time.deltaTime, 0);
-
-        
+        transform.Translate(0, velocity * Time.deltaTime, 0);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y + rayCastDist));
-    }
-    
+    }   
 }
