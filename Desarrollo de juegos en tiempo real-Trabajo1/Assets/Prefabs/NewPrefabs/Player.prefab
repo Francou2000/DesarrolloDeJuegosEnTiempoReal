@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 7544816191388640207}
   - component: {fileID: 1418778824871011364}
   m_Layer: 6
-  m_Name: GameObject
+  m_Name: JotaroAttacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 444e3fcd897ba604a8cf21f0d3d3ce8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 0
+  attackDamage: 20
   OnHit:
     m_PersistentCalls:
       m_Calls: []

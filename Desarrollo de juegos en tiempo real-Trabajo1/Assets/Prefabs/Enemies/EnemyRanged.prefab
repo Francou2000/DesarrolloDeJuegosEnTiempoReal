@@ -158,9 +158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0019c40b035ca848b341be22b563e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  chaseDist: 50
-  stopDist: 5
   target: {fileID: 0}
   bullet: {fileID: 3054318016977949606, guid: da71f3e2f2f7a054f88e02a4d010c353, type: 3}
   firePoint: {fileID: 940773830}
@@ -176,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b4677e3db416742ac798a4c381924e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  myEnemyData: {fileID: 11400000, guid: eb1a323b491a62b4bb093c906e3f7841, type: 2}
   dmg: 10
 --- !u!95 &2221311079446398466
 Animator:

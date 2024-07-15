@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class ExplodingEnemy : MonoBehaviour
 {
-    public GameObject target;
-    public GameObject exEffect;
+    [SerializeField] Transform target;
+    [SerializeField] GameObject exEffect;
 
-    public float chaseDist;
-    public float stopDist;
-    public float speed;
-    public int danio;
+    float chaseDistance;
+    float stopDistance;
+    float movementSpeed;
+    int damage;
 
-    [SerializeField] private float exRad;
-    [SerializeField] private float exForce;
+    [SerializeField] float exRad;
+    [SerializeField] float exForce;
 
-    private float targetDist;
+    float targetDist;
 
     void Start()
     {
-        target = GameObject.FindWithTag("Player");
+        SetStats();
     }
 
     void Update()
     {
-        targetDist = Vector2.Distance(transform.position, target.transform.position);
+        targetDist = Vector2.Distance(transform.position, target.position);
         
-        if (targetDist < chaseDist && targetDist > stopDist)
+        if (targetDist < chaseDistance && targetDist > stopDistance)
         {
             ChasePlayer();
         }
@@ -38,7 +38,7 @@ public class ExplodingEnemy : MonoBehaviour
 
     private void ChasePlayer()
     {
-        if (transform.position.x < target.transform.position.x)
+        if (transform.position.x < target.position.x)
         {
             gameObject.transform.localScale = new Vector3(1, 1, 1);
         }
@@ -47,7 +47,7 @@ public class ExplodingEnemy : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, movementSpeed * Time.deltaTime);
     }
 
     public void Explode()
@@ -67,9 +67,10 @@ public class ExplodingEnemy : MonoBehaviour
                 rb.AddForce(direction * finalForce);
             }
 
-            if (collision.GetComponent<PlayerHealth>())
+            PlayerHealth player = collision.GetComponent<PlayerHealth>();
+            if (player != null)
             {
-                collision.GetComponent<PlayerHealth>().GetDamage(danio);
+                player.GetDamage(damage);
             }
         }
 
@@ -82,5 +83,14 @@ public class ExplodingEnemy : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, exRad);
+    }
+
+    void SetStats()
+    {
+        EnemyData myEnemy = GetComponent<Enemy>().MyEnemyData;
+        movementSpeed = myEnemy.MovementSpeed;
+        chaseDistance = myEnemy.ChaseDistance;
+        stopDistance = myEnemy.AttackDistance;
+        damage = myEnemy.Damage;
     }
 }

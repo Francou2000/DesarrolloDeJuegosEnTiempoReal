@@ -4,41 +4,33 @@ using UnityEngine;
 
 public class EnemyMeleeAttack : MonoBehaviour
 {
-    public float Setspeed;
+    float movementSpeed;
     float speed;
-    public float chaseDist;
-    public float stopDist;
-    GameObject target;
-    private Animator anim;
+    float chaseDistance;
+    float stopDistance;
+    [SerializeField] Transform target;
+    private float targetDistance;
+    private Animator myAnimator;
 
-    private float targetDist;
-
-    bool SetTimer;
+    bool setTimer;
     float timer;
-    EnemyAttack ataque;
+    EnemyAttack myAttack;
 
     void Start()
     {
-        SetTimer = true;
-        timer = 0;
-        speed = Setspeed;
-        ataque = GetComponentInChildren<EnemyAttack>();
-
-        target = GameObject.FindWithTag("Player");
-
-        anim = GetComponent<Animator>();
-
-
+        SetStats();
+        myAttack = GetComponentInChildren<EnemyAttack>();
+        myAnimator = GetComponent<Animator>();
     }
 
 
     void Update()
     {
-        targetDist = Vector2.Distance(transform.position, target.transform.position);
+        targetDistance = Vector2.Distance(transform.position, target.position);
 
-        if (SetTimer)
+        if (setTimer)
         {
-            if (targetDist < chaseDist && targetDist > stopDist)
+            if (targetDistance < chaseDistance && targetDistance > stopDistance)
             {
                 ChasePlayer();
             }
@@ -52,10 +44,10 @@ public class EnemyMeleeAttack : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > 2)
             {
-                SetTimer = true;
+                setTimer = true;
                 timer = 0;
-                speed = Setspeed;
-                ataque.DesactivarCollider();
+                speed = movementSpeed;
+                myAttack.DesactivarCollider();
             }
         }
 
@@ -63,7 +55,11 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     private void ChasePlayer()
     {
-        if (transform.position.x < target.transform.position.x)
+        //float pos = target.position.x - transform.position.x;
+        //pos = pos/Mathf.Abs(pos);
+        //gameObject.transform.localScale = new Vector3(pos, 1, 1);
+
+        if (transform.position.x < target.position.x)
         {
             gameObject.transform.localScale = new Vector3(1, 1, 1);
         }
@@ -72,19 +68,30 @@ public class EnemyMeleeAttack : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
-        anim.SetBool("Move", true);
+        myAnimator.SetBool("Move", true);
     }
 
     private void Attack()
     {
-        SetTimer = false;
+        setTimer = false;
         speed = 0;
-        ataque.ActivarCollider();
+        myAttack.ActivarCollider();
 
-        anim.SetTrigger("Attack");
-        anim.SetBool("Move", false);
+        myAnimator.SetTrigger("Attack");
+        myAnimator.SetBool("Move", false);
     }
 
+    void SetStats()
+    {
+        EnemyData myEnemy = GetComponent<Enemy>().MyEnemyData;
+        movementSpeed = myEnemy.MovementSpeed;
+        chaseDistance = myEnemy.ChaseDistance;
+        stopDistance = myEnemy.AttackDistance;
+        speed = movementSpeed;
+        setTimer = true;
+        timer = 0;
+
+    }
 }

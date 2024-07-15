@@ -210,6 +210,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1286140842}
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 2001162452201717893, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -2145,7 +2149,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1256810013}
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 4979068006403944980, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Name
       value: EnemyRanged (1)
@@ -3019,6 +3023,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1286140842}
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 2001162452201717893, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -3974,7 +3982,7 @@ PrefabInstance:
     - target: {fileID: 935805492728251629, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1256810013}
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 935805492728252176, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
       propertyPath: m_Name
       value: ExplodingEnemy (1)
@@ -5350,6 +5358,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1286140842}
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 2001162452201717893, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -5446,7 +5458,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1256810013}
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 2672682148296943716, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5860,7 +5872,7 @@ PrefabInstance:
     - target: {fileID: 935805492728251629, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1256810013}
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 935805492728252176, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
       propertyPath: m_Name
       value: ExplodingEnemy
@@ -6438,6 +6450,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1286140842}
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1256810014}
     - target: {fileID: 2001162452201717893, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Layer
       value: 7

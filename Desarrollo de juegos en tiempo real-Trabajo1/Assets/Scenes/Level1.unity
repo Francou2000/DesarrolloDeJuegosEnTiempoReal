@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1195370988}
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4979068006403944980, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Name
       value: EnemyRanged (1)
@@ -396,6 +396,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (2)
@@ -700,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 1276578485, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1195370988}
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4979068006403944980, guid: 07c2a96015e8f444cb81c961fe3c32a0, type: 3}
       propertyPath: m_Name
       value: EnemyRanged
@@ -1082,6 +1086,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 8835864696705741168, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
+      propertyPath: attackDamage
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00cff13c398576e43887bb78d1fc8438, type: 3}
 --- !u!114 &419488213 stripped
@@ -1102,6 +1110,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee
@@ -2196,6 +2208,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (3)
@@ -2279,6 +2295,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (4)
@@ -3754,6 +3774,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1961886330}
     m_Modifications:
+    - target: {fileID: 759338059, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1195370994}
     - target: {fileID: 4201682359259657572, guid: fec4a51c745f6804f884a2f5168a578f, type: 3}
       propertyPath: m_Name
       value: EnemyMelee (1)
