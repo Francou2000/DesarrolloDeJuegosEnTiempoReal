@@ -217,6 +217,11 @@ MonoBehaviour:
   SpecialAttack:
     m_PersistentCalls:
       m_Calls: []
+  NoLife:
+    m_PersistentCalls:
+      m_Calls: []
+  timelineDirector: {fileID: 0}
+  player: {fileID: 0}
 --- !u!95 &4354803062303902043
 Animator:
   serializedVersion: 5
