@@ -4156,11 +4156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3655475297380658047, guid: 4357bde37ca40cb49b89fb88af53125e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 842
+      value: 32.330383
       objectReference: {fileID: 0}
     - target: {fileID: 3655475297380658047, guid: 4357bde37ca40cb49b89fb88af53125e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -271
+      value: 22.126007
       objectReference: {fileID: 0}
     - target: {fileID: 3655475297380658047, guid: 4357bde37ca40cb49b89fb88af53125e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4684,12 +4684,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582d1baa4c161a74c9aedd02bfb0724f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 0
+  health: 100
+  maxHealth: 100
   minHealth: 0
   vida: {fileID: 0}
   healthbar: {fileID: 0}
-  dmg: 0
+  dmg: 20
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -4699,7 +4699,7 @@ MonoBehaviour:
   NoLife:
     m_PersistentCalls:
       m_Calls: []
-  timelineDirector: {fileID: 0}
+  timelineDirector: {fileID: 546997368}
   player: {fileID: 1195370988}
 --- !u!114 &8060115752678607879
 MonoBehaviour:
