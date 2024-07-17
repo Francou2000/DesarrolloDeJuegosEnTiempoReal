@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -12,6 +13,25 @@ public class SeanAttacks : MonoBehaviour
 
     public GameObject bullet;
     public GameObject bulletSpawnPoint;
+
+    [SerializeField] private BossHealth boss;
+
+    private Animator myAnimator;
+
+    private void Start()
+    {
+        myAnimator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        boss.SecondPhase.AddListener(EnterSecondPhase);
+    }
+
+    public void EnterSecondPhase()
+    {
+        myAnimator.SetBool("SecondPhase", true);
+    }
 
     public void MeleeAttack()
     {

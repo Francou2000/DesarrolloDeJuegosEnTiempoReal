@@ -20,6 +20,7 @@ public class BossHealth : MonoBehaviour, IDamageable
 
     public UnityEvent OnDeath = new UnityEvent();
     public UnityEvent SpecialAttack = new UnityEvent();
+    public UnityEvent SecondPhase = new UnityEvent();
 
     public UnityEvent NoLife = new UnityEvent();
 
@@ -78,6 +79,10 @@ public class BossHealth : MonoBehaviour, IDamageable
         {
             SpecialAttack.Invoke();
         }
+        if (health == health / 2)
+        {
+            SecondPhase.Invoke();
+        }
         if (health <= 0)
         {
             GetKilled();
@@ -103,6 +108,12 @@ public class BossHealth : MonoBehaviour, IDamageable
         if (deactivateDio != null)
         {
             deactivateDio.enabled = false;
+        }
+
+        SeanAttacks deactivateSean = GetComponent<SeanAttacks>();
+        if (deactivateSean != null)
+        {
+            deactivateSean.enabled = false;
         }
         
         GetComponent<SpriteRenderer>().enabled = false;

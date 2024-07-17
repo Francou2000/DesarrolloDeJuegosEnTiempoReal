@@ -5167,6 +5167,7 @@ MonoBehaviour:
     m_Bits: 64
   bullet: {fileID: 7113833787747056487, guid: a6b0a4172facd1641824be652993965c, type: 3}
   bulletSpawnPoint: {fileID: 1252109191}
+  boss: {fileID: 0}
 --- !u!114 &8060115752678607884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5191,8 +5192,12 @@ MonoBehaviour:
   SpecialAttack:
     m_PersistentCalls:
       m_Calls: []
+  SecondPhase:
+    m_PersistentCalls:
+      m_Calls: []
   NoLife:
     m_PersistentCalls:
       m_Calls: []
   timelineDirector: {fileID: 546997368}
   player: {fileID: 1195370988}
+  hitClip: {fileID: 8300000, guid: ee39a6f71f1b84d4496013f488e4b688, type: 3}
