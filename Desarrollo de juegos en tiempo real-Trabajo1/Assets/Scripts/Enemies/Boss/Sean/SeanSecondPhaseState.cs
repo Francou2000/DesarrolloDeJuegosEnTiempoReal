@@ -6,6 +6,15 @@ public class SeanSecondPhaseState : StateMachineBehaviour
 {
     public float attackRange = 5f;
 
+    [SerializeField] private float shootTime = 1f;
+    private float timer = 0;
+    [SerializeField] private float cooldownTime = 7f;
+
+    private int shootCounter = 0;
+    [SerializeField] private int shootInterval = 5;
+
+    private bool onCooldown = false; 
+
     Transform player;
     Rigidbody2D rb;
     EnemyLookAt boss;
@@ -21,13 +30,36 @@ public class SeanSecondPhaseState : StateMachineBehaviour
     {
         boss.LookAtPlayer();
 
-        if (Vector2.Distance(player.position, rb.position) >= attackRange)
+        timer += Time.deltaTime;
+
+        if (!onCooldown)
         {
-            animator.SetTrigger("RangeAttack");
+            if (Vector2.Distance(player.position, rb.transform.position) <= attackRange)
+            {
+                animator.SetBool("Movement", true);
+            }
+            else if (timer >= shootTime)
+            {
+                animator.SetBool("Movement", false);
+                animator.SetTrigger("RangeAttack");
+                timer = 0;
+                shootCounter++;
+            }
+            if (shootCounter >= shootInterval)  
+            {
+                onCooldown = true;
+                shootCounter = 0;
+            }
         }
-        else
-        {
-            animator.SetBool("Movement", true);
+        else 
+        { 
+            animator.SetBool("Movement", false);
+            
+            if (timer >= cooldownTime)
+            {
+                onCooldown = false;
+                timer = 0;  
+            }
         }
     }
 

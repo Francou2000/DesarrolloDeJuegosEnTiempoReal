@@ -6,7 +6,7 @@ public class SeanMoveState : StateMachineBehaviour
 {
     public float speed = 3f;
     float currentSpeed;
-    public float attackRange = 1.5f;
+    public float attackRange = .7f;
     public float distanceAttackRange = 5f;
 
     Transform player;
@@ -42,8 +42,8 @@ public class SeanMoveState : StateMachineBehaviour
 
         if (animator.GetBool("SecondPhase") == true)
         {
-            speed = currentSpeed * 2;
-            if (Vector2.Distance(player.position, rb.position) <= distanceAttackRange)
+            speed = currentSpeed;
+            if (Vector2.Distance(player.position, rb.transform.position) <= distanceAttackRange)
             {
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, (currentSpeed * -1)* Time.fixedDeltaTime);
                 rb.MovePosition(newPos);

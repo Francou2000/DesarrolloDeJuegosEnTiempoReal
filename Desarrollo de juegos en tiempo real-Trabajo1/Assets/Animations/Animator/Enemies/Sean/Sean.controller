@@ -403,7 +403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044d77719aee30041b01ebcaf8ec7b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 1
+  attackRange: 5
+  shootTime: 1
+  cooldownTime: 7
+  shootInterval: 5
 --- !u!1101 &-4674549888733827290
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -697,7 +700,7 @@ AnimatorStateMachine:
     m_Position: {x: 130, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3591759931869614447}
-    m_Position: {x: -720, y: 470, z: 0}
+    m_Position: {x: -740, y: 450, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5659920870970710480}
     m_Position: {x: -590, y: 180, z: 0}
