@@ -29,6 +29,7 @@ public class Barrel : MonoBehaviour, IDamageable
     public void GetDamage(int damage)
     {
         health -= damage;
+        StartCoroutine(HitFeedback());
         if (health <= 0)
         {
             GetKilled();
@@ -38,6 +39,17 @@ public class Barrel : MonoBehaviour, IDamageable
     {
         Instantiate(powerUp[Random.Range(0,4)], spawnPoint.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
+    }
+
+    public IEnumerator HitFeedback()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, -10);
+        yield return new WaitForSeconds(0.1f);
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+        yield return new WaitForSeconds(0.1f);
+        transform.rotation = Quaternion.Euler(0, 0, 10);
+        yield return new WaitForSeconds(0.1f);
+        transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
 }
