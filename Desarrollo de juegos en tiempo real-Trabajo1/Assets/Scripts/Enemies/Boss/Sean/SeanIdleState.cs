@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SeanIdleState : StateMachineBehaviour
 {
-    public float attackRange = 2f;
+    public float attackRange = 1.5f;
 
     Transform player;
     Rigidbody2D rb;
@@ -21,13 +21,13 @@ public class SeanIdleState : StateMachineBehaviour
     {
         boss.LookAtPlayer();
 
-        if (Vector2.Distance(player.position, rb.position) >= attackRange)
+        if (Vector2.Distance(player.position, rb.transform.position) >= attackRange)
         {
             animator.SetBool("Movement", true);
         }
-
-        if (Vector2.Distance(player.position, rb.position) <= attackRange)
+        else
         {
+            animator.SetBool("Movement", false);
             animator.SetTrigger("MeleeAttack");
         }
     }

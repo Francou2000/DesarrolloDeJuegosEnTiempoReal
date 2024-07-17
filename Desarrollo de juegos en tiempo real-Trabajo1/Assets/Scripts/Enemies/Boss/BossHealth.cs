@@ -79,7 +79,7 @@ public class BossHealth : MonoBehaviour, IDamageable
         {
             SpecialAttack.Invoke();
         }
-        if (health == health / 2)
+        if (health <= maxHealth / 2)
         {
             SecondPhase.Invoke();
         }

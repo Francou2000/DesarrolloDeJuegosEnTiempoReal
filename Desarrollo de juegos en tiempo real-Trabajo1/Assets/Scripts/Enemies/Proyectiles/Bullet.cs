@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
 
+    private float lifespan = 5f;
+
     public GameObject player;
     private Rigidbody2D rb;
     
@@ -20,7 +22,7 @@ public class Bullet : MonoBehaviour
         Vector3 direction = player.transform.position - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * speed;
 
-        Destroy(this.gameObject, 2);
+        Destroy(this.gameObject, lifespan);
 
     }
 

@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class SeanSecondPhaseState : StateMachineBehaviour
 {
-    public float speed = 3f;
-    float currentSpeed;
-    public float attackRange = 3f;
+    public float attackRange = 5f;
 
     Transform player;
     Rigidbody2D rb;
@@ -17,7 +15,6 @@ public class SeanSecondPhaseState : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<EnemyLookAt>();
-        currentSpeed = speed;
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -28,8 +25,7 @@ public class SeanSecondPhaseState : StateMachineBehaviour
         {
             animator.SetTrigger("RangeAttack");
         }
-
-        if (Vector2.Distance(player.position, rb.position) <= attackRange)
+        else
         {
             animator.SetBool("Movement", true);
         }

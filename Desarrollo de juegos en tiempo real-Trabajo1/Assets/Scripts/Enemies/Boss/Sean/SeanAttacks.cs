@@ -31,6 +31,7 @@ public class SeanAttacks : MonoBehaviour
     public void EnterSecondPhase()
     {
         myAnimator.SetBool("SecondPhase", true);
+        myAnimator.SetBool("Movement", false);
     }
 
     public void MeleeAttack()
@@ -39,10 +40,14 @@ public class SeanAttacks : MonoBehaviour
         pos += transform.right * attackOffset.x;
         pos += transform.up * attackOffset.y;
 
-        Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null)
+        Collider2D[] colInfo = Physics2D.OverlapCircleAll(pos, attackRange, attackMask);
+        foreach (Collider2D collider2D in colInfo) 
         {
-            colInfo.GetComponent<PlayerHealth>().GetDamage(meleeAttackDamage);
+            PlayerHealth collider = collider2D.GetComponent<PlayerHealth>();
+            if (collider != null)
+            {
+                collider.GetDamage(meleeAttackDamage);
+            }
         }
     }
 
