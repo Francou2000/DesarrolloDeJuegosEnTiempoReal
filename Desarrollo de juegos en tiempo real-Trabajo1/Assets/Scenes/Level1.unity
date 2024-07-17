@@ -3243,7 +3243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.8849607
+      value: -2.9630718
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3470,6 +3470,10 @@ PrefabInstance:
       propertyPath: PJ
       value: 
       objectReference: {fileID: 419488213}
+    - target: {fileID: 6445045827697373782, guid: 2b99461739d736e4a8dddf4587df1345, type: 3}
+      propertyPath: seanBoss
+      value: 
+      objectReference: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
     - target: {fileID: 6445045827697373782, guid: 2b99461739d736e4a8dddf4587df1345, type: 3}
       propertyPath: finalBoss
       value: 
@@ -4721,7 +4725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.8849607
+      value: -2.9630718
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.y

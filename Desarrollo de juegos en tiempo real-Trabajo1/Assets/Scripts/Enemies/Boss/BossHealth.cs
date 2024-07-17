@@ -96,7 +96,7 @@ public class BossHealth : MonoBehaviour, IDamageable
 
     public IEnumerator DeathCourutine()
     {
-        player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<PlayerMovement>().CanMove = false;
 
         NDoulAttack deactivateNDoul = GetComponent<NDoulAttack>();
         if (deactivateNDoul != null)
