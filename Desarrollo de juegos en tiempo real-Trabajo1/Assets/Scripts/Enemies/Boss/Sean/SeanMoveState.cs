@@ -43,6 +43,7 @@ public class SeanMoveState : StateMachineBehaviour
 
         if (animator.GetBool("SecondPhase") == true)
         {
+            speed = currentSpeed * 2;
             if (Vector2.Distance(player.position, rb.position) <= distanceAttackRange)
             {
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, (currentSpeed * -1)* Time.fixedDeltaTime);
