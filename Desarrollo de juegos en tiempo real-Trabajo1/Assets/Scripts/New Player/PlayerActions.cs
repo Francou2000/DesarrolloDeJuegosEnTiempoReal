@@ -11,6 +11,11 @@ public class PlayerActions : MonoBehaviour
     private bool canAttack = true;
     public int attackDamage;
 
+    public GameObject hitboxEffect;
+
+    public Vector3 attackOffset;
+    public float attackRange = 1f;
+
     AudioSource myAudioSource;
     [SerializeField] AudioClip attackClip1;
     [SerializeField] AudioClip attackClip2;
@@ -43,31 +48,51 @@ public class PlayerActions : MonoBehaviour
 
     }
 
+    public void ShowEffect()
+    {
+        hitboxEffect.SetActive(true);
+    }
+
+    public void HideEffect()   
+    { 
+        hitboxEffect.SetActive(false);
+    }
+
+    public void MeleeAttack()
+    {
+        Vector3 pos = transform.position;
+        pos += transform.right * attackOffset.x;
+        pos += transform.up * attackOffset.y;
+
+        Collider2D[] colInfo = Physics2D.OverlapCircleAll(pos, attackRange);
+        foreach (Collider2D collider2D in colInfo)
+        {
+            IDamageable other = collider2D.GetComponent<IDamageable>();
+            if (other != null)
+            {
+                other.GetDamage(attackDamage);
+            }
+        }
+    }
+
     void BasicAttack()
     {
         if (myInputManager.Punch)
         {
-            myAnimatorController.TriggerAnimation("Attack");
             StartCoroutine(AttackColliderCoroutine());
         }
     }
 
     public IEnumerator AttackColliderCoroutine()
     {
+        myAnimatorController.TriggerAnimation("Attack");
         myAudioSource.clip = attackClip1;
         canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
-        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
-        yield return new WaitForSeconds(0.4f);
         myAudioSource.Play();
-        transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
-        yield return new WaitForSeconds(0.6f);
-        myAttackCollider.enabled = true;
         OnHit.Invoke();
-        yield return new WaitForSeconds(0.5f);
-        myAttackCollider.enabled = false;
+        yield return new WaitForSeconds(myAnimatorController.GetAnimationLenght());
         GetComponentInParent<PlayerMovement>().CanMove = true;
-        transform.position = new Vector3(transform.position.x - 0.3f * myInputManager.MovHorizontal, transform.position.y, 1);
         canAttack = true;
     }
 
@@ -85,6 +110,15 @@ public class PlayerActions : MonoBehaviour
         {
             other.GetDamage(attackDamage);
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Vector3 pos = transform.position;
+        pos += transform.right * attackOffset.x;
+        pos += transform.up * attackOffset.y;
+
+        Gizmos.DrawWireSphere(pos, attackRange);
     }
 
     //void ZaWarudo()

@@ -32,4 +32,9 @@ public class PlayerAnimatorController
     {
         _animator.ResetTrigger(id);
     }
+
+    public float GetAnimationLenght()
+    {
+        return _animator.GetCurrentAnimatorStateInfo(0).length;
+    }
 }
