@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.localScale = new Vector3(-1.4594f, transform.localScale.y, 1);
             }
-            else
+            else if (myInputManager.MovHorizontal > 0)
             {
                 transform.localScale = new Vector3(1.4594f, transform.localScale.y, 1);
             }
