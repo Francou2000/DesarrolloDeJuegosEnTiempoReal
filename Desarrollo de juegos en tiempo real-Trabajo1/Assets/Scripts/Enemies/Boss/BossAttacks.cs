@@ -16,13 +16,16 @@ public class BossAttacks : MonoBehaviour
     public GameObject bullet;
     public GameObject firePoint;
 
-    private Animator anim;
+    private Animator myAnimator;
+
+    [SerializeField] AudioClip attackClip;
+    AudioSource myAudioSource;
 
     private float targetDist;
 
     bool SetTimer;
     float timer2;
-    EnemyAttack ataque;
+    BossAttack ataque;
 
     public UnityEvent Onhit = new UnityEvent();
     public UnityEvent BattleStart = new UnityEvent();
@@ -34,12 +37,19 @@ public class BossAttacks : MonoBehaviour
         SetTimer = true;
         timer2 = 0;
         speed = Setspeed;
-        ataque = GetComponentInChildren<EnemyAttack>();
+        ataque = GetComponentInChildren<BossAttack>();
+        myAudioSource = GetComponentInChildren<AudioSource>();
 
-        anim = GetComponent<Animator>();
+        myAnimator = GetComponent<Animator>();
         GetComponent<BossHealth>().NoLife.AddListener(Deactive);
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
     }
 
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
+    }
 
     void Update()
     {
@@ -101,7 +111,7 @@ public class BossAttacks : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
 
-        anim.SetBool("Move", true);
+        myAnimator.SetBool("Move", true);
     }
     private void Attack()
     {
@@ -111,8 +121,11 @@ public class BossAttacks : MonoBehaviour
         speed = 0;
         ataque.ActivarCollider();
 
-        anim.SetTrigger("Attack");
-        anim.SetBool("Move", false);
+        myAudioSource.clip = attackClip; 
+        myAudioSource.Play();
+
+        myAnimator.SetTrigger("Attack");
+        myAnimator.SetBool("Move", false);
 
         
     }

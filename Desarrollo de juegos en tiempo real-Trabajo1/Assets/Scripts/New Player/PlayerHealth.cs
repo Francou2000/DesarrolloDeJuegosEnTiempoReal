@@ -26,6 +26,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         actualHealth = maxHealth;
         SetSFXVolume();
         VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
         healthBar.SetMaxHealth(maxHealth);
     }
 
@@ -34,7 +35,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
-public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         var other = collision.GetComponent<CollectableItems>();
         if (other is CollectableItems)

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7402744089346593396}
   - component: {fileID: 9105263825431292265}
-  - component: {fileID: 1434144560796900483}
+  - component: {fileID: 7765086430467106102}
   m_Layer: 12
   m_Name: Atk
   m_TagString: Untagged
@@ -59,7 +59,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5074315, y: 0.72462726}
   m_EdgeRadius: 0
---- !u!114 &1434144560796900483
+--- !u!114 &7765086430467106102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,9 +68,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4555583609637263991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce02a524b4acfde46a27c9b21d7c53c2, type: 3}
+  m_Script: {fileID: 11500000, guid: dae6d68a7a502c5468873fdce247ccfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 15
 --- !u!1 &4576530048323653560
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,6 +117,7 @@ GameObject:
   - component: {fileID: 5389722300268264056}
   - component: {fileID: 5389722300268264057}
   - component: {fileID: 5389722300268264038}
+  - component: {fileID: 583716680972026063}
   m_Layer: 12
   m_Name: FinalBoss
   m_TagString: Untagged
@@ -263,6 +265,12 @@ MonoBehaviour:
   SpecialAttack:
     m_PersistentCalls:
       m_Calls: []
+  NoLife:
+    m_PersistentCalls:
+      m_Calls: []
+  timelineDirector: {fileID: 0}
+  player: {fileID: 0}
+  hitClip: {fileID: 0}
 --- !u!114 &5389722300268264038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,3 +291,100 @@ MonoBehaviour:
   Onhit:
     m_PersistentCalls:
       m_Calls: []
+  attackClip: {fileID: 8300000, guid: 04c43a549c62f5e4fa0528a3709d078a, type: 3}
+--- !u!82 &583716680972026063
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389722300268264039}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

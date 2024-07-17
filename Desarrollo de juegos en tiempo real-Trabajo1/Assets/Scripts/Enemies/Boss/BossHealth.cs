@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
 
-public class BossHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour, IDamageable
 {
     public int health;
     public int maxHealth;
@@ -26,15 +26,25 @@ public class BossHealth : MonoBehaviour
     public PlayableDirector timelineDirector;
     public GameObject player;
 
+    [SerializeField] AudioClip hitClip;
+    AudioSource myAudioSource;
 
     void Start()
     {
         anim= GetComponent<Animator>();
+        myAudioSource = GetComponent<AudioSource>();
         health = maxHealth;
         vida.SetActive(true);
         healthbar.SetMaxHealth(maxHealth);
         setTimer = false;
         timer = 0;
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
+    }
+
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
     void Update()
@@ -52,37 +62,49 @@ public class BossHealth : MonoBehaviour
       
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void GetDamage(int damage)
     {
-        if (collision.GetComponent<PlayerActions>() && !setTimer)
+        anim.SetTrigger("TakeHit");
+        setTimer = true;
+        health -= damage;
+        myAudioSource.clip = hitClip;
+        myAudioSource.Play();
+        healthbar.SetHealth(health);
+        if(health == 100)
         {
-           
-            anim.SetTrigger("TakeHit");
-            setTimer = true;
-            health -= dmg;
-            healthbar.SetHealth(health);
-            if(health == 100)
-            {
-                SpecialAttack.Invoke();
-            }
-            if (health == 40)
-            {
-                SpecialAttack.Invoke();
-            }
-            if (health <= 0)
-            {
-                StartCoroutine(DeathCourutine());
-            }
-
+            SpecialAttack.Invoke();
         }
+        if (health == 40)
+        {
+            SpecialAttack.Invoke();
+        }
+        if (health <= 0)
+        {
+            GetKilled();
+        }
+    }
+
+    public void GetKilled()
+    {
+        StartCoroutine(DeathCourutine());
     }
 
     public IEnumerator DeathCourutine()
     {
         player.GetComponent<PlayerMovement>().enabled = false;
 
-        GetComponent<NDoulAttack>().enabled = false;
+        NDoulAttack deactivateNDoul = GetComponent<NDoulAttack>();
+        if (deactivateNDoul != null)
+        {
+            deactivateNDoul.enabled = false;
+        }
 
+        BossAttacks deactivateDio = GetComponent<BossAttacks>();
+        if (deactivateDio != null)
+        {
+            deactivateDio.enabled = false;
+        }
+        
         GetComponent<SpriteRenderer>().enabled = false;
         NoLife.Invoke();
 

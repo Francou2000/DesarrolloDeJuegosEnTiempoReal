@@ -11,6 +11,9 @@ public class PlayerActions : MonoBehaviour
     private bool canAttack = true;
     public int attackDamage;
 
+    AudioSource myAudioSource;
+    [SerializeField] AudioClip attackClip1;
+    [SerializeField] AudioClip attackClip2;
     public UnityEvent OnHit = new UnityEvent();
 
     public bool CanAttack { set { canAttack = value; } }
@@ -18,6 +21,14 @@ public class PlayerActions : MonoBehaviour
     {
         myAnimatorController = new PlayerAnimatorController(GetComponent<Animator>());
         myAttackCollider = GetComponent<Collider2D>();
+        myAudioSource = GetComponent<AudioSource>();
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
+    }
+
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
 
@@ -43,10 +54,12 @@ public class PlayerActions : MonoBehaviour
 
     public IEnumerator AttackColliderCoroutine()
     {
+        myAudioSource.clip = attackClip1;
         canAttack = false;
         GetComponentInParent<PlayerMovement>().CanMove = false;
         transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.4f);
+        myAudioSource.Play();
         transform.position = new Vector3(transform.position.x + 0.15f * myInputManager.MovHorizontal, transform.position.y, 1);
         yield return new WaitForSeconds(0.6f);
         myAttackCollider.enabled = true;
