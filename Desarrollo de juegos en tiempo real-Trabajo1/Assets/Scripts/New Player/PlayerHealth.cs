@@ -9,6 +9,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] int maxHealth;
     [SerializeField] int actualHealth;
 
+    [SerializeField] float playerFinchTime = 1.0f;
+
     bool isInvencible = false;
     public GameObject movePlayer;
     public GameObject attackREFF;
@@ -70,7 +72,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         if (!isInvencible)
         {
-            StartCoroutine(PlayerFlinch());
+            StartCoroutine(PlayerFlinch(playerFinchTime));
             StartCoroutine(ColorFeedBack(0.5f, Color.red));
             actualHealth -= damage;
             if (actualHealth <= 0)
@@ -116,13 +118,13 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         movePlayer.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
-    public IEnumerator PlayerFlinch()
+    public IEnumerator PlayerFlinch(float playerFinchTime)
     {
         movePlayer.GetComponent<PlayerMovement>().CanMove = false;
         isInvencible = true;
         myAudioSource.Play();
         movePlayer.GetComponent<PlayerMovement>().MyAnimatorController.TriggerAnimation("GetDamage");
-        yield return new WaitForSeconds(movePlayer.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(playerFinchTime);
         movePlayer.GetComponent<PlayerMovement>().CanMove = true;
         isInvencible = false;
     }
