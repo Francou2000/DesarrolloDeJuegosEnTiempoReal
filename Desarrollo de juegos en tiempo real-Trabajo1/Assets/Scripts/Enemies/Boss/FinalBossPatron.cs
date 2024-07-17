@@ -19,7 +19,7 @@ public class FinalBossPatron : MonoBehaviour
     private float targetDist;
 
     private Animator anim;
-    EnemyAttack ataque;
+    BossAttack ataque;
 
     public UnityEvent Onhit = new UnityEvent();
 
@@ -27,6 +27,8 @@ public class FinalBossPatron : MonoBehaviour
     bool attackType;
     int contador;
 
+    [SerializeField] AudioClip attackClip;
+    AudioSource myAudioSource;
 
 
     // Start is called before the first frame update
@@ -36,11 +38,20 @@ public class FinalBossPatron : MonoBehaviour
         timer = 0;
         timer2 = 0;
         speed = Setspeed;
-        ataque = GetComponentInChildren<EnemyAttack>();
+        ataque = GetComponentInChildren<BossAttack>();
         anim = GetComponent<Animator>();
         attackType = true;
         contador = 0;
+        myAudioSource = GetComponent<AudioSource>();
         GetComponent<BossHealth>().NoLife.AddListener(Deactive);
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
+
+    }
+
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
     // Update is called once per frame
@@ -126,6 +137,9 @@ public class FinalBossPatron : MonoBehaviour
         SetTimer = false;
         speed = 0;
         ataque.ActivarCollider();
+
+        myAudioSource.clip = attackClip;
+        myAudioSource.Play();
 
         anim.SetTrigger("Attack");
         anim.SetBool("Move", false);

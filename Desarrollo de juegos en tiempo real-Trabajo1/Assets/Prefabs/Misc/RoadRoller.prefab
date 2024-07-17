@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637ffbe7a7d4b1447a5cdbe35487f318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpritePartes:
+  partSprites:
   - {fileID: -1524632835, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
   - {fileID: -894023074, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
   - {fileID: -1781405808, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
@@ -127,4 +127,5 @@ MonoBehaviour:
   - {fileID: -2026742579, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
   - {fileID: 390739919, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
   - {fileID: -588969155, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
-  Partes: {fileID: 3687565183635253640, guid: 68e818f291c7cae45b2d3b7af6fd857d, type: 3}
+  parts: {fileID: 3687565183635253640, guid: 68e818f291c7cae45b2d3b7af6fd857d, type: 3}
+  boss: {fileID: 0}

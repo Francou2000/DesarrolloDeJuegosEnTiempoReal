@@ -7,8 +7,9 @@ public class Enemy : MonoBehaviour, IDamageable
 {
     [SerializeField] EnemyData myEnemyData;
     int health;
-    private Animator myAnimator;
-
+    Animator myAnimator;
+    AudioSource myAudioSource;
+    [SerializeField] AudioClip hitClip;
 
     public EnemyData MyEnemyData => myEnemyData;
     
@@ -17,11 +18,24 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         health = myEnemyData.MaxHealth;
         myAnimator = GetComponent<Animator>();
+        myAudioSource = GetComponent<AudioSource>(); 
+        VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
+        SetSFXVolume();
+
+    }
+
+    private void SetSFXVolume()
+    {
+        myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
     public void GetDamage(int damage)
     {
         health-= damage;
+
+        myAudioSource.clip = hitClip;
+        myAudioSource.Play();
+
         if (health <= 0)
         {
             GetKilled();
