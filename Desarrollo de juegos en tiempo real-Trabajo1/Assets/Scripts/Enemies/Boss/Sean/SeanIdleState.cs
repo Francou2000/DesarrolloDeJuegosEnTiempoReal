@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class SeanIdleState : StateMachineBehaviour
 {
-    public float speed = 3f;
-    float currentSpeed;
-    public float attackRange = 1f;
+    public float attackRange = 2f;
 
     Transform player;
     Rigidbody2D rb;
@@ -17,7 +15,6 @@ public class SeanIdleState : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<EnemyLookAt>();
-        currentSpeed = speed;
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -38,6 +35,6 @@ public class SeanIdleState : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("MeleeAttack");
-        animator.ResetTrigger("GetHit");
+        animator.ResetTrigger("TakeHit");
     }
 }

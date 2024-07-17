@@ -29,13 +29,12 @@ public class SeanMoveState : StateMachineBehaviour
 
         if (animator.GetBool("SecondPhase") == false)
         {
-            if (Vector2.Distance(player.position, rb.position) >= attackRange)
+            if (Vector2.Distance(player.position, rb.position) > attackRange)
             {
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, currentSpeed * Time.fixedDeltaTime);
                 rb.MovePosition(newPos);
             }
-
-            if (Vector2.Distance(player.position, rb.position) <= attackRange)
+            else if (Vector2.Distance(player.position, rb.position) <= attackRange)
             {
                 animator.SetBool("Movement", false);
             }
@@ -49,11 +48,14 @@ public class SeanMoveState : StateMachineBehaviour
                 Vector2 newPos = Vector2.MoveTowards(rb.position, target, (currentSpeed * -1)* Time.fixedDeltaTime);
                 rb.MovePosition(newPos);
             }
-
-            if (Vector2.Distance(player.position, rb.position) >= distanceAttackRange)
+            else if (Vector2.Distance(player.position, rb.position) >= distanceAttackRange)
             {
                 animator.SetBool("Movement", false);
             }
         }
+    }
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        animator.ResetTrigger("TakeHit");
     }
 }

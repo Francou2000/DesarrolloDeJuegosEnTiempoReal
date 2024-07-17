@@ -38,6 +38,6 @@ public class SeanSecondPhaseState : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("RangeAttack");
-        animator.ResetTrigger("GetHit");
+        animator.ResetTrigger("TakeHit");
     }
 }
