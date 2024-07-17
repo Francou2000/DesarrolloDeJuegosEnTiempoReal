@@ -2230,7 +2230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1252109192}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -2799,7 +2799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1198683
+      value: -2.8849607
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4364,7 +4364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1198683
+      value: -2.8849607
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4607,21 +4607,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sean
       objectReference: {fileID: 0}
+    - target: {fileID: 8060115752843478480, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060115752843478485, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.93
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.02
+      value: -3.79
       objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -752.4173
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4671,36 +4679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1195370994}
-  isFlipped: 0
---- !u!114 &8060115752678607878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8060115752678607876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 582d1baa4c161a74c9aedd02bfb0724f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
-  minHealth: 0
-  vida: {fileID: 0}
-  healthbar: {fileID: 0}
-  dmg: 20
-  OnDeath:
-    m_PersistentCalls:
-      m_Calls: []
-  SpecialAttack:
-    m_PersistentCalls:
-      m_Calls: []
-  NoLife:
-    m_PersistentCalls:
-      m_Calls: []
-  timelineDirector: {fileID: 546997368}
-  player: {fileID: 1195370988}
+  isFlipped: 1
 --- !u!114 &8060115752678607879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4722,3 +4701,32 @@ MonoBehaviour:
     m_Bits: 64
   bullet: {fileID: 7113833787747056487, guid: a6b0a4172facd1641824be652993965c, type: 3}
   bulletSpawnPoint: {fileID: 1252109191}
+--- !u!114 &8060115752678607884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060115752678607876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582d1baa4c161a74c9aedd02bfb0724f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  minHealth: 0
+  vida: {fileID: 285060980}
+  healthbar: {fileID: 285060982}
+  dmg: 10
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  SpecialAttack:
+    m_PersistentCalls:
+      m_Calls: []
+  NoLife:
+    m_PersistentCalls:
+      m_Calls: []
+  timelineDirector: {fileID: 0}
+  player: {fileID: 0}

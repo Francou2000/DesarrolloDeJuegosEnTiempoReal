@@ -24,19 +24,13 @@ public class SeanIdleState : StateMachineBehaviour
     {
         boss.LookAtPlayer();
 
-        Vector2 target = new Vector2(player.position.x, rb.position.y);
-
         if (Vector2.Distance(player.position, rb.position) >= attackRange)
         {
-            Vector2 newPos = Vector2.MoveTowards(rb.position, target, currentSpeed * Time.fixedDeltaTime);
-            rb.MovePosition(newPos);
             animator.SetBool("Movement", true);
         }
 
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
-            animator.SetBool("Movement", false);
-            currentSpeed = 0;
             animator.SetTrigger("MeleeAttack");
         }
     }
