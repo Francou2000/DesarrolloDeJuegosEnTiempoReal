@@ -124,3 +124,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eeffd619ff048c4bb8c82b8d3fc5311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 50
+  speed: -4
+  destroyCountDown: 5
+  partSprites:
+  - {fileID: -1524632835, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: -894023074, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: -1781405808, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: -244860841, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: -2026742579, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: 390739919, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}
+  - {fileID: -588969155, guid: 0f96f61fa5187ee45a4db844acb62ae6, type: 3}

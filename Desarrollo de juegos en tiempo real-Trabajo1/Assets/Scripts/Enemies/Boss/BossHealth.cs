@@ -70,7 +70,6 @@ public class BossHealth : MonoBehaviour, IDamageable
         health -= damage;
         myAudioSource.clip = hitClip;
         myAudioSource.Play();
-        healthbar.SetHealth(health);
         if(health == 100)
         {
             SpecialAttack.Invoke();
@@ -87,6 +86,7 @@ public class BossHealth : MonoBehaviour, IDamageable
         {
             GetKilled();
         }
+        healthbar.SetHealth(health);
     }
 
     public void GetKilled()

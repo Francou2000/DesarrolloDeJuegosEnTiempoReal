@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Aplanadora : MonoBehaviour
+public class RoadRoller : MonoBehaviour
 {
-
-    public Sprite[] SpritePartes;
     float timer;
+    [SerializeField] float attackTimer = 1;
     float timer2;
+    [SerializeField] float stopAttackingTimer = 10.55f;
     bool attack;
-    public GameObject Partes;
-    Animator anim;
+    public GameObject parts;
+    Animator myAnimator;
 
     [SerializeField] private BossHealth boss;
 
     void Start()
     {
         attack = false;
-        anim = GetComponent<Animator>();
+        myAnimator = GetComponent<Animator>();
         timer = 0;
         timer2 = 0;
 
@@ -28,22 +28,21 @@ public class Aplanadora : MonoBehaviour
     {
         timer += Time.deltaTime;
         timer2 += Time.deltaTime;
-        if( attack )
+        if (attack)
         {
-            if (timer > 1)
+            if (timer > attackTimer)
             {
                 timer = 0;
                 int posSpawn = Random.Range(-5, 0);
-                Partes.GetComponent<SpriteRenderer>().sprite = SpritePartes[Random.Range(0,6)];
-                Instantiate(Partes, new Vector3(posSpawn *3f, 0,0f), Quaternion.identity);
+                Instantiate(parts, new Vector3(posSpawn * 3f, 0, 0f), Quaternion.identity);
             }
-            if(timer2 > 10.55f)
+            if (timer2 > stopAttackingTimer)
             {
                 attack = false;
                 boss.gameObject.SetActive(true);
             }
         }
-        
+
 
     }
 
@@ -51,7 +50,7 @@ public class Aplanadora : MonoBehaviour
     {
         attack = true;
         timer2 = 0;
-        anim.SetTrigger("SpecialAttack");
+        myAnimator.SetTrigger("SpecialAttack");
         boss.gameObject.SetActive(false);
     }
 

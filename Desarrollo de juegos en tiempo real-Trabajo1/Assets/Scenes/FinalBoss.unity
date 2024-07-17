@@ -3103,6 +3103,7 @@ MonoBehaviour:
   firstBoss: {fileID: 574855335344620662, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
   secondBoss: {fileID: 5772346213348463045, guid: f9c4e2aa8e058a242936bab204d96c45, type: 3}
   finalBoss: {fileID: 1525368059}
+  seanBoss: {fileID: 0}
   PJ: {fileID: 761031613}
 --- !u!1 &1400949710
 GameObject:

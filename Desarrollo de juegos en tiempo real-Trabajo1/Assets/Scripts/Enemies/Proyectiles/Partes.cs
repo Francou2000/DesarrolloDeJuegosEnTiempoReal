@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class Partes : MonoBehaviour
 {
+    [SerializeField] int damage = 50;
+    [SerializeField] int speed = -4;
+    [SerializeField] int destroyCountDown = 5;
+
+    public Sprite[] partSprites;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(this.gameObject, 5);
+        SetSprite();
+        Destroy(this.gameObject, destroyCountDown);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, -4 * Time.deltaTime, 0);
+        transform.Translate(0, speed * Time.deltaTime, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,7 +29,12 @@ public class Partes : MonoBehaviour
         var pj = collision.GetComponent<PlayerHealth>();
         if (pj)
         {
-            pj.GetDamage(50);
+            pj.GetDamage(damage);
         }
+    }
+
+    void SetSprite()
+    {
+        GetComponent<SpriteRenderer>().sprite = partSprites[Random.Range(0, partSprites.Length - 1)];
     }
 }
