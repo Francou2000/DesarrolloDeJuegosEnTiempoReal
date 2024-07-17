@@ -41,13 +41,6 @@ public class PlayerMovement : MonoBehaviour
             myAnimatorController.MovementUpdate(0, 0);
         }
 
-        //if (!Input.GetKey(KeyCode.Space) && !Defender)
-        //{
-        //    float MovHorizontal = multiplicadorVel * Input.GetAxis("Horizontal");
-        //    float MovVertical = multiplicadorVel * Input.GetAxis("Vertical");
-
-        //    ForceMov.AddForce(new Vector2(MovHorizontal, MovVertical), ForceMode2D.Force);
-        //}
     }
 
     public IEnumerator SpeedUp(int duration)

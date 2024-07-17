@@ -6,11 +6,12 @@ using UnityEngine.Events;
 
 public class BossAttacks : MonoBehaviour
 {
-    public float Setspeed;
-    float speed;
+    public float setSpeed;
+    float currentSpeed;
     public float chaseDist;
     public float stopDist;
     private float timer;
+    [SerializeField] float attackCooldown = 1.5f;
 
     public GameObject target;
     public GameObject bullet;
@@ -23,9 +24,10 @@ public class BossAttacks : MonoBehaviour
 
     private float targetDist;
 
-    bool SetTimer;
+    bool setTimer;
     float timer2;
-    BossAttack ataque;
+    [SerializeField] float colliderDuration = 1.5f;
+    BossAttack myBossAttack;
 
     public UnityEvent Onhit = new UnityEvent();
     public UnityEvent BattleStart = new UnityEvent();
@@ -34,10 +36,10 @@ public class BossAttacks : MonoBehaviour
     {
 
         BattleStart.Invoke();
-        SetTimer = true;
+        setTimer = true;
         timer2 = 0;
-        speed = Setspeed;
-        ataque = GetComponentInChildren<BossAttack>();
+        currentSpeed = setSpeed;
+        myBossAttack = GetComponentInChildren<BossAttack>();
         myAudioSource = GetComponentInChildren<AudioSource>();
 
         myAnimator = GetComponent<Animator>();
@@ -57,7 +59,7 @@ public class BossAttacks : MonoBehaviour
 
         targetDist = Vector2.Distance(transform.position, target.transform.position);
 
-        if (timer > 1.5)
+        if (timer > attackCooldown)
         {
             if (targetDist > chaseDist)
             {
@@ -66,7 +68,7 @@ public class BossAttacks : MonoBehaviour
             }
             else
             {
-                if (SetTimer)
+                if (setTimer)
                 {
                     if (targetDist < chaseDist && targetDist > stopDist)
                     {
@@ -81,12 +83,12 @@ public class BossAttacks : MonoBehaviour
                 else
                 {
                     timer2 += Time.deltaTime;
-                    if (timer2 > 1.5)
+                    if (timer2 > colliderDuration)
                     {
-                        SetTimer = true;
+                        setTimer = true;
                         timer2 = 0;
-                        speed = Setspeed;
-                        ataque.DesactivarCollider();
+                        currentSpeed = setSpeed;
+                        myBossAttack.DeactivateCollider();
                     }
                 }
             }
@@ -109,17 +111,16 @@ public class BossAttacks : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1.5f, 1.5f, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, currentSpeed * Time.deltaTime);
 
         myAnimator.SetBool("Move", true);
     }
     private void Attack()
     {
-        //AudioManager.Instance.GolpeDIO();
        
-        SetTimer = false;
-        speed = 0;
-        ataque.ActivarCollider();
+        setTimer = false;
+        currentSpeed = 0;
+        myBossAttack.ActivateCollider();
 
         myAudioSource.clip = attackClip; 
         myAudioSource.Play();
@@ -132,6 +133,7 @@ public class BossAttacks : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        GameObject thisBullet = Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        thisBullet.GetComponent<Knife>().SetTarget(target);
     }
 }

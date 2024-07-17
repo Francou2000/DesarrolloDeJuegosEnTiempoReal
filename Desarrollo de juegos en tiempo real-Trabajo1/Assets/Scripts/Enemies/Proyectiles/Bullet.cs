@@ -7,40 +7,38 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
 
-    private float lifespan = 5f;
+    private float lifeSpan = 5f;
+
+    [SerializeField] int damage = 10;
 
     public GameObject player;
-    private Rigidbody2D rb;
+    private Rigidbody2D myRB;
     
 
     void Start()
     {
-        
-        rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        myRB = GetComponent<Rigidbody2D>();
 
         Vector3 direction = player.transform.position - transform.position;
-        rb.velocity = new Vector2(direction.x, direction.y).normalized * speed;
+        myRB.velocity = new Vector2(direction.x, direction.y).normalized * speed;
 
-        Destroy(this.gameObject, lifespan);
+        Destroy(this.gameObject, lifeSpan);
+    }
 
+    public void SetTarget(GameObject target)
+    {
+        player = target;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        if (collision.GetComponent<PlayerHealth>())
+        PlayerHealth other = collision.GetComponent<PlayerHealth>();
+        if (other != null)
         {
-
-            PlayerHealth other;
-            other = collision.GetComponent<PlayerHealth>();
-            other.GetDamage(10);
+            other.GetDamage(damage);
 
             Destroy(this.gameObject);
-
         }
-
-        
     }
 
 }

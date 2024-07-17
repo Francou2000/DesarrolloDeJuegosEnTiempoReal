@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class WaterPuddle : MonoBehaviour
 {
+    [SerializeField] float lifeSpan = 0.8f;
     void Start()
     {
-        Destroy(this.gameObject, 0.8f);
+        Destroy(this.gameObject, lifeSpan);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxHealth;
     [SerializeField] int actualHealth;
 
-    [SerializeField] float playerFinchTime = 1.0f;
+    [SerializeField] float playerFlinchTime = 1.0f;
 
     bool isInvencible = false;
     public GameObject movePlayer;
@@ -39,8 +39,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        var other = collision.GetComponent<CollectableItems>();
-        if (other is CollectableItems)
+        CollectableItems other = collision.GetComponent<CollectableItems>();
+        if (other != null)
         {
             switch (other.ItemsData.Effect)
             {
@@ -72,7 +72,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!isInvencible)
         {
-            StartCoroutine(PlayerFlinch(playerFinchTime));
+            StartCoroutine(PlayerFlinch(playerFlinchTime));
             StartCoroutine(ColorFeedBack(0.5f, Color.red));
             actualHealth -= damage;
             if (actualHealth <= 0)

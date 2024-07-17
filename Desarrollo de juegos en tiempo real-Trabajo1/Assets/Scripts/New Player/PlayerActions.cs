@@ -7,7 +7,6 @@ public class PlayerActions : MonoBehaviour
 {
     private InputManager myInputManager = new InputManager();
     private PlayerAnimatorController myAnimatorController;
-    private Collider2D myAttackCollider;
     private bool canAttack = true;
     public int attackDamage;
 
@@ -18,14 +17,12 @@ public class PlayerActions : MonoBehaviour
 
     AudioSource myAudioSource;
     [SerializeField] AudioClip attackClip1;
-    [SerializeField] AudioClip attackClip2;
     public UnityEvent OnHit = new UnityEvent();
 
     public bool CanAttack { set { canAttack = value; } }
     void Start()
     {
         myAnimatorController = new PlayerAnimatorController(GetComponent<Animator>());
-        myAttackCollider = GetComponent<Collider2D>();
         myAudioSource = GetComponent<AudioSource>();
         VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
         SetSFXVolume();
@@ -43,9 +40,7 @@ public class PlayerActions : MonoBehaviour
         {
             myInputManager.ActionsInput();
             BasicAttack();
-            //ZaWarudo();
         }
-
     }
 
     public void ShowEffect()
@@ -79,11 +74,11 @@ public class PlayerActions : MonoBehaviour
     {
         if (myInputManager.Punch)
         {
-            StartCoroutine(AttackColliderCoroutine());
+            StartCoroutine(AttackCoroutine());
         }
     }
 
-    public IEnumerator AttackColliderCoroutine()
+    public IEnumerator AttackCoroutine()
     {
         myAnimatorController.TriggerAnimation("Attack");
         myAudioSource.clip = attackClip1;
@@ -120,9 +115,4 @@ public class PlayerActions : MonoBehaviour
 
         Gizmos.DrawWireSphere(pos, attackRange);
     }
-
-    //void ZaWarudo()
-    //{
-
-    //}
 }

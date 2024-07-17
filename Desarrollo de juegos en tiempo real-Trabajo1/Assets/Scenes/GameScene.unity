@@ -7222,6 +7222,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 574855335344620662, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
     - target: {fileID: 6445045827697373782, guid: 2b99461739d736e4a8dddf4587df1345, type: 3}
+      propertyPath: thirdBoss
+      value: 
+      objectReference: {fileID: 996103394}
+    - target: {fileID: 6445045827697373782, guid: 2b99461739d736e4a8dddf4587df1345, type: 3}
       propertyPath: secondBoss
       value: 
       objectReference: {fileID: 996103394}

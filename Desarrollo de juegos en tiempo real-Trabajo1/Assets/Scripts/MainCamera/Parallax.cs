@@ -31,10 +31,5 @@ public class Parallax : MonoBehaviour
 
         float distanceWithTheCamera = cameraTransform.position.x - transform.position.x;
 
-        if(Math.Abs(distanceWithTheCamera) >= width)
-        {
-            //var movement = distanceWithTheCamera > 0 ? width * 2f : width * -2f;
-            //transform.position = new Vector3(transform.position.x + movement, transform.position.y, 0.0f);
-        }
     }
 }

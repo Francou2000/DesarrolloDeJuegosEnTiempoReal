@@ -12,7 +12,9 @@ public class RoadRoller : MonoBehaviour
     public GameObject parts;
     Animator myAnimator;
 
-    [SerializeField] private BossHealth boss;
+    [SerializeField] int spawnPointsAmmount = 6;
+
+    [SerializeField] private BossHealth bossHealth;
 
     void Start()
     {
@@ -21,7 +23,7 @@ public class RoadRoller : MonoBehaviour
         timer = 0;
         timer2 = 0;
 
-        boss.SpecialAttack.AddListener(StartAnimation);
+        bossHealth.SpecialAttack.AddListener(StartAnimation);
     }
 
     void Update()
@@ -33,13 +35,13 @@ public class RoadRoller : MonoBehaviour
             if (timer > attackTimer)
             {
                 timer = 0;
-                int posSpawn = Random.Range(-5, 0);
+                int posSpawn = Random.Range(-(spawnPointsAmmount - 1), 0);
                 Instantiate(parts, new Vector3(posSpawn * 3f, 0, 0f), Quaternion.identity);
             }
             if (timer2 > stopAttackingTimer)
             {
                 attack = false;
-                boss.gameObject.SetActive(true);
+                bossHealth.gameObject.SetActive(true);
             }
         }
 
@@ -51,7 +53,7 @@ public class RoadRoller : MonoBehaviour
         attack = true;
         timer2 = 0;
         myAnimator.SetTrigger("SpecialAttack");
-        boss.gameObject.SetActive(false);
+        bossHealth.gameObject.SetActive(false);
     }
 
 

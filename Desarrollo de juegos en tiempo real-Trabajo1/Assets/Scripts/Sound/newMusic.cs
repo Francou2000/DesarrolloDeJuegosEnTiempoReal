@@ -5,20 +5,20 @@ using UnityEngine;
 public class newMusic : MonoBehaviour
 {
 
-    [SerializeField] AudioClip m_newmusic;
-    [SerializeField] AudioSource m_audiosource;
-    [SerializeField] private BossAttacks golpeDIO;
+    [SerializeField] AudioClip newMusicClip;
+    [SerializeField] AudioSource myAudioSource;
+    [SerializeField] private BossAttacks dioAttack;
     void Start()
     {
-        m_audiosource = GetComponent<AudioSource>();
-        golpeDIO.BattleStart.AddListener(NewBattle);
+        myAudioSource = GetComponent<AudioSource>();
+        dioAttack.BattleStart.AddListener(NewBattle);
     }
 
     private void NewBattle()
     {
-        m_audiosource.Stop();
-        m_audiosource.clip = m_newmusic;
-        m_audiosource.Play();
+        myAudioSource.Stop();
+        myAudioSource.clip = newMusicClip;
+        myAudioSource.Play();
 
     }
 }

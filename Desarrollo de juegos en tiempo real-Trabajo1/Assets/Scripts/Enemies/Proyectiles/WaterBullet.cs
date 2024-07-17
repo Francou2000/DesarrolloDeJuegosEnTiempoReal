@@ -6,9 +6,10 @@ public class WaterBullet : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
 
+    [SerializeField] float lifeSpan = 5;
     void Start()
     {
-        Destroy(this.gameObject, 5f);
+        Destroy(this.gameObject, lifeSpan);
     }
 
     private void Update()

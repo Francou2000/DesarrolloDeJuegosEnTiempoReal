@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class SetSFXVolume : MonoBehaviour
 {
-    [SerializeField] private Slider _slider;
+    [SerializeField] private Slider mySlider;
 
     // Start is called before the first frame update
     void Start()
     {
-        _slider.value = VolumeController.Instance.SFXVolume;
-        _slider.onValueChanged.AddListener((v) => {
+        mySlider.value = VolumeController.Instance.SFXVolume;
+        mySlider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetSFXVolumeTo(v);
             VolumeController.Instance.volumeUpdate.Invoke();
         });

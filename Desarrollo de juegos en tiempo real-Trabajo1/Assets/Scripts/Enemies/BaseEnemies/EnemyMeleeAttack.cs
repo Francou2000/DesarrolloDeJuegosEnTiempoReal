@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMeleeAttack : MonoBehaviour
 {
     float movementSpeed;
-    float speed;
+    float currentSpeed;
     float chaseDistance;
     float stopDistance;
     [SerializeField] Transform target;
@@ -14,6 +14,8 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     bool setTimer;
     float timer;
+    [SerializeField] float attackCooldown = 2;
+
     EnemyAttack myAttack;
 
     void Start()
@@ -42,12 +44,12 @@ public class EnemyMeleeAttack : MonoBehaviour
         else
         {
             timer += Time.deltaTime;
-            if (timer > 2)
+            if (timer > attackCooldown)
             {
                 setTimer = true;
                 timer = 0;
-                speed = movementSpeed;
-                myAttack.DesactivarCollider();
+                currentSpeed = movementSpeed;
+                myAttack.DeactivateCollider();
             }
         }
 
@@ -55,10 +57,6 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     private void ChasePlayer()
     {
-        //float pos = target.position.x - transform.position.x;
-        //pos = pos/Mathf.Abs(pos);
-        //gameObject.transform.localScale = new Vector3(pos, 1, 1);
-
         if (transform.position.x < target.position.x)
         {
             gameObject.transform.localScale = new Vector3(1, 1, 1);
@@ -68,7 +66,7 @@ public class EnemyMeleeAttack : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, currentSpeed * Time.deltaTime);
 
         myAnimator.SetBool("Move", true);
     }
@@ -76,8 +74,8 @@ public class EnemyMeleeAttack : MonoBehaviour
     private void Attack()
     {
         setTimer = false;
-        speed = 0;
-        myAttack.ActivarCollider();
+        currentSpeed = 0;
+        myAttack.ActivateCollider();
 
         myAnimator.SetTrigger("Attack");
         myAnimator.SetBool("Move", false);
@@ -89,7 +87,7 @@ public class EnemyMeleeAttack : MonoBehaviour
         movementSpeed = myEnemy.MovementSpeed;
         chaseDistance = myEnemy.ChaseDistance;
         stopDistance = myEnemy.AttackDistance;
-        speed = movementSpeed;
+        currentSpeed = movementSpeed;
         setTimer = true;
         timer = 0;
 

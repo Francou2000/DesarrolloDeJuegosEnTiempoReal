@@ -5,15 +5,15 @@ using UnityEngine;
 public class ExplodingEnemy : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] GameObject exEffect;
+    [SerializeField] GameObject explosionEffect;
 
     float chaseDistance;
     float stopDistance;
     float movementSpeed;
     int damage;
 
-    [SerializeField] float exRad;
-    [SerializeField] float exForce;
+    [SerializeField] float explosionRadius;
+    [SerializeField] float explosionForce;
 
     float targetDist;
 
@@ -52,9 +52,9 @@ public class ExplodingEnemy : MonoBehaviour
 
     public void Explode()
     {
-        Collider2D[] hit = Physics2D.OverlapCircleAll(transform.position, exRad);
+        Collider2D[] hit = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
 
-        Instantiate(exEffect, transform.position, Quaternion.identity);
+        Instantiate(explosionEffect, transform.position, Quaternion.identity);
 
         foreach (Collider2D collision in hit) 
         { 
@@ -63,7 +63,7 @@ public class ExplodingEnemy : MonoBehaviour
             {
                 Vector2 direction = collision.transform.position - transform.position;
                 float distance = 1 + direction.magnitude;
-                float finalForce = exForce / distance;
+                float finalForce = explosionForce / distance;
                 rb.AddForce(direction * finalForce);
             }
 
@@ -82,7 +82,7 @@ public class ExplodingEnemy : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, exRad);
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
 
     void SetStats()

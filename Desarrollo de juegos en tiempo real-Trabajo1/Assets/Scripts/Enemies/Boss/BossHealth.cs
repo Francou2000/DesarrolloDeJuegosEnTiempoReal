@@ -9,14 +9,12 @@ public class BossHealth : MonoBehaviour, IDamageable
     public int health;
     public int maxHealth;
     public int minHealth;
-    private Animator anim;
+    private Animator myAnimator;
 
-    [SerializeField] public GameObject vida;
-    public HealthBar healthbar;
+    [SerializeField] public GameObject healthBarGO;
+    public HealthBar healthBar;
 
-    public int dmg;
-    float timer;
-    bool setTimer;
+    public int damage;
 
     public UnityEvent OnDeath = new UnityEvent();
     public UnityEvent SpecialAttack = new UnityEvent();
@@ -32,13 +30,11 @@ public class BossHealth : MonoBehaviour, IDamageable
 
     void Start()
     {
-        anim= GetComponent<Animator>();
+        myAnimator= GetComponent<Animator>();
         myAudioSource = GetComponent<AudioSource>();
         health = maxHealth;
-        vida.SetActive(true);
-        healthbar.SetMaxHealth(maxHealth);
-        setTimer = false;
-        timer = 0;
+        healthBarGO.SetActive(true);
+        healthBar.SetMaxHealth(maxHealth);
         VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
         SetSFXVolume();
     }
@@ -48,37 +44,23 @@ public class BossHealth : MonoBehaviour, IDamageable
         myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
-    void Update()
-    {
-        if (setTimer)
-        {
-            timer += Time.deltaTime;
-            if (timer > 1)
-            {
-                setTimer = false;
-                timer = 0;
-            }
-        }
 
-      
-    }
 
     public void GetDamage(int damage)
     {
-        anim.SetTrigger("TakeHit");
-        setTimer = true;
+        myAnimator.SetTrigger("TakeHit");
         health -= damage;
         myAudioSource.clip = hitClip;
         myAudioSource.Play();
-        if(health == 100)
+        if(health == 100)               //Roadroller
         {
             SpecialAttack.Invoke();
         }
-        if (health == 40)
+        if (health == 40)               //Roadroller
         {
             SpecialAttack.Invoke();
         }
-        if (health <= maxHealth / 2)
+        if (health <= maxHealth / 2)    //Sean 2°
         {
             SecondPhase.Invoke();
         }
@@ -86,7 +68,7 @@ public class BossHealth : MonoBehaviour, IDamageable
         {
             GetKilled();
         }
-        healthbar.SetHealth(health);
+        healthBar.SetHealth(health);
     }
 
     public void GetKilled()

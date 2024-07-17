@@ -7,12 +7,10 @@ public class InputManager
     private float movHorizontal = 0;
     private float movVertical = 0;
     private bool punch = false;
-    //private bool powerUp = false;
 
     public float MovHorizontal => movHorizontal;
     public float MovVertical => movVertical;
     public bool Punch => punch;
-    //public bool PowerUp => powerUp;
 
     public InputManager() { }
 
@@ -28,14 +26,6 @@ public class InputManager
             punch = false;
         }
         movHorizontal = Input.GetAxis("Horizontal");
-        //if (Input.GetKeyDown(KeyCode.Mouse1)) // The player uses the powerUP with "Mouse1" (right click)
-        //{
-        //    powerUp = true;
-        //}
-        //else
-        //{
-        //    powerUp = false;
-        //}
 
     }
 

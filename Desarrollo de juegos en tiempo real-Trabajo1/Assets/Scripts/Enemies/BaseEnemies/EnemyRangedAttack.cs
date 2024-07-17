@@ -5,10 +5,11 @@ using UnityEngine;
 public class EnemyRangedAttack : MonoBehaviour
 {
     float movementSpeed;
-    float speed;
+    float currentSpeed;
     float chaseDistance;
     float stopDistance;
     float timer;
+    [SerializeField] float attackCooldown = 3;
     [SerializeField] Transform target;
     float targetDist;
     [SerializeField] GameObject bullet;
@@ -32,7 +33,7 @@ public class EnemyRangedAttack : MonoBehaviour
         {
             ChasePlayer();
         }
-        else if (timer > 3)
+        else if (timer > attackCooldown)
         {
 
             timer = 0;
@@ -51,19 +52,20 @@ public class EnemyRangedAttack : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, currentSpeed * Time.deltaTime);
 
         myAnimator.SetBool("Move", true);
     }
 
     public IEnumerator ShootCoroutine()
     {
-        speed = 0;
+        currentSpeed = 0;
         myAnimator.SetTrigger("Attack");
         myAnimator.SetBool("Move", false);
         yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorStateInfo(0).length);
-        Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
-        speed = movementSpeed;
+        GameObject thisBullet = Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        thisBullet.GetComponent<Knife>().SetTarget(target.gameObject);
+        currentSpeed = movementSpeed;
         yield return null;
     }
 
@@ -73,8 +75,7 @@ public class EnemyRangedAttack : MonoBehaviour
         movementSpeed = myEnemy.MovementSpeed;
         chaseDistance = myEnemy.ChaseDistance;
         stopDistance = myEnemy.AttackDistance;
-        speed = movementSpeed;
+        currentSpeed = movementSpeed;
         timer = 0;
-
     }
 }

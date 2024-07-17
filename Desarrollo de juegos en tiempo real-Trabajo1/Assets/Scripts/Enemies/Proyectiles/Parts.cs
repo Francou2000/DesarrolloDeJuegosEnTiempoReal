@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Partes : MonoBehaviour
+public class Parts : MonoBehaviour
 {
     [SerializeField] int damage = 50;
     [SerializeField] int speed = -4;

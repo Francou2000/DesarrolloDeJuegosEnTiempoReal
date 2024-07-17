@@ -1,16 +1,17 @@
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class CutseneTrigger : MonoBehaviour
+public class CutsceneTrigger : MonoBehaviour
 {
     public PlayableDirector timelineDirector; 
     GameObject player; 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collider)
     {   
-        if (other.CompareTag("Player"))
+        PlayerMovement other = collider.GetComponent<PlayerMovement>();
+        if (other != null)
         {
-            other.GetComponent<PlayerMovement>().CanMove = false;
+            other.CanMove = false;
             player = other.gameObject;
             if (timelineDirector != null)
             {

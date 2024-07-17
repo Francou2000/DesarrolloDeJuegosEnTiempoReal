@@ -37,7 +37,7 @@ public class Barrel : MonoBehaviour, IDamageable
     }
     public void GetKilled()
     {
-        Instantiate(powerUp[Random.Range(0,4)], spawnPoint.transform.position, Quaternion.identity);
+        Instantiate(powerUp[Random.Range(0, powerUp.Length-1)], spawnPoint.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 

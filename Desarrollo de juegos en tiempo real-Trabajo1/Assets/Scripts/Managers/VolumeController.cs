@@ -9,7 +9,7 @@ public class VolumeController : MonoBehaviour
     public static VolumeController Instance;
 
 
-    public float MusicVolume;
+    public float musicVolume;
     public float SFXVolume;
     public UnityEvent volumeUpdate = new UnityEvent();
 
@@ -29,7 +29,7 @@ public class VolumeController : MonoBehaviour
 
     public void SetMusicVolumeTo(float volume)
     {
-        MusicVolume = volume;
+        musicVolume = volume;
     }
     public void SetSFXVolumeTo(float volume)
     {

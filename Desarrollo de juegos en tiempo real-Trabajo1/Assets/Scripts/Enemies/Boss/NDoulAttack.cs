@@ -17,7 +17,7 @@ public class NDoulAttack : MonoBehaviour
     public GameObject bullet;
     public GameObject secondBullet;
 
-    public GameObject SP1;
+    public GameObject SP1; //SP = SpawnPoint
     public GameObject SP2;
     public GameObject SP3;
     public GameObject SP4;
@@ -36,13 +36,18 @@ public class NDoulAttack : MonoBehaviour
     public GameObject SP17;
     public GameObject SP18;
     public GameObject SP19;
-    public GameObject RespawnPoint;
+    public GameObject respawnPoint;
 
-    private Animator anim;
+    [SerializeField] float waterPuddleInterval = 0.8f;
+    [SerializeField] float waterBulletInterval = 1.5f;
+
+    private Animator myAnimator;
+    BossHealth myBossHealth;
 
     public void Start()
     {
-        anim = GetComponent<Animator>();   
+        myAnimator = GetComponent<Animator>();   
+        myBossHealth = GetComponent<BossHealth>();
         GetComponent<BossHealth>().NoLife.AddListener(Deactive);
     }
 
@@ -50,9 +55,8 @@ public class NDoulAttack : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        var bossHealth = GetComponent<BossHealth>();
 
-        if (bossHealth.health <= 50)
+        if (myBossHealth.health <= myBossHealth.maxHealth/2)
         {
             firstPhase = false;
             secondPhase = true;
@@ -69,7 +73,7 @@ public class NDoulAttack : MonoBehaviour
             StartCoroutine(RespawnCoroutine());
         }
 
-        if (timer >= attackSpeed * 1.5f && secondPhase == true && respawned == true && bossHealth.health > 0)
+        if (timer >= attackSpeed * 1.5f && secondPhase == true && respawned == true && myBossHealth.health > 0)
         {
             StartCoroutine(SecondAttackCoroutine());
             timer = 0;
@@ -87,39 +91,39 @@ public class NDoulAttack : MonoBehaviour
         Instantiate(bullet, SP2.transform.position, Quaternion.identity);
         Instantiate(bullet, SP3.transform.position, Quaternion.identity);
         Instantiate(bullet, SP4.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(waterPuddleInterval);
         Instantiate(bullet, SP5.transform.position, Quaternion.identity);
         Instantiate(bullet, SP6.transform.position, Quaternion.identity);
         Instantiate(bullet, SP7.transform.position, Quaternion.identity);
         Instantiate(bullet, SP8.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(waterPuddleInterval);
         Instantiate(bullet, SP9.transform.position, Quaternion.identity);
         Instantiate(bullet, SP10.transform.position, Quaternion.identity);
         Instantiate(bullet, SP11.transform.position, Quaternion.identity);
         Instantiate(bullet, SP12.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(waterPuddleInterval);
         Instantiate(bullet, SP13.transform.position, Quaternion.identity);
         Instantiate(bullet, SP14.transform.position, Quaternion.identity);
         Instantiate(bullet, SP15.transform.position, Quaternion.identity);
         Instantiate(bullet, SP16.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(waterPuddleInterval);
     }
 
     public IEnumerator SecondAttackCoroutine()
     {
         Instantiate(secondBullet, SP17.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(waterBulletInterval);
         Instantiate(secondBullet, SP18.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(waterBulletInterval);
         Instantiate(secondBullet, SP19.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(waterBulletInterval);
     }
 
     public IEnumerator RespawnCoroutine()
     {
-        anim.SetTrigger("Respawn");
-        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
-        transform.position = RespawnPoint.transform.position;
+        myAnimator.SetTrigger("Respawn");
+        yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorStateInfo(0).length);
+        transform.position = respawnPoint.transform.position;
         respawned = true;
         yield return null;
     }

@@ -5,11 +5,12 @@ using UnityEngine.Events;
 
 public class FinalBossPatron : MonoBehaviour
 {
-    public float Setspeed;
-    float speed;
-    bool SetTimer;
-    float timer;
-    float timer2;
+    public float setSpeed;
+    float currentSpeed;
+    float timer; //attack cooldown
+    [SerializeField] float attackCooldown = 1.5f;
+    float timer2; //attack collider duration
+    [SerializeField] float hitBoxDuration = 0.5f;
     public float stopDist;
 
     public GameObject target;
@@ -18,30 +19,29 @@ public class FinalBossPatron : MonoBehaviour
 
     private float targetDist;
 
-    private Animator anim;
-    BossAttack ataque;
+    private Animator myAnimator;
+    BossAttack myBossAttack;
 
     public UnityEvent Onhit = new UnityEvent();
 
 
-    bool attackType;
-    int contador;
+    bool attackType;  //true = melee, false = range
+    int counter;
+    [SerializeField] int maxAttackCounter = 4;
 
     [SerializeField] AudioClip attackClip;
     AudioSource myAudioSource;
 
 
-    // Start is called before the first frame update
     void Start()
     {
-        SetTimer = true;
         timer = 0;
         timer2 = 0;
-        speed = Setspeed;
-        ataque = GetComponentInChildren<BossAttack>();
-        anim = GetComponent<Animator>();
+        currentSpeed = setSpeed;
+        myBossAttack = GetComponentInChildren<BossAttack>();
+        myAnimator = GetComponent<Animator>();
         attackType = true;
-        contador = 0;
+        counter = 0;
         myAudioSource = GetComponent<AudioSource>();
         GetComponent<BossHealth>().NoLife.AddListener(Deactive);
         VolumeController.Instance.volumeUpdate.AddListener(SetSFXVolume);
@@ -54,19 +54,19 @@ public class FinalBossPatron : MonoBehaviour
         myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         timer += Time.deltaTime;
         timer2 += Time.deltaTime;
 
-        if (timer2 > 0.5f)
+        if (timer2 > hitBoxDuration)
         {
-            ataque.DesactivarCollider();
+            myBossAttack.DeactivateCollider();
         }
 
         targetDist = Vector2.Distance(transform.position, target.transform.position);
-        if (timer > 1.5)
+        if (timer > attackCooldown)
         {
             if (attackType)
             {
@@ -80,31 +80,31 @@ public class FinalBossPatron : MonoBehaviour
                     timer = 0;
                     Attack();
                     Onhit.Invoke(); 
-                    contador++;
+                    counter++;
                     
                 }
-                if (contador > 4)
+                if (counter > maxAttackCounter)
                 {
                     attackType = false;
-                    contador = 0;
+                    counter = 0;
                 }
             }
             else
             {
                 timer = 0;
                 Shoot();
-                contador++;
+                counter++;
 
-                if (contador > 4)
+                if (counter > maxAttackCounter)
                 {
                     attackType = true;
-                    contador = 0;
+                    counter = 0;
                 }
             }
         }
         else
         {
-            speed = Setspeed;
+            currentSpeed = setSpeed;
         }
 
     }
@@ -125,24 +125,22 @@ public class FinalBossPatron : MonoBehaviour
             gameObject.transform.localScale = new Vector3(-1.5f, 1.5f, 1);
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.transform.position, currentSpeed * Time.deltaTime);
 
-        anim.SetBool("Move", true);
+        myAnimator.SetBool("Move", true);
     }
 
     private void Attack()
     {
-        //AudioManager.Instance.GolpeDIO();
 
-        SetTimer = false;
-        speed = 0;
-        ataque.ActivarCollider();
+        currentSpeed = 0;
+        myBossAttack.ActivateCollider();
 
         myAudioSource.clip = attackClip;
         myAudioSource.Play();
 
-        anim.SetTrigger("Attack");
-        anim.SetBool("Move", false);
+        myAnimator.SetTrigger("Attack");
+        myAnimator.SetBool("Move", false);
 
         timer2 = 0;
 

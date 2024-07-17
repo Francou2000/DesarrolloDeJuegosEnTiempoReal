@@ -16,6 +16,8 @@ public class SeanAttacks : MonoBehaviour
 
     [SerializeField] private BossHealth boss;
 
+    [SerializeField] GameObject target;
+
     private Animator myAnimator;
 
     private void Start()
@@ -53,7 +55,8 @@ public class SeanAttacks : MonoBehaviour
 
     public void SpawnRangeAttack()
     {
-        Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
+        GameObject thisBullet = Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);
+        thisBullet.GetComponent<Knife>().SetTarget(target);
     }
 
     void OnDrawGizmosSelected()
