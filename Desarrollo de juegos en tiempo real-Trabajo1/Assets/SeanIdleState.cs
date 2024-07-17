@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SeanStates : StateMachineBehaviour
+public class SeanIdleState : StateMachineBehaviour
 {
     public float speed = 3f;
     float currentSpeed;
@@ -19,7 +19,7 @@ public class SeanStates : StateMachineBehaviour
         boss = animator.GetComponent<EnemyLookAt>();
         currentSpeed = speed;
     }
-   
+
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         boss.LookAtPlayer();
@@ -40,7 +40,7 @@ public class SeanStates : StateMachineBehaviour
             animator.SetTrigger("MeleeAttack");
         }
     }
-    
+
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("MeleeAttack");
