@@ -303,7 +303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b8f9990d031ea94ebf323189abd9a6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _slider: {fileID: 138353256}
 --- !u!1 &146189500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d307cdbf4977bd640aeafa698b2865bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_audiosource: {fileID: 902553595}
 --- !u!4 &902553597
 Transform:
   m_ObjectHideFlags: 0
@@ -1608,7 +1606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f213f2c010d6048b609893c200b0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicVolume: 0.8
+  musicVolume: 0
   SFXVolume: 0.8
   volumeUpdate:
     m_PersistentCalls:
@@ -3122,4 +3120,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c0e42e9831a6e4e8ef2b6bae04daa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _slider: {fileID: 2099447109}

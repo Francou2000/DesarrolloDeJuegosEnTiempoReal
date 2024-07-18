@@ -2349,6 +2349,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1195370994}
+    - target: {fileID: 935805492728251629, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 1709093626729055723, guid: a2b5450a4d309dc438b079f06908fe12, type: 3}
     - target: {fileID: 935805492728252176, guid: b8e4bec29643ece4f947079e8eb9081e, type: 3}
       propertyPath: m_Name
       value: ExplodingEnemy
@@ -3097,11 +3101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6115227
+      value: -2.6368237
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4978225
+      value: -1.5062532
       objectReference: {fileID: 0}
     - target: {fileID: 1919472823378192386, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3143,6 +3147,10 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 1195370994}
+    - target: {fileID: 1919472823378192387, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 3.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3deec5a00b748248acd6e39c709180d, type: 3}
 --- !u!1 &1504305722
@@ -4683,11 +4691,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6115227
+      value: -2.6368237
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4978225
+      value: -1.5062532
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835747, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4723,7 +4731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835932, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: orthographic size
-      value: 3.784307
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 1304511028002835935, guid: c89a44150372d2940b258a3a5b9dbc08, type: 3}
       propertyPath: m_Name
@@ -5017,9 +5025,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1195370988}
     - target: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 285060982}
+    - target: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 285060982}
+    - target: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+      propertyPath: healthBarGO
+      value: 
+      objectReference: {fileID: 285060980}
     - target: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: timelineDirector
       value: 
@@ -5027,6 +5043,10 @@ PrefabInstance:
     - target: {fileID: 8060115752843478480, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_Name
       value: Sean
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060115752843478486, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8060115752843478491, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
       propertyPath: m_RootOrder

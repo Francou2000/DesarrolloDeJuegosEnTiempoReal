@@ -64,7 +64,7 @@ public class EnemyRangedAttack : MonoBehaviour
         myAnimator.SetBool("Move", false);
         yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorStateInfo(0).length);
         GameObject thisBullet = Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
-        thisBullet.GetComponent<Knife>().SetTarget(target.gameObject);
+        thisBullet.GetComponent<Bullet>().SetTarget(target.gameObject);
         currentSpeed = movementSpeed;
         yield return null;
     }

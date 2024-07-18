@@ -53,6 +53,11 @@ public class SeanAttacks : MonoBehaviour
         }
     }
 
+    public void Deactive()
+    {
+        this.enabled = false;
+    }
+
     public void SpawnRangeAttack()
     {
         GameObject thisBullet = Instantiate(bullet, bulletSpawnPoint.transform.position, Quaternion.identity);

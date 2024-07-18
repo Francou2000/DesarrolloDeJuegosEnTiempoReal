@@ -10,14 +10,12 @@ public class Parallax : MonoBehaviour
 
     private Transform cameraTransform;
     private Vector3 lastCameraPosition;
-    private float width;
 
 
     void Start()
     {
         cameraTransform = Camera.main.transform;
         lastCameraPosition = cameraTransform.position;
-        width = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
 

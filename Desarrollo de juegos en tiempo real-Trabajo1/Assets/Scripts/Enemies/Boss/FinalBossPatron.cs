@@ -149,7 +149,8 @@ public class FinalBossPatron : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        GameObject thisBullet = Instantiate(bullet, firePoint.transform.position, Quaternion.identity);
+        thisBullet.GetComponent<Knife>().SetTarget(target);
     }
 
 

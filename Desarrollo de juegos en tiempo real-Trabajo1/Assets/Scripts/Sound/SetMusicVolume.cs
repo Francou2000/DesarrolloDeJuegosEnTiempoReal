@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class SetMusicVolume : MonoBehaviour
 {
-    [SerializeField] private Slider mySlider;
+    private Slider mySlider;
     
     // Start is called before the first frame update
     void Start()
     {
+        mySlider = GetComponent<Slider>();
         mySlider.value = VolumeController.Instance.musicVolume;
         mySlider.onValueChanged.AddListener((v) => {
             VolumeController.Instance.SetMusicVolumeTo(v);

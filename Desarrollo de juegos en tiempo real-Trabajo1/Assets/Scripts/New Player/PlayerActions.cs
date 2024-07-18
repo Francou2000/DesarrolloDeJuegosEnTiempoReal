@@ -33,13 +33,23 @@ public class PlayerActions : MonoBehaviour
         myAudioSource.volume = VolumeController.Instance.SFXVolume;
     }
 
-
+    int attackDirection = 1;        //1 = right, -1 = left
     void Update()
     {
         if (canAttack)
         {
             myInputManager.ActionsInput();
             BasicAttack();
+            
+            if (myInputManager.MovHorizontal == 1)
+            {
+                attackDirection = 1;
+            }
+            if (myInputManager.MovHorizontal == -1)
+            {
+                attackDirection = -1;
+            }
+
         }
     }
 
@@ -56,7 +66,7 @@ public class PlayerActions : MonoBehaviour
     public void MeleeAttack()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
+        pos += transform.right * attackOffset.x * attackDirection;
         pos += transform.up * attackOffset.y;
 
         Collider2D[] colInfo = Physics2D.OverlapCircleAll(pos, attackRange);
@@ -110,7 +120,7 @@ public class PlayerActions : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
+        pos += transform.right * attackOffset.x * attackDirection;
         pos += transform.up * attackOffset.y;
 
         Gizmos.DrawWireSphere(pos, attackRange);

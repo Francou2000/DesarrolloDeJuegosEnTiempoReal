@@ -1431,6 +1431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinalBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 5389722300268264056, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5389722300268264057, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
       propertyPath: vida
       value: 
@@ -1444,9 +1448,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: ee39a6f71f1b84d4496013f488e4b688, type: 3}
     - target: {fileID: 5389722300268264057, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 419983636}
+    - target: {fileID: 5389722300268264057, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 419983636}
+    - target: {fileID: 5389722300268264057, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
+      propertyPath: healthBarGO
+      value: 
+      objectReference: {fileID: 419983634}
     - target: {fileID: 5389722300268264057, guid: 63bb8bbc8b9372b4285283370af00f63, type: 3}
       propertyPath: timelineDirector
       value: 
@@ -1863,9 +1875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870d6681dd241744cabc0405ca41242f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_newmusic: {fileID: 8300000, guid: 7bc1909f41d8bfc4d8261610947440bd, type: 3}
-  m_audiosource: {fileID: 755486602}
-  golpeDIO: {fileID: 0}
+  newMusicClip: {fileID: 0}
+  myAudioSource: {fileID: 0}
+  dioAttack: {fileID: 0}
 --- !u!114 &755486601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,7 +1890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d307cdbf4977bd640aeafa698b2865bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_audiosource: {fileID: 755486602}
 --- !u!82 &755486602
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3101,9 +3112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstBoss: {fileID: 574855335344620662, guid: 6997fa1fce85aea4e8f4705a3bfc258f, type: 3}
-  secondBoss: {fileID: 5772346213348463045, guid: f9c4e2aa8e058a242936bab204d96c45, type: 3}
+  secondBoss: {fileID: 8060115752678607884, guid: da42d5723890ecd488fd55ab36cd1751, type: 3}
+  thirdBoss: {fileID: 5772346213348463045, guid: f9c4e2aa8e058a242936bab204d96c45, type: 3}
   finalBoss: {fileID: 1525368059}
-  seanBoss: {fileID: 0}
   PJ: {fileID: 761031613}
 --- !u!1 &1400949710
 GameObject:
@@ -3220,7 +3231,7 @@ PlayableDirector:
   - key: {fileID: 874378841408585932, guid: 27ed2851173ccfc4b8cf9eab6ef28501, type: 2}
     value: {fileID: 557055611}
   - key: {fileID: 7777862784098861062, guid: 27ed2851173ccfc4b8cf9eab6ef28501, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 755486602}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1426475564
@@ -3376,7 +3387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f213f2c010d6048b609893c200b0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MusicVolume: 0
+  musicVolume: 0
   SFXVolume: 0
   volumeUpdate:
     m_PersistentCalls:
@@ -4381,6 +4392,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8955476573710247933, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
       propertyPath: boss
+      value: 
+      objectReference: {fileID: 1525368059}
+    - target: {fileID: 8955476573710247933, guid: fbc5afcc27561b64e88ea3d0c8255d61, type: 3}
+      propertyPath: bossHealth
       value: 
       objectReference: {fileID: 1525368059}
     m_RemovedComponents: []

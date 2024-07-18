@@ -14,8 +14,6 @@ public class BossHealth : MonoBehaviour, IDamageable
     [SerializeField] public GameObject healthBarGO;
     public HealthBar healthBar;
 
-    public int damage;
-
     public UnityEvent OnDeath = new UnityEvent();
     public UnityEvent SpecialAttack = new UnityEvent();
     public UnityEvent SecondPhase = new UnityEvent();
@@ -83,19 +81,19 @@ public class BossHealth : MonoBehaviour, IDamageable
         NDoulAttack deactivateNDoul = GetComponent<NDoulAttack>();
         if (deactivateNDoul != null)
         {
-            deactivateNDoul.enabled = false;
+            deactivateNDoul.Deactive();
         }
 
         BossAttacks deactivateDio = GetComponent<BossAttacks>();
         if (deactivateDio != null)
         {
-            deactivateDio.enabled = false;
+            deactivateDio.Deactive();
         }
 
         SeanAttacks deactivateSean = GetComponent<SeanAttacks>();
         if (deactivateSean != null)
         {
-            deactivateSean.enabled = false;
+            deactivateSean.Deactive();
         }
         
         GetComponent<SpriteRenderer>().enabled = false;

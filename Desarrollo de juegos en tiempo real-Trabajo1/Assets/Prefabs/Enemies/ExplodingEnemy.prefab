@@ -149,9 +149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  exEffect: {fileID: 1709093626729055723, guid: a2b5450a4d309dc438b079f06908fe12, type: 3}
-  exRad: 1
-  exForce: 500
+  explosionEffect: {fileID: 1709093626729055723, guid: a2b5450a4d309dc438b079f06908fe12, type: 3}
+  explosionRadius: 1
+  explosionForce: 500
 --- !u!114 &-1693517506156920538
 MonoBehaviour:
   m_ObjectHideFlags: 0
